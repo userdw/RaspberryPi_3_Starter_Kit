@@ -1,7 +1,6 @@
 # [ENGLISH] Project 1: Blinking and Fading a LED
 For you which already are familiar with  Raspberry Pi ecosystem, no extra effort will be spent in this project, since Raspberry Pi 3 
-was developed with  Raspberry Pi compatibility in mind. That means (most of) what you can run on Raspberry Pi, will be able to run just fine on  Raspberry Pi 
-101. If this is your first time coding an  Raspberry Pi board, then it will be fast to learn how to control an output pin.
+was developed with  Raspberry Pi compatibility in mind. If this is your first time coding an  Raspberry Pi board, then it will be fast to learn how to control an output pin using python.
 
 ### In this project you will need:
 * Raspbery Pi 3 (1),
@@ -18,11 +17,9 @@ was developed with  Raspberry Pi compatibility in mind. That means (most of) wha
 If there are no mistakes, the LED Module should start blinking then increase and fade in its brightness.
 
 # [BAHASA INDONESIA] Proyek 1: Blinking and Fading a LED
-Bagi Anda yang sudah mengenal  Raspberry Pi beserta pemrogramannya, proyek ini tentu tidak akan sulit untuk dipahami, karena Raspberry Pi 3
-dikembangkan dengan tingkat kompatibilitas yang tinggi dengan  Raspberry Pi pada umumnya. Hal tersebut dapat diartikan bahwa (hampir semua) 
-kode program yang bisa berjalan pada modul  Raspberry Pi akan dapat berjalan pula pada modul Raspberry Pi 3.Apabila ini adalah pertama kalinya 
+Bagi Anda yang sudah mengenal  Raspberry Pi beserta pemrogramannya, proyek ini tentu tidak akan sulit untuk dipahami, karena Raspberry Pi 3 dikembangkan dengan tingkat kompatibilitas yang tinggi dengan  Raspberry Pi pada umumnya. Apabila ini adalah pertama kalinya 
 Anda memprogram modul Raspberry Pi, kode program  Raspberry Pi relatif mudah untuk dipelajari 
-sehingga Anda dapat memahami proses pengendalian pin output dengan cepat.
+sehingga Anda dapat memahami proses pengendalian pin output dengan cepat menggunakan python.
 
 ### Modul-modul yang dibutuhkan pada proyek ini:
 * Raspberry Pi 3 (1),
