@@ -14,7 +14,7 @@ For more information about each products please visit links below:
 * [04. Motion Detector](/04_Motion_Detector)
 * [05. Ambient Light Monitoring](/05_Ambient_Light_Monitoring)
 * [06. Potentiometer Controlled Servo](/06_Potentiometer_Controlled_Servo)
-* [07. Weather Station](/08_Weather_Station)
+* [07. Weather Station](/07_Weather_Station)
 
 Those projects listed above are aimed as introductory to Raspberry Pi 3 programming. 
 
@@ -32,6 +32,6 @@ Informasi untuk masing-masing produk dapat ditemukan pada link-link di bawah:
 * [04. Motion Detector](/04_Motion_Detector)
 * [05. Ambient Light Monitoring](/05_Ambient_Light_Monitoring)
 * [06. Potentiometer Controlled Servo](/06_Potentiometer_Controlled_Servo)
-* [07. Weather Station](/08_Weather_Station)
+* [07. Weather Station](/07_Weather_Station)
 
 Proyek-proyek yang terdapat pada poin-poin di atas ditujukan sebagai pengantar untuk pemrograman Raspberry PI 3.
