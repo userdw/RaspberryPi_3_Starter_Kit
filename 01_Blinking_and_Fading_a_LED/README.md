@@ -31,6 +31,6 @@ sehingga Anda dapat memahami proses pengendalian pin output dengan cepat menggun
 ### Hubungkan modul-modul di atas mengikuti langkah-langkah di bawah ini:
 1. Pasang I/O Expansion Shield di atas Raspberry Pi 3,
 2. Hubungkan LED Module ke header I/O Expansion Shield yang berlabel **9**,
-3. jalankan kode program [Blinking_and_Fading_a_LED](/01_Blinking_and_Fading_a_LED/Blinking_and_Fading_a_LED) di Raspberry Pi 3 menggunakan python. 
+3. Jalankan kode program [Blinking_and_Fading_a_LED](/01_Blinking_and_Fading_a_LED/Blinking_and_Fading_a_LED) di Raspberry Pi 3 menggunakan python. 
 
 Apabila tidak terdapat kesalahan, maka LED Module akan berkedip kemudian tingkat kecerahannya akan berubah.
