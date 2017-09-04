@@ -1,6 +1,6 @@
 # RaspberryPi_3_Starter_Kit
 
-# [ENGLISH] Arduino 101 Starter Kit
+# [ENGLISH] Raspberry Pi 3 Starter Kit
 This repository has been created as the companion for Raspberry Pi 3 Starter Kit.
 Raspberry Pi 3 Starter Kit itself is a suitable start point for both hobbyist and academist alike to start exploring the features offered by  Broadcom BCM2837 SoC, which is embedded as the main processor on Raspberry Pi 3 board.
 For more information about each products please visit links below:
@@ -16,7 +16,7 @@ For more information about each products please visit links below:
 * [06. Potentiometer Controlled Servo](/06_Potentiometer_Controlled_Servo)
 * [07. Weather Station](/08_Weather_Station)
 
-# [BAHASA INDONESIA] Arduino 101 Starter Kit
+# [BAHASA INDONESIA] Raspberry Pi 3 Starter Kit
 Repository ini dibuat sebagai pelengkap dari Raspberry Pi 3 Starter Kit.
 Raspberry Pi 3 Starter Kit merupakan produk yang sesuai untuk digunakan sebagai titik awal eksplorasi chip SoC buatan BroadCom, yaitu Broadcom BCM2837, yang bertindak sebagai kontroler utama dari modul Raspberry Pi 3.
 Informasi untuk masing-masing produk dapat ditemukan pada link-link di bawah:
