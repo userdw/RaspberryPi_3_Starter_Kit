@@ -13,7 +13,7 @@ This project will count a number of clicks the Digital Push Button gets.
 ### Assemble the modules following these steps:
 1. Plug the I/O Expansion Shield to the top of Raspberry Pi 3,
 2. Plug the Digital Push Button to the header on the I/O Expansion Shield labelled **2**,
-3. Upload the [Click_Counter](/02_Click_Counter) code into Raspberry Pi 3.
+3. Run the [Click_Counter](/02_Click_Counter) code into Raspberry Pi 3 using python.
 
 If there are no mistakes, LED Module should blink according to the number of clicks given to the Digital Push Button.
 
@@ -33,6 +33,6 @@ Proyek ini akan menghitung penekanan yang kita berikan pada Digital Push Button.
 ### Hubungkan modul-modul di atas mengikuti langkah-langkah di bawah ini:
 1. Pasang I/O Expansion Shield di atas Raspberry Pi 3,
 2. Hubungkan Digital Push Button ke header I/O Expansion Shield yang berlabel **2**,
-3. Upload kode program [Click_Counter](/02_Click_Counter) ke Raspberry Pi 3.
+3. Jalankan kode program [Click_Counter](/02_Click_Counter) ke Raspberry Pi 3 using python.
 
 Apabila tidak terdapat kesalahan, maka LED Module akan berkedip sesuai dengan jumlah penekanan yang diberikan pada Digital Push Button.
