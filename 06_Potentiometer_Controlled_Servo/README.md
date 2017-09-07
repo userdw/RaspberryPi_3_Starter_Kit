@@ -22,7 +22,7 @@ If there are no mistakes, Micro Servo movement will be determined by the rotatio
 Apabila kita hendak mengendalikan suatu output yang memiliki beberapa keadaan selain on/off, maka kita akan mengalami kesulitan apabila menggunakan switch sebagai input, karena switch sendiri hanya memiliki dua kondisi saja. Beberapa contoh sederhana adalah pengaturan kecepatan suatu motor, pengaturan intensitas cahaya suatu lampu, pengaturan kecepatan gerak dari sebuah running text, dll.
 Pada proyek ini akan dikenalkan penggunaan potensiometer sebagai perangkat input, dimana dengan potensiometer tersebut kita akan mengendalikan sudut dari sebuah motor servo.
 
-<img src="/images/Potentiometer_Controlled_Servo.png" height="400">
+<img src="/images/potentiometer controlled servo.png" height="400">
 
 ### Modul-modul yang dibutuhkan pada proyek ini:
 * Raspberry Pi 3 (1),
