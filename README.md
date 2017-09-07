@@ -20,7 +20,7 @@ Those projects listed above are aimed as introductory to Raspberry Pi 3 programm
 
 # [BAHASA INDONESIA] Raspberry Pi 3 Starter Kit
 Repository ini dibuat sebagai pelengkap dari Raspberry Pi 3 Starter Kit.
-Raspberry Pi 3 Starter Kit merupakan produk yang sesuai untuk digunakan sebagai titik awal eksplorasi chip SoC buatan BroadCom, yaitu Broadcom BCM2837, yang bertindak sebagai kontroler utama dari modul Raspberry Pi 3.
+Raspberry Pi 3 Starter Kit merupakan produk yang sesuai untuk digunakan sebagai titik awal eksplorasi chip SoC buatan Broadcom, yaitu BCM2837, yang bertindak sebagai kontroler utama dari modul Raspberry Pi 3.
 Informasi untuk masing-masing produk dapat ditemukan pada link-link di bawah:
 * [Raspberry Pi 3 Starter Kit](http://digiwarestore.com/en/) - Halaman produk Raspberry Pi Starter Kit
 * [Raspberry Pi](https://www.raspberrypi.org/)- Raspberry Pi sebagai development board utama
@@ -34,4 +34,4 @@ Informasi untuk masing-masing produk dapat ditemukan pada link-link di bawah:
 * [06. Potentiometer Controlled Servo](/06_Potentiometer_Controlled_Servo)
 * [07. Weather Station](/07_Weather_Station)
 
-Proyek-proyek yang terdapat pada poin-poin di atas ditujukan sebagai pengantar untuk pemrograman Raspberry PI 3.
+Proyek-proyek yang terdapat pada poin-poin di atas ditujukan sebagai pengantar untuk pemrograman Raspberry Pi 3.
