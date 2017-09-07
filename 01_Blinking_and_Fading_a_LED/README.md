@@ -1,5 +1,5 @@
 # [ENGLISH] Project 1: Blinking and Fading a LED
-For you which already are familiar with  previous version of Raspberry Pi, aside from the more sophisticated hardware, there will be little to no change in Raspberry Pi 3. If this is your first time coding an Raspberry Pi 3 board, then it will be fast to learn how to control an output pin using Python.
+For you which already are familiar with  previous version of Raspberry Pi, aside from the more sophisticated hardware, there will be little to no change in Raspberry Pi 3. If this is your first time coding a Raspberry Pi 3 board, then it will be fast to learn how to control an output pin using Python.
 
 ### In this project you will need:
 * Raspbery Pi 3 (1),
