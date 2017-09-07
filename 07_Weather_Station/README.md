@@ -8,8 +8,6 @@ This project is aimed to give you a simple example about how to use microcontrol
 * I/O Expansion Shield (1),
 * MCP9700 Temperature Sensor (1),
 
-<img src="/images/weather station.png" height="443">
-
 ### Assemble the modules following these steps:
 1. Plug the I/O Expansion Shield to the top of Raspberry Pi 3,
 2. Plug the MCP9700 Temperature Sensor to the header on the I/O Expansion Shield labelled **A0**,
