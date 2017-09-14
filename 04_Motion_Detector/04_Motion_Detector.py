@@ -7,7 +7,7 @@ wiringpi.pinMode(21,1)                         # Set pin 21 to 1 (OUTPUT)
 
 try:
  while True:                                   # endless loop
-        if wiringpi.digitalRead(1)== 1:        # read pin 0, if pin 1 is 0 (LOW)
+        if wiringpi.digitalRead(1)== 1:        # read pin 1, if pin 1 is 0 (LOW)
                 print "Moving Object Detected"
 		#sleep(0.5)
 		wiringpi.digitalWrite(21,1)     # if True, write pin 21 to 1 (HIGH)
