@@ -16,7 +16,7 @@ try:
  while True :					# endless loop
 	os.system('clear')
 	value1= MCP3202.readADC(1)		# range data 0 - vref (volt)
-	map=translate(value1,0,4096,100,0)
+	map=translate(value1,0,4095,100,0)
  	print "Ambient Light Monitoring"
 	print "Curent Light : ",int(map),"%"
     	print ""
