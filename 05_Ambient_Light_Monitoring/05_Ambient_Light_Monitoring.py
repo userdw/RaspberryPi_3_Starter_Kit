@@ -1,8 +1,8 @@
-import MCP3202,wiringpi,time,os			# import library WiringPi-Python
-from time import sleep                  	# import library sleep
+import MCP3202,wiringpi,time,os		# import library WiringPi-Python
+from time import sleep                  # import library sleep
 
-wiringpi.wiringPiSetup()			# Must be called before using IO Function
-wiringpi.softPwmCreate(24,0,100)		# Set PWM on pin 24, start value 0, max value 100
+wiringpi.wiringPiSetup()		# Must be called before using IO Function
+wiringpi.softPwmCreate(24,0,100)	# Set PWM on pin 24, start value 0, max value 100
 
 def translate(value,leftMin,leftMax,rightMin,rightMax):
 	# Figure out how 'wide' each range is
@@ -15,18 +15,21 @@ def translate(value,leftMin,leftMax,rightMin,rightMax):
 try:	
  while True :					# endless loop
 	os.system('clear')
-	value1= MCP3202.readADC(0)		# range data 0 - vref (volt)
-	map=translate(value1,0,4095,100,0)
- 	print "Proximity Sensor"
-	print "Curent Light : ",int(value1),int(map),"%"
+	value1= MCP3202.readADC(1)		# range data 0 - vref (volt)
+	map=translate(value1,0,4096,100,0)
+ 	print "Ambient Light Monitoring"
+	print "Curent Light : ",int(map),"%"
     	print ""
 	print "Press CTRL+C to exit"
-	wiringpi.softPwmWrite(24,int(map))	# PWM pulse on pin 9
+	wiringpi.softPwmWrite(24,int(map))	# PWM pulse on pin 0
 	sleep(0.02)                    		# delay for 20ms
-	wiringpi.softPwmWrite(24,int(map))	# PWM pulse on pin 9
+	wiringpi.softPwmWrite(24,int(map))		# PWM pulse on pin 0
 	sleep(0.02)                    		# delay for 20ms
 
 except KeyboardInterrupt:
 	wiringpi.softPwmWrite(24,0)		# PWM pulse on pin 0
 	print "exit"	
+
+
+
 
