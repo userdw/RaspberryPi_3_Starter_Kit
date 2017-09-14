@@ -2,7 +2,7 @@ import MCP3202, wiringpi,os		# import library WiringPi2-Python
 from time import sleep
 
 wiringpi.wiringPiSetup()		# Must be called before using IO function
-wiringpi.softPwmCreate(2,0,100)		
+wiringpi.softPwmCreate(1,0,100)		
 
 def translate(value,leftMin,leftMax,rightMin,rightMax):
 	# Figure out how 'wide' each range is
@@ -22,10 +22,10 @@ try:
 	print "Curent Position : ",int(position),"degree"
     	print ""
 	print "Press CTRL+C to exit"
-	wiringpi.softPwmWrite(2,int(map))	# PWM pulse on pin 9
+	wiringpi.softPwmWrite(1,int(map))	# PWM pulse on pin 9
 	sleep(0.001)
 
 except KeyboardInterrupt:
-	wiringpi.softPwmWrite(2,0)		# PWM pulse on pin 9
+	wiringpi.softPwmWrite(1,0)		# PWM pulse on pin 9
 	print "exit"	
 
