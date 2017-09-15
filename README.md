@@ -15,7 +15,7 @@ For more information about each products please visit links below:
 * [06. Potentiometer Controlled Servo](/06_Potentiometer_Controlled_Servo)
 * [07. Weather Station](/07_Weather_Station)
 
-Those projects listed above are aimed as introductory to Raspberry Pi 3 programming. 
+Those projects listed above are aimed as introductory to Raspberry Pi 3 programming.
 
 # [BAHASA INDONESIA] Raspberry Pi 3 Starter Kit
 Repository ini dibuat sebagai pelengkap dari Raspberry Pi 3 Starter Kit. Raspberry Pi 3 Starter Kit merupakan produk yang sesuai untuk digunakan sebagai titik awal eksplorasi ide-ide yang dapat direalisasikan dengan mini PC berharga terjangkau ini.
