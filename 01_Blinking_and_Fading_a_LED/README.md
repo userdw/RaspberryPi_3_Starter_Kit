@@ -11,7 +11,7 @@ Almost every start of exploring and developing on any embedded devices starts fr
 ### Assemble the modules following these steps:
 1. Plug the I/O Expansion Shield to the top of  Raspberry Pi 3,
 2. Plug the LED Module to the header on the I/O Expansion Shield labelled **9**,
-3. Run the [Blinking_and_Fading_a_LED](/01_Blinking_and_Fading_a_LED01_Blinking_and_Fading_a_LED.py) code in Raspberry Pi 3 with Python. 
+3. Run the [Blinking_and_Fading_a_LED](/01_Blinking_and_Fading_a_LED/01_Blinking_and_Fading_a_LED.py) code in Raspberry Pi 3 with Python. 
 
 If there are no mistakes, the LED Module should start blinking then increase and fade in its brightness.
 
