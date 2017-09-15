@@ -1,5 +1,5 @@
 # [ENGLISH] Project 1: Blinking and Fading a LED
-For you which already are familiar with  previous version of Raspberry Pi, aside from the more sophisticated hardware, there will be little to no change in Raspberry Pi 3. If this is your first time coding a Raspberry Pi 3 board, then it will be fast to learn how to control an output pin using Python.
+Almost every start of exploring and developing on any embedded devices starts from blinking a LED, as it will helps us to know that our board is working and what is the simplest form of code that allows us to interface with its output pin. It will be the same for our journey to explore Raspberry Pi 3. Through this project we hope you will get a picture that controlling an output pin on Raspberry Pi 3 is an easy task. The programming language to be used is Python. Python is friendly towards people who just get started in programming world. With easy-to-read syntax it will be fast to learn how to control an output pin using Python.
 
 ### In this project you will need:
 * Raspbery Pi 3 (1),
@@ -16,7 +16,7 @@ For you which already are familiar with  previous version of Raspberry Pi, aside
 If there are no mistakes, the LED Module should start blinking then increase and fade in its brightness.
 
 # [BAHASA INDONESIA] Proyek 1: Blinking and Fading a LED
-Bagi Anda yang sudah mengenal  Raspberry Pi, selain dari spesifikasi hardware yang lebih tinggi, tidak akan terdapat perbedaan yang mencolok pada Raspberry Pi 3. Apabila ini adalah pertama kalinya Anda memprogram modul Raspberry Pi 3, akan sangat cepat untuk mulai mengendalikan pin output dengan Python.
+Hampir semua awal dari eksplorasi dan pengembangan yang dilakukan pada embedded device mulai dari mengedipkan LED, di mana hal tersebut akan memastikan bahwa board kita dapat bekerja dengan baik, serta bagaimana bentuk dari kode yang paling sederhana untuk mengakses output pin dari board tersebut. Hal yang sama akan kita lakukan untuk perjalanan eksplorasi Raspberry Pi 3 kita. Melalui proyek ini, kami berharap Anda akan mendapatkan gambaran bahwa mengendalikan output pin pada Raspberry Pi 3 adalah hal yang mudah dilakukan. Bahasa pemrograman yang akan digunakan adalah Python. Python merupakan bahasa pemrograman yang bersahabat bagi programmer awal yang baru saja memasuki dunia pemrograman. Adapun sintaks Python yang mudah dibaca akan membuat Anda dapat mulai mengendalikan output pin pada Raspberry Pi 3 dengan cepat.
 
 ### Modul-modul yang dibutuhkan pada proyek ini:
 * Raspberry Pi 3 (1),
