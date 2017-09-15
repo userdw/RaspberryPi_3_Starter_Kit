@@ -1,8 +1,7 @@
 # RaspberryPi_3_Starter_Kit
 
 # [ENGLISH] Raspberry Pi 3 Starter Kit
-This repository has been created as the companion for Raspberry Pi 3 Starter Kit.
-Raspberry Pi 3 Starter Kit itself is a suitable start point for both hobbyist and academist alike to start exploring the features offered by  Broadcom BCM2837 SoC, which is embedded as the main processor on Raspberry Pi 3 board.
+This repository has been created as the companion for Raspberry Pi 3 Starter Kit. Raspberry Pi 3 Starter Kit itself is a suitable start point for both hobbyist and academist alike to start exploring the possibilities offered by  this inexpensive mini PC platform.
 For more information about each products please visit links below:
 * [Raspberry Pi 3 Starter Kit](http://digiwarestore.com/en/) - Raspberry Pi Starter Kit's product page
 * [Raspberry Pi](https://www.raspberrypi.org/) - Raspberry Pi as the main development board
@@ -19,8 +18,7 @@ For more information about each products please visit links below:
 Those projects listed above are aimed as introductory to Raspberry Pi 3 programming. 
 
 # [BAHASA INDONESIA] Raspberry Pi 3 Starter Kit
-Repository ini dibuat sebagai pelengkap dari Raspberry Pi 3 Starter Kit.
-Raspberry Pi 3 Starter Kit merupakan produk yang sesuai untuk digunakan sebagai titik awal eksplorasi chip SoC buatan Broadcom, yaitu BCM2837, yang bertindak sebagai kontroler utama dari modul Raspberry Pi 3.
+Repository ini dibuat sebagai pelengkap dari Raspberry Pi 3 Starter Kit. Raspberry Pi 3 Starter Kit merupakan produk yang sesuai untuk digunakan sebagai titik awal eksplorasi ide-ide yang dapat direalisasikan dengan mini PC berharga terjangkau ini.
 Informasi untuk masing-masing produk dapat ditemukan pada link-link di bawah:
 * [Raspberry Pi 3 Starter Kit](http://digiwarestore.com/en/) - Halaman produk Raspberry Pi Starter Kit
 * [Raspberry Pi](https://www.raspberrypi.org/)- Raspberry Pi sebagai development board utama
