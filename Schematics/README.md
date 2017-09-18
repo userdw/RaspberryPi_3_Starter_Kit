@@ -4,7 +4,7 @@ This part is the collection of shematics for each modules in Raspberry Pi 3 Star
 ### Modules:
 1. [Digital_Buzzer_Module](/Schematics/Digital%20Buzzer%20Module.pdf),
 2. [Digital_Push_Button](/Schematics/Digital%20Push%20Button.pdf),
-3. [Raspberry Pi 3 IO_Expansion_Shield](/Schematics/Raspberry%20PI%203%20IO%20Expansion%20Shield.pdf),
+3. [Raspberry Pi 3 IO_Expansion_Shield](/Schematics/Raspberry PI 3 IO Expansion Shield.pdf),
 4. [IR_Sensor](/Schematics/IR%20Sensor.pdf),
 5. [LED_Module](/Schematics/LED%20Module.pdf),
 6. [Light_Sensor](/Schematics/Light%20Sensor.pdf),
