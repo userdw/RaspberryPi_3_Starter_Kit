@@ -15,7 +15,9 @@ For more information about the product please visit links below:
 * [06. Potentiometer Controlled Servo](/06_Potentiometer_Controlled_Servo)
 * [07. Weather Station](/07_Weather_Station)
 
-Those projects listed above are aimed as introductory to Raspberry Pi 3 programming.
+Those projects listed above are aimed as introductory to Raspberry Pi 3 programming. Next one is pin table for help you to access a pin  from shied  using WiringPi library with Raspberry Pi 3  I/O Expansion Shield.
+
+<img src="/images/Pin Table.png" height="400">
 
 # [BAHASA INDONESIA] Raspberry Pi 3 Starter Kit
 Repository ini dibuat sebagai pelengkap dari Raspberry Pi 3 Starter Kit. Raspberry Pi 3 Starter Kit merupakan produk yang sesuai untuk digunakan sebagai titik awal eksplorasi ide-ide yang dapat direalisasikan dengan mini PC berharga terjangkau ini.
@@ -32,4 +34,6 @@ Informasi untuk produk tersebut dapat ditemukan pada link-link di bawah:
 * [06. Potentiometer Controlled Servo](/06_Potentiometer_Controlled_Servo)
 * [07. Weather Station](/07_Weather_Station)
 
-Proyek-proyek yang terdapat pada poin-poin di atas ditujukan sebagai pengantar untuk pemrograman Raspberry Pi 3.
+Proyek-proyek yang terdapat pada poin-poin di atas ditujukan sebagai pengantar untuk pemrograman Raspberry Pi 3. Berikut adalah tabel pin yang membantu anda untuk mengakses pin pada shield menggunakan library WiringPi untuk Raspberry Pi 3 I/O Expansion Shield.
+
+<img src="/images/Pin Table.png" height="400">
