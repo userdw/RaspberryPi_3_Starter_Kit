@@ -15,7 +15,7 @@ For more information about the product please visit links below:
 * [06. Potentiometer Controlled Servo](/06_Potentiometer_Controlled_Servo)
 * [07. Weather Station](/07_Weather_Station)
 
-Those projects listed above are aimed as introductory to Raspberry Pi 3 programming. Next one is pin table for help you to access a pin  from shied  using WiringPi library with Raspberry Pi 3  I/O Expansion Shield.
+Those projects listed above are aimed as introductory to Raspberry Pi 3 programming. Next one is pin table for help you to access a pin  on shield  using WiringPi library with Raspberry Pi 3  I/O Expansion Shield.
 
 <img src="/images/pin table.png" height="400">
 
