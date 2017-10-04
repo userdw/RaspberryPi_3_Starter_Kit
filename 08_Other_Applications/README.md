@@ -1,2 +1,1 @@
-Under construction
-Will be updated soon!
+Under construction. Will be updated soon!
