@@ -9,8 +9,7 @@ First, not all of us have time to bother ourself to check weather prediction. Bu
 
 ### In this project you will need:
 * Raspberry Pi 3 (1),
-* I/O Expansion Shield (1),
-* MCP9700 Temperature Sensor (1),
+* Character LCD 16x2 (1)<sup>not included in Raspberry Pi 3 Starter Kit</sup>.
 
 ### Assemble the modules following these steps:
 1. Plug the I/O Expansion Shield to the top of Raspberry Pi 3,
