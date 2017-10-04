@@ -1,5 +1,3 @@
-# RaspberryPi_3_Starter_Kit
-
 # [ENGLISH] Raspberry Pi 3 Starter Kit
 This repository has been created as the companion for Raspberry Pi 3 Starter Kit. Raspberry Pi 3 Starter Kit itself is a suitable start point for both hobbyist and academist alike to start exploring the possibilities offered by  this inexpensive mini PC platform.
 For more information about the product please visit links below:
