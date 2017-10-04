@@ -9,12 +9,8 @@ First, not all of us have time to bother ourself to check weather prediction. Bu
 
 ### In this project you will need:
 * Raspberry Pi 3 (1),
-* Character LCD 16x2 (1)<sup>not included in Raspberry Pi 3 Starter Kit</sup>.
-
-### Assemble the modules following these steps:
-1. Plug the I/O Expansion Shield to the top of Raspberry Pi 3,
-2. Plug the MCP9700 Temperature Sensor to the header on the I/O Expansion Shield labelled **A0**,
-3. Run the [Weather_Station](/07_Weather_Station/07_Weather_Station.py) code in Raspberry Pi 3 using python.
+* Character LCD 16x2 (1) <sup>*) not included in Raspberry Pi 3 Starter Kit</sup>,
+* 
 
 If there are no mistakes, system will start to measure the ambient temperature and display it to te screen.
 
