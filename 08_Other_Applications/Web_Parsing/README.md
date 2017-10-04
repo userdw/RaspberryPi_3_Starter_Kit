@@ -9,8 +9,7 @@ First, not all of us have time to bother ourself to check weather prediction. Bu
 
 ### In this project you will need:
 * Raspberry Pi 3 (1),
-* Character LCD 16x2 (1) <sup>*) not included in Raspberry Pi 3 Starter Kit</sup>,
-* 
+* Character LCD 16x2 (1) <sup>* not included in Raspberry Pi 3 Starter Kit</sup>.
 
 If there are no mistakes, system will start to measure the ambient temperature and display it to te screen.
 
