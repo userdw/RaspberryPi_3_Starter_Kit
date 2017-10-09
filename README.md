@@ -21,7 +21,7 @@ Those projects listed above are aimed as introductory to Raspberry Pi 3 programm
 For WiringPi library installation please follow this link : http://wiringpi.com/download-and-install/. Then there is second library must be installed is Wiringpi for python, for installation guide please follow this link : https://goo.gl/Lnh8Xn
 
 # [BAHASA INDONESIA] Raspberry Pi 3 Starter Kit
-Silahkan kunjungi link berikut untuk mengunduh sistem operasi dengan versi terbaru untuk raspberry pi : https://www.raspberrypi.org/downloads/raspbian/
+Silahkan kunjungi link berikut untuk mengunduh sistem operasi untuk raspberry pi dengan versi terbaru : https://www.raspberrypi.org/downloads/raspbian/
 Repository ini dibuat sebagai pelengkap dari Raspberry Pi 3 Starter Kit. Raspberry Pi 3 Starter Kit merupakan produk yang sesuai untuk digunakan sebagai titik awal eksplorasi ide-ide yang dapat direalisasikan dengan mini PC berharga terjangkau ini.
 Informasi untuk produk tersebut dapat ditemukan pada link-link di bawah:
 * [Raspberry Pi 3 Starter Kit](http://digiwarestore.com/en/) - Halaman produk Raspberry Pi Starter Kit
