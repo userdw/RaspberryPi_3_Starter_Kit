@@ -26,6 +26,7 @@ Informasi untuk produk tersebut dapat ditemukan pada link-link di bawah:
 * [Raspberry Pi](https://www.raspberrypi.org/)- Raspberry Pi sebagai development board utama
 
 # Konfigurasi awal Raspberry Pi 3
+* Tambahkan file ssh tanpa extension dan simpan dalam micro sd card yang digunakan Raspberry pi 3
 * Konfigurasi file config.txt
   * Buka file config.txt yang berada pada micro SD menggunakan software editor notepad++ atau sejenis
   * Temukan konfigurasi "#hdmi_force_hotplug=1" ubah menjadi "hdmi_force_hotplug=1" dengan menghilangkan tanda "#"
