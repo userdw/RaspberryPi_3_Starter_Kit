@@ -31,10 +31,14 @@ Informasi untuk produk tersebut dapat ditemukan pada link-link di bawah:
   * Temukan konfigurasi "#hdmi_force_hotplug=1" ubah menjadi "hdmi_force_hotplug=1" dengan menghilangkan tanda "#"
   * Temukan konfigurasi "#hdmi_drive=2" ubah menjadi "hdmi_drive=2" dengan menghilangkan tanda "#"
 * Simpan file tersebut kemudian pasang kembali micro sd card ke Raspberry pi 3, apabila tidak terjadi kesalahan maka Raspberry pi 3 akan   booting dengan tampilan grafis
-* Setelah Raspberry pi 3 menyala, edit konfigurasi ip address  ethernet raspberry pi 3 menggunakan command editor dengan menekan "Ctrl"   + "Alt" +"T" pada keyboard
-* Kemudian tuliskan perintah "sudo nano ~/.bashrc" pada jendela editor
+* Setelah Raspberry pi 3 menyala, edit konfigurasi ip address  ethernet raspberry pi 3 menggunakan jendela editor dengan menekan "Ctrl"   + "Alt" +"T" pada keyboard
+* Kemudian tuliskan perintah "sudo nano ~/.bashrc" pada jendela editor 
 
 <img src="/images/sudo nano bashrc.PNG" height="400">
+
+* Setelah muncul jendela editor tambahkan perintah "sudo ifconfig eth0 192.18.10.250 netmask 255.255.255.0" berikut di akhir baris dari   file konfigurasi tersebut 
+
+<img src="/images/sudo nano bashrc2.PNG" height="400">
 
 ## Judul-judul proyek yang akan disertakan pada repository ini adalah:
 * [01. Blinking and Fading a LED](/01_Blinking_and_Fading_a_LED)
