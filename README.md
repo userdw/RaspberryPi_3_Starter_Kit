@@ -33,7 +33,9 @@ Informasi untuk produk tersebut dapat ditemukan pada link-link di bawah:
 * Simpan file tersebut kemudian pasang kembali micro sd card ke Raspberry pi 3, apabila tidak terjadi kesalahan maka Raspberry pi 3 akan   booting dengan tampilan grafis
 * Setelah Raspberry pi 3 menyala, edit konfigurasi ip address  ethernet raspberry pi 3 menggunakan command editor dengan menekan "Ctrl"   + "Alt" +"T" pada keyboard
 * Kemudian tuliskan perintah "sudo nano ~/.bashrc" pada jendela editor
-<img src="/images/sudo nano bashrc.png" height="400">
+
+<img src="/images/sudo nano bashrc.PNG" height="400">
+
 ## Judul-judul proyek yang akan disertakan pada repository ini adalah:
 * [01. Blinking and Fading a LED](/01_Blinking_and_Fading_a_LED)
 * [02. Click Counter](/02_Click_Counter)
