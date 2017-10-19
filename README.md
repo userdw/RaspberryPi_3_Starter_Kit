@@ -41,6 +41,12 @@ Informasi untuk produk tersebut dapat ditemukan pada link-link di bawah:
 
 <img src="/images/sudo nano bashrc2.PNG" height="400">
 
+* Kemudian simpan file tersebut dengan menekan "Ctrl" + "x"
+* Kemudian tekan y lalu enter.
+* Setelah konfigurasi tersimpan berikutnya cek ip dengan perintah "ifconfig eth0"
+
+<img src="/images/ifconfig eth0.PNG" height="400">
+
 ## Judul-judul proyek yang akan disertakan pada repository ini adalah:
 * [01. Blinking and Fading a LED](/01_Blinking_and_Fading_a_LED)
 * [02. Click Counter](/02_Click_Counter)
