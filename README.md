@@ -10,11 +10,19 @@ For more information about the product please visit links below:
  * Open config.txt file in the micro sd card using editor software  like notepad++ or others
  * Find the script like "#hdmi_force_hotplug=1" and change it to  "hdmi_force_hotplug=1", delete the "#" sign
  * Find the script like "#hdmi_drive=2" and change it to  "hdmi_drive=2", delete the "#" sign
- * Save the file then install micro sd card to raspberry pi 3, if there isn't wrong configuration then raspberry pi 3 should be booting    with graphical interface
- 
+* Save the file then install micro sd card to raspberry pi 3, if there isn't wrong configuration then raspberry pi 3 should be booting    with graphical interface
+* After raspberry pi 3 has turned on then you must edit the configuration for ip address for ethernet using comannd prompt editor,        press "Ctrl" + "Alt" +"T" simultaneously
+* Then type and run this command "sudo nano ~/.bashrc" in editor window
+
 <img src="/images/sudo nano bashrc.PNG" height="400">
 
+* Then type "sudo ifconfig eth0 192.18.10.250 netmask 255.255.255.0" at the ending line of script
+
 <img src="/images/sudo nano bashrc2.PNG" height="400">
+
+* Then save the file, press "Ctrl" + "x" simulatneously
+* Then press "y" then enter
+* After the configuration script has been saved, check the ip configuration with this command "ifconfig eth0"
 
 <img src="/images/ifconfig eth0.PNG" height="400">
  
@@ -56,7 +64,7 @@ Informasi untuk produk tersebut dapat ditemukan pada link-link di bawah:
 <img src="/images/sudo nano bashrc2.PNG" height="400">
 
 * Kemudian simpan file tersebut dengan menekan "Ctrl" + "x"
-* Kemudian tekan y lalu enter.
+* Kemudian tekan "y" lalu enter.
 * Setelah konfigurasi tersimpan berikutnya cek ip dengan perintah "ifconfig eth0"
 
 <img src="/images/ifconfig eth0.PNG" height="400">
