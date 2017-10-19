@@ -20,7 +20,7 @@ For more information about the product please visit links below:
 
 <img src="/images/sudo nano bashrc2.PNG" height="400">
 
-* Then save the file, press "Ctrl" + "x" simulatneously
+* Then save the file, press "Ctrl" + "x" simultaneously
 * Then press "y" then enter
 * After the configuration script has been saved, check the ip configuration with this command "ifconfig eth0"
 
