@@ -4,6 +4,16 @@ For more information about the product please visit links below:
 * [Raspberry Pi 3 Starter Kit](http://digiwarestore.com/en/) - Raspberry Pi Starter Kit's product page
 * [Raspberry Pi](https://www.raspberrypi.org/) - Raspberry Pi as the main development board
 
+# Initial Configurastion for Raspberry Pi 3
+* Make a file namely ssh without extension and locate it in the micro sd card that used by Raspberry Pi 3
+* Do configuration config.txt file
+ * Open config.txt file in the micro sd card using editor software  like notepad++ or others
+ * Find the script like "#hdmi_force_hotplug=1" and change it to  "hdmi_force_hotplug=1", delete the "#" sign
+ * Find the script like "#hdmi_drive=2" and change it to  "hdmi_drive=2", delete the "#" sign
+ * Save the file then install micro sd card to raspberry pi 3, if there isn't wrong configuration then raspberry pi 3 should be booting    with graphical interface
+ *
+ 
+ 
 ## The titles of the projects which will be included in this repository are:
 * [01. Blinking and Fading a LED](/01_Blinking_and_Fading_a_LED)
 * [02. Click Counter](/02_Click_Counter)
