@@ -22,21 +22,26 @@ try:
 	print "Curent Distance : ",int(value1),int(map)
     	print ""
 	print "Press CTRL+C to exit"
+	
+	if map <= 200:
+		wiringpi.digitalWrite(1,1) 
+		wiringpi.digitalWrite(21,1) 
+		time.sleep(map/1000) 		
+		# Write 0 (Low) / 1 (High) to Buzzer and LED  
+  		wiringpi.digitalWrite(1,0) 	
+		wiringpi.digitalWrite(21,0)
+  		time.sleep(map/1000)
+	else :
+		# Write 1 (High) / 0 (Low) to Buzzer and Led
+    		wiringpi.digitalWrite(1,1) 
+		wiringpi.digitalWrite(21,1) 
+		time.sleep(map/500) 		
+		# Write 0 (Low) / 1 (High) to Buzzer and LED  
+  		wiringpi.digitalWrite(1,0) 	
+		wiringpi.digitalWrite(21,0)
+  		time.sleep(map/500) 		
 
-	# Write 1 (High) / 0 (Low) to Buzzer and Led
-    	wiringpi.digitalWrite(1,1) 
-	wiringpi.digitalWrite(21,1) 
-	time.sleep(map/1000) 		
-	# Write 0 (Low) / 1 (High) to Buzzer and LED  
-  	wiringpi.digitalWrite(1,0) 	
-	wiringpi.digitalWrite(21,0)
-  	time.sleep(map/1000)
- 		
 except KeyboardInterrupt:
 	wiringpi.digitalWrite(1,0) 	
 	wiringpi.digitalWrite(21,0)
     	print "exit"
-
-
-
-
