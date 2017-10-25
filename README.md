@@ -10,7 +10,7 @@ For more information about the product please visit links below:
     * Open config.txt file in the micro SD card using editor software such as Notepad++
     * Find the script like ```#hdmi_force_hotplug=1``` and change it to ```hdmi_force_hotplug=1```
     * Find the script like ```#hdmi_drive=2``` and change it to ```hdmi_drive=2```
-    * Save the file then insert the micro SD card to Raspberry Pi 3. Turn on the Raspberry Pi 3, and if there are no errors then Raspberry Pi 3 should be booted up with graphical interface
+    * Save the file then insert the micro SD card to Raspberry Pi 3. Turn on the Raspberry Pi 3, and if there are no errors Raspberry Pi 3 should be booted up with graphical interface
 * After Raspberry Pi 3 has turned on then you must edit the configuration for IP address for Ethernet using terminal, press ```Ctrl``` + ```Alt``` + ```t``` simultaneously
 * Type and run ```sudo nano ~/.bashrc```
 
