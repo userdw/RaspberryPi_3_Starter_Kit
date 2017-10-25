@@ -4,7 +4,7 @@ This repository has been created as the companion for Raspberry Pi 3 Starter Kit
 * [Raspberry Pi](https://www.raspberrypi.org/) - Raspberry Pi as the main development board
 
 ## Initial Configuration for Raspberry Pi 3
-* Make a file named ssh without extension and put it in the Raspberry Pi 3 micro SD card
+* Make a file named ```ssh``` and place it onto the boot partition of the Raspberry Pi 3's SD card, without any extension
 * Configure the config.txt using steps below:
     * Open config.txt file in the micro SD card using editor software such as Notepad++
     * Change ```#hdmi_force_hotplug=1``` text to ```hdmi_force_hotplug=1```
