@@ -7,10 +7,11 @@ This repository has been created as the companion for Raspberry Pi 3 Starter Kit
 * Make a file named ssh without extension and put it in the Raspberry Pi 3 micro SD card
 * Configure the config.txt using steps below:
     * Open config.txt file in the micro SD card using editor software such as Notepad++
-    * Find the script like ```#hdmi_force_hotplug=1``` and change it to ```hdmi_force_hotplug=1```
-    * Find the script like ```#hdmi_drive=2``` and change it to ```hdmi_drive=2```
-    * Save the file then insert the micro SD card to Raspberry Pi 3. Turn on the Raspberry Pi 3, and if there are no errors Raspberry Pi 3 should be booted up with graphical interface
-* After Raspberry Pi 3 has turned on then you must edit the configuration for IP address for Ethernet using terminal, press ```Ctrl``` + ```Alt``` + ```t``` simultaneously
+    * Change ```#hdmi_force_hotplug=1``` text to ```hdmi_force_hotplug=1```
+    * Change ```#hdmi_drive=2``` text to ```hdmi_drive=2```
+    * Save the file then insert the micro SD card to Raspberry Pi 3
+    * Turn on the Raspberry Pi 3, and if there are no errors Raspberry Pi 3 should be booted up with graphical interface
+* After Raspberry Pi 3 has been turned on, edit the configuration for IP address for Ethernet using terminal, press ```Ctrl``` + ```Alt``` + ```t``` simultaneously
 * Type and run ```sudo nano ~/.bashrc```
 
 <img src="/images/sudo nano bashrc.PNG" height="400">
