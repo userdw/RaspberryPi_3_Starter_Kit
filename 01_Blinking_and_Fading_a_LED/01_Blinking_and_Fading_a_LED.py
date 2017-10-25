@@ -24,10 +24,11 @@ def fadeLED(times):
 			wiringpi.softPwmWrite(LED_MODULE,j)	# PWM pulse on pin 9
 			sleep(0.02)
 		wiringpi.softPwmWrite(LED_MODULE,0)
+		
 try:
  while  True :
 	print "Start"
-	toogleLED(3)	
+	toogleLED(3)
 	sleep(2)
 	fadeLED(3)
 	sleep(1)
