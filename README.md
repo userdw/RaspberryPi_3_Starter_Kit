@@ -11,7 +11,7 @@ This repository has been created as the companion for Raspberry Pi 3 Starter Kit
     * Change ```#hdmi_drive=2``` text to ```hdmi_drive=2```
     * Save the file then insert the micro SD card to Raspberry Pi 3
     * Turn on the Raspberry Pi 3, and if there are no errors Raspberry Pi 3 should be booted up with graphical interface
-* After Raspberry Pi 3 has been turned on, edit the configuration for IP address for Ethernet using terminal, press ```Ctrl``` + ```Alt``` + ```t``` simultaneously
+* After Raspberry Pi 3 has been turned on, press ```Ctrl``` + ```Alt``` + ```t``` simultaneously to open terminal window
 * Type and run ```sudo nano ~/.bashrc```
 
 <img src="/images/sudo nano bashrc.PNG" height="400">
@@ -20,9 +20,10 @@ This repository has been created as the companion for Raspberry Pi 3 Starter Kit
 
 <img src="/images/sudo nano bashrc2.PNG" height="400">
 
-* Press ```Ctrl``` + ```x``` simultaneously to save the file
-* Press ```y``` then ```Enter```, then reboot Raspberry Pi 3
-* Check the IP configuration with this command ```ifconfig eth0```
+* Press ```Ctrl``` + ```x```
+* Press ```y``` followed up by ```Enter```
+* Reboot Raspberry Pi 3
+* Check the IP configuration with ```ifconfig eth0``` command on terminal
 
 <img src="/images/ifconfig eth0.PNG" height="400">
  
