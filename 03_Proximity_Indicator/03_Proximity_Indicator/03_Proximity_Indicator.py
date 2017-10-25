@@ -15,7 +15,7 @@ def translate(value,leftMin,leftMax,rightMin,rightMax):
 	return rightMin + (valueScaled * rightSpan)
 
 try:
-	while 1:
+	while True:
 		os.system('clear')
 		value1= MCP3202.readADC(0)	# range data 0 - vref (volt)
 		map=translate(value1,0,4096,255,0)
