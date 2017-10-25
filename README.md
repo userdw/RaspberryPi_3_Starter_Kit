@@ -21,8 +21,7 @@ For more information about the product please visit links below:
 <img src="/images/sudo nano bashrc2.PNG" height="400">
 
 * Press ```Ctrl``` + ```x``` simultaneously to save the file
-* Press ```y``` then ```Enter```
-* After the configuration script has been saved, reboot Raspberry Pi 3
+* Press ```y``` then ```Enter```, then reboot Raspberry Pi 3
 * Check the IP configuration with this command ```ifconfig eth0```
 
 <img src="/images/ifconfig eth0.PNG" height="400">
