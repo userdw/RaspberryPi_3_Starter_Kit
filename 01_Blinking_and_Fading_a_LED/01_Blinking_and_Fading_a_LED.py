@@ -36,7 +36,3 @@ except KeyboardInterrupt :
 	wiringpi.digitalWrite(LED_MODULE,0)
 	wiringpi.softPwmWrite(LED_MODULE,0)			# PWM pulse on pin 0
 	print "exit"
-
-
-	
-
