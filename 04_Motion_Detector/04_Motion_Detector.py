@@ -6,16 +6,16 @@ wiringpi.pinMode(1,0)                          # Set pin 1 to 0 (INPUT)
 wiringpi.pinMode(21,1)                         # Set pin 21 to 1 (OUTPUT)
 
 try:
- while True:                                   # endless loop
-        if wiringpi.digitalRead(1)== 1:        # read pin 1, if pin 1 is 0 (LOW)
-                print "Moving Object Detected"
-		#sleep(0.5)
-		wiringpi.digitalWrite(21,1)     # if True, write pin 21 to 1 (HIGH)
-        else:
-                print "No Object Detected"
-		#sleep(0.5)
-		wiringpi.digitalWrite(21,0)     # if False, write pin 21 to 0 (LOW)
-		
+	while True:                                   # endless loop
+		if wiringpi.digitalRead(1)== 1:        # read pin 1, if pin 1 is 0 (LOW)
+			print "Moving Object Detected"
+			#sleep(0.5)
+			wiringpi.digitalWrite(21,1)     # if True, write pin 21 to 1 (HIGH)
+		else:
+			print "No Object Detected"
+			#sleep(0.5)
+			wiringpi.digitalWrite(21,0)     # if False, write pin 21 to 0 (LOW)
+			
 except KeyboardInterrupt:
 	wiringpi.softPwmWrite(21,0)		# PWM pulse on pin 21
 	print "exit"
