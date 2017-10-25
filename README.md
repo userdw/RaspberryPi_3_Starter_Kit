@@ -3,7 +3,7 @@ This repository has been created as the companion for Raspberry Pi 3 Starter Kit
 * [Raspberry Pi 3 Starter Kit](http://digiwarestore.com/en/) - Raspberry Pi Starter Kit's product page
 * [Raspberry Pi](https://www.raspberrypi.org/) - Raspberry Pi as the main development board
 
-## Initial Configuration for Raspberry Pi 3
+## Initial Configuration
 * Make a file named ```ssh``` and place it onto the boot partition of the Raspberry Pi 3's SD card, without any extension
 * Configure the ```config.txt``` in the SD card following steps below:
     * Open ```config.txt``` file in the micro SD card using editor software such as Notepad++
@@ -46,7 +46,7 @@ Informasi untuk produk tersebut dapat ditemukan pada link-link di bawah:
 * [Raspberry Pi 3 Starter Kit](http://digiwarestore.com/en/) - Halaman produk Raspberry Pi Starter Kit
 * [Raspberry Pi](https://www.raspberrypi.org/)- Raspberry Pi sebagai development board utama
 
-# Konfigurasi awal Raspberry Pi 3
+## Konfigurasi Awal
 * Tambahkan file ssh tanpa extension dan simpan dalam micro SD card yang digunakan Raspberry pi 3
 * Konfigurasi file config.txt
     * Buka file config.txt yang berada pada micro SD menggunakan software editor notepad++ atau sejenis
