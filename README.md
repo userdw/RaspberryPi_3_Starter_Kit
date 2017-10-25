@@ -22,7 +22,8 @@ For more information about the product please visit links below:
 
 * Press ```Ctrl``` + ```x``` simultaneously to save the file
 * Press ```y``` then ```Enter```
-* After the configuration script has been saved, check the IP configuration with this command ```ifconfig eth0```
+* After the configuration script has been saved, reboot Raspberry Pi 3
+* Check the IP configuration with this command ```ifconfig eth0```
 
 <img src="/images/ifconfig eth0.PNG" height="400">
  
@@ -35,11 +36,11 @@ For more information about the product please visit links below:
 * [06. Potentiometer Controlled Servo](/06_Potentiometer_Controlled_Servo)
 * [07. Weather Station](/07_Weather_Station)
 
-Those projects listed above are aimed as introductory to Raspberry Pi 3 programming. Next one is pin table for help you to access a pin on shield using WiringPi library with Raspberry Pi 3 I/O Expansion Shield.
+Those projects listed above are aimed as introductory to Raspberry Pi 3 programming.
+All those projects are using WiringPi library for accessing the I/O pins. WiringPi installation can be done using the steps on [this link](http://wiringpi.com/download-and-install/). Since the projects will use Python, we need to install Python wraper for WiringPi (since it was written in C). Installation guide for WiringPi Python wrapper (a.k.a WiringPi-Python) can be found on [this link](https://goo.gl/Lnh8Xn).
+Image below is pin table for reference on accessing I/O Expansion Shield pins with WiringPi library on Raspberry Pi 3.
 
 <img src="/images/pin table.png" height="400">
-
-For WiringPi library installation please follow this link : http://wiringpi.com/download-and-install/. Then there is second library must be installed is Wiringpi for python, for installation guide please follow this link : https://goo.gl/Lnh8Xn
 
 # [BAHASA INDONESIA] Raspberry Pi 3 Starter Kit
 Silahkan kunjungi link berikut untuk mengunduh sistem operasi untuk raspberry pi dengan versi terbaru : https://www.raspberrypi.org/downloads/raspbian/. Repository ini dibuat sebagai pelengkap dari Raspberry Pi 3 Starter Kit. Raspberry Pi 3 Starter Kit merupakan produk yang sesuai untuk digunakan sebagai titik awal eksplorasi ide-ide yang dapat direalisasikan dengan mini PC berharga terjangkau ini.
