@@ -30,7 +30,3 @@ try:
 except KeyboardInterrupt:
 	wiringpi.softPwmWrite(24,0)			# PWM pulse on pin 24
 	print "exit"
-
-
-
-
