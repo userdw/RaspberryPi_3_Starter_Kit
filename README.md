@@ -35,9 +35,7 @@ For more information about the product please visit links below:
 * [06. Potentiometer Controlled Servo](/06_Potentiometer_Controlled_Servo)
 * [07. Weather Station](/07_Weather_Station)
 
-Those projects listed above are aimed as introductory to Raspberry Pi 3 programming.
-All those projects are using WiringPi library for accessing the I/O pins. WiringPi installation can be done using the steps on [this link](http://wiringpi.com/download-and-install/). Since those projects will use Python, we need to install Python wraper for WiringPi (since it was written in C). Installation guide for WiringPi Python wrapper (a.k.a WiringPi-Python) can be found on [this link](https://goo.gl/Lnh8Xn).
-Image below is pin table for reference on accessing I/O Expansion Shield pins with WiringPi library on Raspberry Pi 3.
+Those projects listed above are aimed as introductory to Raspberry Pi 3 programming. All those projects are using WiringPi library for accessing the I/O pins. WiringPi installation can be done using the steps on [this link](http://wiringpi.com/download-and-install/). Since those projects will use Python, we need to install Python wraper for WiringPi (since it was written in C). Installation guide for WiringPi Python wrapper (a.k.a WiringPi-Python) can be found on [this link](https://goo.gl/Lnh8Xn). Image below is pin table for reference on accessing I/O Expansion Shield pins with WiringPi library on Raspberry Pi 3.
 
 <img src="/images/pin table.png" height="400">
 
