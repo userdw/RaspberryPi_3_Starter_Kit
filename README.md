@@ -7,7 +7,7 @@ For more information about the product please visit links below:
 ## Initial Configuration for Raspberry Pi 3
 * Make a file named ssh without extension and put it in the Raspberry Pi 3 micro SD card
 * Configure the config.txt using steps below:
-    * Open config.txt file in the micro SD card using editor software such as notepad++
+    * Open config.txt file in the micro SD card using editor software such as Notepad++
     * Find the script like ```#hdmi_force_hotplug=1``` and change it to ```hdmi_force_hotplug=1```
     * Find the script like ```#hdmi_drive=2``` and change it to ```hdmi_drive=2```
     * Save the file then insert the micro SD card to Raspberry Pi 3. Turn on the Raspberry Pi 3, and if there are no errors then Raspberry Pi 3 should be booted up with graphical interface
