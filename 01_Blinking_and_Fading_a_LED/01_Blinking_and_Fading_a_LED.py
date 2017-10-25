@@ -26,13 +26,13 @@ def fadeLED(times):
 		wiringpi.softPwmWrite(LED_MODULE,0)
 		
 try:
- while  True :
-	print "Start"
-	toogleLED(3)
-	sleep(2)
-	fadeLED(3)
-	sleep(1)
-
+	while  True :
+		print "Start"
+		toogleLED(3)
+		sleep(2)
+		fadeLED(3)
+		sleep(1)
+	
 except KeyboardInterrupt :
 	wiringpi.digitalWrite(LED_MODULE,0)
 	wiringpi.softPwmWrite(LED_MODULE,0)			# PWM pulse on pin 0
