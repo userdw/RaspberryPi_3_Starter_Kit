@@ -1,4 +1,3 @@
-
 import wiringpi	                	# import library WiringPi-Python
 from time import sleep          	# import library sleep
 
