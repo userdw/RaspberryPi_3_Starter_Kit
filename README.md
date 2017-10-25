@@ -16,7 +16,7 @@ This repository has been created as the companion for Raspberry Pi 3 Starter Kit
 
 <img src="/images/sudo nano bashrc.PNG" height="400">
 
-* Add ```sudo ifconfig eth0 192.18.10.250 netmask 255.255.255.0``` at the ending line of script
+* Add ```sudo ifconfig eth0 192.18.10.250 netmask 255.255.255.0``` at the ending line of the script
 
 <img src="/images/sudo nano bashrc2.PNG" height="400">
 
