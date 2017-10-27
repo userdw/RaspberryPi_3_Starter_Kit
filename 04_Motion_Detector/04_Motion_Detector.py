@@ -1,4 +1,4 @@
-import wiringpi # import library WiringPi-Python
+import wiringpi
 from time import sleep
 
 wiringpi.wiringPiSetup() # Must be called before using IO function
