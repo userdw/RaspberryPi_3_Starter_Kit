@@ -22,9 +22,9 @@ try:
 		print("Curent Light : ", int(map), "%")
 		print("")
 		print("Press CTRL+C to exit")
-		wiringpi.softPwmWrite(24, int(map)) # PWM pulse on pin 24
+		wiringpi.softPwmWrite(24, int(map))
 		sleep(0.02) # delay for 20ms
-		wiringpi.softPwmWrite(24, int(map)) # PWM pulse on pin 24
+		wiringpi.softPwmWrite(24, int(map))
 		sleep(0.02) # delay for 20ms
 
 except KeyboardInterrupt:
