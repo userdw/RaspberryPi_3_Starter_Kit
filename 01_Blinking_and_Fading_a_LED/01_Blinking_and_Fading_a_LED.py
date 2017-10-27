@@ -1,5 +1,5 @@
-import wiringpi # import library WiringPi-Python
-from time import sleep # import library sleep
+import wiringpi # import WiringPi-Python library
+from time import sleep # import sleep library
 
 LED_MODULE = 1
 wiringpi.wiringPiSetup() # Must be called before using I/O function
