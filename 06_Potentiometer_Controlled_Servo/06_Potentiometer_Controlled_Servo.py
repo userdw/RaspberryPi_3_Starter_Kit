@@ -30,4 +30,3 @@ except KeyboardInterrupt:
 	wiringpi.pinMode(1, 1)
 	wiringpi.digitalWrite(1, 0)
 	print("exit")
-
