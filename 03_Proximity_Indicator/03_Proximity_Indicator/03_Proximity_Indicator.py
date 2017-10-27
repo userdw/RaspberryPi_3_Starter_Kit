@@ -16,7 +16,7 @@ def translate(value, leftMin, leftMax, rightMin, rightMax):
 try:
 	while True:
 		os.system("clear")
-		value1 = MCP3202.readADC(0) # range data 0 - vref (volt)
+		value1 = MCP3202.readADC(0) # returns 0 - 4095 representing 0 Volt - VREF Volt
 		map = translate(value1, 0, 4095, 255, 0)
 		print("Proximity Sensor")
 		print("Curent Distance : ", int(value1), int(map))
