@@ -28,5 +28,6 @@ try:
 		sleep(0.02) # delay for 20ms
 
 except KeyboardInterrupt:
-	wiringpi.softPwmWrite(24, 0) # PWM pulse on pin 24
+	wiringpi.pinMode(24, 1)
+	wiringpi.digitalWrite(24, 0)
 	print("exit")
