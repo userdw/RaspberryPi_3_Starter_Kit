@@ -1,8 +1,8 @@
-import wiringpi # import library wiringPi-Python
-from time import sleep # import library sleep
+import wiringpi
+from time import sleep
 
 wiringpi.wiringPiSetup() # Must be called before using I/O function
-wiringpi.pinMode(21, 0) # set pin 2 to 0 (INPUT)
+wiringpi.pinMode(21, 0)
 count = 0
 
 try:
