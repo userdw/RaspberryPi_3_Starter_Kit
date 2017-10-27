@@ -7,7 +7,6 @@ count = 0
 
 try:
 	while True: # endless loop
-		# read pin 1, if pin 1 is HIGH (switch pressed)
 		inputValue = wiringpi.digitalRead(21)
 		if inputValue == True:
 			count = count + 1
