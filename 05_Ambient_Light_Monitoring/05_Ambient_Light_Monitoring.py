@@ -1,10 +1,10 @@
-import MCP3202,wiringpi,time,os		# import library WiringPi-Python
-from time import sleep                  # import library sleep
+import MCP3202, wiringpi, time, os # import library WiringPi-Python
+from time import sleep # import library sleep
 
-wiringpi.wiringPiSetup()		# Must be called before using IO Function
-wiringpi.softPwmCreate(24,0,100)	# Set PWM on pin 24, start value 0, max value 100
+wiringpi.wiringPiSetup() # Must be called before using I/O Function
+wiringpi.softPwmCreate(24, 0, 100) # Set PWM on pin 24, start value 0, max value 100
 
-def translate(value,leftMin,leftMax,rightMin,rightMax):
+def translate(value, leftMin, leftMax, rightMin, rightMax):
 	# Figure out how 'wide' each range is
 	leftSpan = leftMax - leftMin
 	rightSpan = rightMax - rightMin
