@@ -28,7 +28,7 @@ def fadeLED(times):
 			sleep(0.02)
 			
 try:
-	while True :
+	while True: # endless loop
 		print("Start")
 		toogleLED(3)
 		sleep(2)
