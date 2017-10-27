@@ -27,6 +27,7 @@ try:
 		sleep(0.001)
 
 except KeyboardInterrupt:
-	wiringpi.softPwmWrite(1, 0)
-	print "exit"	
+	wiringpi.pinMode(LED_MODULE, 1)
+	wiringpi.digitalWrite(LED_MODULE, 0)
+	print("exit")
 
