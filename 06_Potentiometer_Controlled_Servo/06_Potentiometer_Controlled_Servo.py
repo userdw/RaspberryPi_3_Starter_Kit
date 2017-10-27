@@ -1,8 +1,8 @@
 import MCP3202, wiringpi, os
 from time import sleep
 
-wiringpi.wiringPiSetup() # Must be called before using I/O function
-wiringpi.softPwmCreate(1, 0, 100)		
+wiringpi.wiringPiSetup()
+wiringpi.softPwmCreate(1, 0, 200)
 
 def translate(value,leftMin,leftMax,rightMin,rightMax):
 	# Figure out how 'wide' each range is
@@ -17,8 +17,8 @@ try:
 	while 1: # endless loop
 		os.system("clear")
 		value1 = MCP3202.readADC(0)
-		map = translate(value1, 0, 4095, 0, 100)
-		position = translate (map, 100, 0, 0, 180)
+		map = translate(value1, 0, 4095, 6, 24)
+		position = translate (value1, 0, 4095, 0, 180)
  		print("Servo Position")
 		print("Curent Position : ", int(position), "degree")
     		print("")
@@ -27,7 +27,7 @@ try:
 		sleep(0.001)
 
 except KeyboardInterrupt:
-	wiringpi.pinMode(LED_MODULE, 1)
-	wiringpi.digitalWrite(LED_MODULE, 0)
+	wiringpi.pinMode(1, 1)
+	wiringpi.digitalWrite(1, 0)
 	print("exit")
 
