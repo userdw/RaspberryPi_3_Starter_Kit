@@ -1,7 +1,7 @@
 import wiringpi
 from time import sleep
 
-wiringpi.wiringPiSetup() # Must be called before using I/O function
+wiringpi.wiringPiSetup()
 wiringpi.pinMode(21, 0)
 count = 0
 
