@@ -1,5 +1,5 @@
 # [ENGLISH] Raspberry Pi 3 Starter Kit
-This repository has been created as the companion for Raspberry Pi 3 Starter Kit. Raspberry Pi 3 Starter Kit itself is a suitable start point for both hobbyist and academist alike to start exploring the possibilities offered by this inexpensive mini PC platform. Please Visit [this link](https://www.raspberrypi.org/downloads/raspbian/) for the latest version of Raspberry Pi operating system (Raspbian). For more information about the product please visit links below:
+This repository has been created as the companion for Raspberry Pi 3 Starter Kit. Raspberry Pi 3 Starter Kit itself is a suitable start point for both hobbyist and academist alike to start exploring the possibilities offered by this inexpensive mini PC platform. For more information about the product please visit links below:
 * [Raspberry Pi 3 Starter Kit](http://digiwarestore.com/en/) - Raspberry Pi Starter Kit's product page.
 * [Raspberry Pi](https://www.raspberrypi.org/) - Raspberry Pi as the main development board.
 
