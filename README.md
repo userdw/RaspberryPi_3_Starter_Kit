@@ -1,7 +1,7 @@
 # [ENGLISH] Raspberry Pi 3 Starter Kit
 This repository has been created as the companion for Raspberry Pi 3 Starter Kit. Raspberry Pi 3 Starter Kit itself is a suitable start point for both hobbyist and academist alike to start exploring the possibilities offered by this inexpensive mini PC platform. For more information about the product please visit links below:
 * [Raspberry Pi 3 Starter Kit](http://digiwarestore.com/en/) - Raspberry Pi Starter Kit's product page.
-* [Raspberry Pi](https://www.raspberrypi.org/) - Raspberry Pi as the main development board.
+* [Raspberry Pi](https://www.raspberrypi.org/) - Raspberry Pi's official website.
 
 ## Initial Configuration (tested on **RASPBIAN STRETCH WITH DESKTOP** and Windows computer/laptop)
 * Get the latest Raspbian [here](https://www.raspberrypi.org/downloads/raspbian/). Follow the steps mentioned [here](https://www.raspberrypi.org/documentation/installation/installing-images/windows.md) to install Raspbian onto the SD card.
