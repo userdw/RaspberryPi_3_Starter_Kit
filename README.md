@@ -20,11 +20,7 @@ This repository has been created as the companion for Raspberry Pi 3 Starter Kit
 * Sometime there are cases when we need to access Raspberry Pi's Desktop remotely. In that case we can make use of VNC (Virtual Network Computing) server inside Raspberry Pi. Follow the steps mentioned [here](https://www.raspberrypi.org/documentation/remote-access/vnc/) to enable the VNC server.
 
 ### Notes:
-* To save the changes you made within nano editor:
-    * Press ```Ctrl``` + ```x```
-    * Press ```y``` followed up by ```Enter```
-    * Reboot Raspberry Pi 3
-    * Check the IP configuration with ```ifconfig eth0``` command on terminal
+* To save the changes you made within nano editor press ```Ctrl``` + ```x``` then ```y``` followed up by ```Enter```.
  
 ## The titles of the projects which will be included in this repository are:
 * [01. Blinking and Fading a LED](/01_Blinking_and_Fading_a_LED)
