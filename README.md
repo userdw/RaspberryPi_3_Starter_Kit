@@ -3,9 +3,9 @@ This repository has been created as the companion for Raspberry Pi 3 Starter Kit
 * [Raspberry Pi 3 Starter Kit](http://digiwarestore.com/en/) - Raspberry Pi Starter Kit's product page.
 * [Raspberry Pi](https://www.raspberrypi.org/) - Raspberry Pi's official website.
 
-## Initial Configuration (tested on **RASPBIAN STRETCH WITH DESKTOP** and Windows computer/laptop)
-* Get the latest Raspbian [here](https://www.raspberrypi.org/downloads/raspbian/). Follow the steps mentioned [here](https://www.raspberrypi.org/documentation/installation/installing-images/windows.md) to install Raspbian onto the SD card.
-* Accessing Raspberry Pi remotely through SSH is disabled by default. To enable it, insert the SD card to the computer/laptop. Make a file named ```ssh``` and place it onto the boot partition of the SD card without any extension.
+## Initial Configuration (tested on **RASPBIAN STRETCH WITH DESKTOP** and computer/laptop with Windows OS)
+* Get the latest Raspbian [here](https://www.raspberrypi.org/downloads/raspbian/). Follow the steps mentioned [here](https://www.raspberrypi.org/documentation/installation/installing-images/windows.md) to install Raspbian into the SD card.
+* Accessing Raspberry Pi remotely through SSH is disabled by default. To enable it, insert the SD card to the computer/laptop. Make a file named ```ssh``` and place it into the boot partition of the SD card without any extension.
 * Connect Raspberry Pi with Keyboard, Mouse, and Display to get direct access to it. Turn on the Raspberry Pi by plugging a 5 VDC power source to its micro USB port. It will take some time until you enter the Raspberry Pi's Desktop for the first time.
 * Press ```Ctrl``` + ```Alt``` + ```t``` simultaneously to open terminal window.
 * To change keyboard layout to ```US```, type and run ```sudo nano /etc/default/keyboard``` then change ```XKBLAYOUT="gb"``` to ```XKBLAYOUT="us"```. Reboot your Raspberry Pi with ```sudo reboot``` command. Skip this step if you're using keyboard with UK layout on Raspberry Pi.
@@ -19,11 +19,12 @@ This repository has been created as the companion for Raspberry Pi 3 Starter Kit
 
 * Sometime there are cases when we need to access Raspberry Pi's Desktop remotely. In that case we can make use of VNC (Virtual Network Computing) server inside Raspberry Pi. Follow the steps mentioned [here](https://www.raspberrypi.org/documentation/remote-access/vnc/) to enable the VNC server.
 
-To save the changes you made with nano:
-* Press ```Ctrl``` + ```x```
-* Press ```y``` followed up by ```Enter```
-* Reboot Raspberry Pi 3
-* Check the IP configuration with ```ifconfig eth0``` command on terminal
+### Notes:
+* To save the changes you made with nano:
+    * Press ```Ctrl``` + ```x```
+    * Press ```y``` followed up by ```Enter```
+    * Reboot Raspberry Pi 3
+    * Check the IP configuration with ```ifconfig eth0``` command on terminal
  
 ## The titles of the projects which will be included in this repository are:
 * [01. Blinking and Fading a LED](/01_Blinking_and_Fading_a_LED)
