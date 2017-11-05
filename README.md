@@ -17,7 +17,7 @@ This repository has been created as the companion for Raspberry Pi 3 Starter Kit
 * Configure your computer's/laptop's Ethernet port IP address to be in the same subnet mask range as the Raspberry Pi, for example ```192.168.10.10```.
 * Plug Raspberry Pi's Ethernet port to your computer's/laptop's then turn it on.
 * Access Raspberry Pi using PuTTY with ```192.168.10.250``` as IP address and ```22``` as Port.
-* Sometime there are cases when we need to access Raspberry Pi's Desktop remotely. In that case we can make use of VNC (Virtual Network Computing) server inside Raspberry Pi. Follow the steps mentioned [here](https://www.raspberrypi.org/documentation/remote-access/vnc/) to enable the VNC server.
+* Sometime there are cases when we need to access Raspberry Pi's Desktop remotely. In that case we can make use of VNC (Virtual Network Computing) server inside Raspberry Pi. Follow the steps mentioned [here](https://www.raspberrypi.org/documentation/remote-access/vnc/) to enable the VNC server. You can set your VNC viewer resolution following the steps mentioned [here](https://support.realvnc.com/knowledgebase/article/View/523/2/troubleshooting-vnc-server-on-the-raspberry-pi)
  
 ## The titles of the projects which will be included in this repository are:
 * [01. Blinking and Fading a LED](/01_Blinking_and_Fading_a_LED)
