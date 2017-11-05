@@ -3,20 +3,20 @@ This repository has been created as the companion for Raspberry Pi 3 Starter Kit
 * [Raspberry Pi 3 Starter Kit](http://digiwarestore.com/en/) - Raspberry Pi Starter Kit's product page.
 * [Raspberry Pi](https://www.raspberrypi.org/) - Raspberry Pi's official website.
 
-## Initial Configuration (tested on **RASPBIAN STRETCH WITH DESKTOP** and computer/laptop with Windows OS)
+## Initial Configuration
+* The steps below was tested on **RASPBIAN STRETCH WITH DESKTOP** and computer/laptop with Windows OS
 * Get the latest Raspbian [here](https://www.raspberrypi.org/downloads/raspbian/). Follow the steps mentioned [here](https://www.raspberrypi.org/documentation/installation/installing-images/windows.md) to install Raspbian into the SD card.
-* Accessing Raspberry Pi remotely through SSH is disabled by default. To enable it, insert the SD card to the computer/laptop. Make a file named ```ssh``` and place it into the boot partition of the SD card without any extension.
-* Connect Raspberry Pi with keyboard, mouse, and display to get direct access to it. Turn on the Raspberry Pi by plugging a 5 VDC power source to its micro USB port. It will take some time until you enter the Raspberry Pi's Desktop for the first time.
-* Press ```Ctrl``` + ```Alt``` + ```t``` simultaneously to open terminal window.
+* Accessing Raspberry Pi remotely through SSH is disabled by default. To enable it insert the SD card to the computer/laptop. Make a file named ```ssh``` and place it into the boot partition of the SD card without any extension. After adding the ```ssh``` file, insert the SD card into Raspberry Pi then boot it up. It will take some time until you enter the Raspberry Pi's Desktop for the first time.
+* If you have access to router, you can now plug Raspberry Pi's Ethernet port to the router to get an IP address. Check Raspberry Pi's IP with IP scanner software, then connect to it using terminal software such as [PuTTY](http://www.putty.org/).
+* If you don't have access to router, connect Raspberry Pi with keyboard, mouse, and display to get direct access to it. After the Raspberry Pi has been booted up, press ```Ctrl``` + ```Alt``` + ```t``` simultaneously to open terminal window.
 * To change keyboard layout to ```US```, type and run ```sudo nano /etc/default/keyboard``` then change ```XKBLAYOUT="gb"``` to ```XKBLAYOUT="us"```. Reboot your Raspberry Pi with ```sudo reboot``` command. Skip this step if you're using keyboard with UK layout on Raspberry Pi.
-* Raspberry Pi 3 comes with 2 network interfaces (WiFi and Ethernet), which both of them configured to get IP from router (DHCP). Since there will be some cases where we don't have access to the router, we can configure the Ethernet with static IP. That way we can still access Raspberry Pi 3 from our computer/laptop through Ethernet even if we don't have access to the router. To do this you can type and run ```sudo nano /home/pi/.bashrc``` then add ```sudo ifconfig eth0 192.168.10.250 netmask 255.255.255.0``` at the end of the file. Reboot your Raspberry Pi with ```sudo reboot``` command.
+* Raspberry Pi 3 comes with 2 network interfaces (WiFi and Ethernet), which both of them configured to get IP from router (DHCP). Since there will be some cases where we don't have access to the router, we can configure the Ethernet with static IP. That way we can still access Raspberry Pi 3 from our computer/laptop through Ethernet even if we don't have access to the router. To do this you can type and run ```sudo nano /home/pi/.bashrc``` then add ```sudo ifconfig eth0 192.168.10.250 netmask 255.255.255.0``` at the end of the file. This effect will take place when we reboot the Raspberry Pi. You can reboot your Raspberry Pi with ```sudo reboot``` command. If you're still using a router to remotely access Raspberry Pi, you might want to turn Raspberry Pi off then connect its Ethernet port to your computer/laptop. You can turn off your Raspberry Pi with ```sudo halt``` command.
 
 <img src="/images/sudo nano bashrc2.PNG" height="400">
 
-* Check the IP configuration with ```ifconfig eth0``` command on terminal window.
-
-<img src="/images/ifconfig eth0.PNG" height="400">
-
+* Configure your computer's/laptop's Ethernet port IP address to ```192.168.10.10```.
+* Plug Raspberry Pi's Ethernet port then turn it on.
+* Access Raspberry Pi using PuTTY with ```192.168.10.250``` as IP address and ```22``` as Port.
 * Sometime there are cases when we need to access Raspberry Pi's Desktop remotely. In that case we can make use of VNC (Virtual Network Computing) server inside Raspberry Pi. Follow the steps mentioned [here](https://www.raspberrypi.org/documentation/remote-access/vnc/) to enable the VNC server.
 
 **Notes:**
