@@ -5,7 +5,7 @@ This repository has been created as the companion for Raspberry Pi 3 Starter Kit
 
 ## Initial Configuration
 * The steps below was tested on ```RASPBIAN STRETCH WITH DESKTOP``` and computer/laptop running Windows OS
-* Get the latest Raspbian [here](https://www.raspberrypi.org/downloads/raspbian/). Follow the steps mentioned [here](https://www.raspberrypi.org/documentation/installation/installing-images/windows.md) to install Raspbian into the SD card.
+* Get the latest Raspbian [here](https://www.raspberrypi.org/downloads/raspbian/) then follow the steps mentioned [here](https://www.raspberrypi.org/documentation/installation/installing-images/windows.md) to install Raspbian into the SD card.
 * Accessing Raspberry Pi remotely through SSH is disabled by default. To enable it insert the SD card to the computer/laptop. Make a file named ```ssh``` and place it into the boot partition of the SD card without any extension. After adding the ```ssh``` file, insert the SD card into Raspberry Pi then boot it up. It will take some time until you enter the Raspberry Pi's Desktop for the first time.
 * If you have access to router, you can now plug Raspberry Pi's Ethernet port to the router to get an IP address. Check Raspberry Pi's IP with IP scanner software, then connect to it using terminal software such as [PuTTY](http://www.putty.org/).
 * If you don't have access to router, connect Raspberry Pi with keyboard, mouse, and display to get direct access to it. After the Raspberry Pi has been booted up, press ```Ctrl``` + ```Alt``` + ```t``` simultaneously to open terminal window.
