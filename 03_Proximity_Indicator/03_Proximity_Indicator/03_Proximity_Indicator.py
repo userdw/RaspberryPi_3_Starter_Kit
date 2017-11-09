@@ -1,8 +1,13 @@
 import MCP3202
-import wiringpi, time, os
-wiringpi.wiringPiSetup()
-wiringpi.pinMode(1, 1)
-wiringpi.pinMode(21, 1)
+import wiringpi as wpi
+import time, os
+
+LED_MODULE = 1
+BUZZER_MODULE = 21
+
+wpi.wiringPiSetup()
+wpi.pinMode(LED_MODULE, wpi.OUTPUT)
+wpi.pinMode(BUZZER_MODULE, wpi.OUTPUT)
 
 def translate(value, leftMin, leftMax, rightMin, rightMax):
 	# Figure out how 'wide' each range is
@@ -19,31 +24,29 @@ try:
 		value1 = MCP3202.readADC(0) # returns 0 - 4095 representing 0 Volt - VREF Volt
 		map = translate(value1, 0, 4095, 255, 0)
 		print("Proximity Sensor")
-		print("Curent Distance : ", int(value1), int(map))
+		print("Sensor Reading : ", int(value1))
+		print("Mapped Value : ", int(map))
 		print("")
 		print("Press CTRL+C to exit")
 		
 		if map <= 200:
-			wiringpi.digitalWrite(1, 1)
-			wiringpi.digitalWrite(21, 1)
+			wpi.digitalWrite(LED_MODULE, wpi.HIGH)
+			wpi.digitalWrite(BUZZER_MODULE, wpi.HIGH)
 			time.sleep(map / 1000)
-			# Write 0 (Low) / 1 (High) to Buzzer and LED
-			wiringpi.digitalWrite(1, 0)
-			wiringpi.digitalWrite(21, 0)
+			wpi.digitalWrite(LED_MODULE, wpi.LOW)
+			wpi.digitalWrite(BUZZER_MODULE, wpi.LOW)
 			time.sleep(map / 1000)
 		else:
-			# Write 1 (High) / 0 (Low) to Buzzer and Led
-			wiringpi.digitalWrite(1, 1)
-			wiringpi.digitalWrite(21, 1)
+			wpi.digitalWrite(LED_MODULE, wpi.HIGH)
+			wpi.digitalWrite(BUZZER_MODULE, wpi.HIGH)
 			time.sleep(map / 500)
-			# Write 0 (Low) / 1 (High) to Buzzer and LED
-			wiringpi.digitalWrite(1, 0)
-			wiringpi.digitalWrite(21, 0)
+			wpi.digitalWrite(LED_MODULE, wpi.LOW)
+			wpi.digitalWrite(BUZZER_MODULE, wpi.LOW)
 			time.sleep(map / 500)
 		
 except KeyboardInterrupt:
-	wiringpi.pinMode(1, 1)
-	wiringpi.pinMode(21, 1)
-	wiringpi.digitalWrite(1, 0)
-	wiringpi.digitalWrite(21, 0)
+	wpi.pinMode(LED_MODULE, wpi.OUTPUT)
+	wpi.pinMode(BUZZER_MODULE, wpi.OUTPUT)
+	wpi.digitalWrite(LED_MODULE, wpi.LOW)
+	wpi.digitalWrite(BUZZER_MODULE, wpi.LOW)
 	print("exit")
