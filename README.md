@@ -57,7 +57,7 @@ Repository ini dibuat sebagai pelengkap dari Raspberry Pi 3 Starter Kit. Raspber
 * Konfigurasikan antarmuka Ethernet komputer/laptop Anda agar memiliki alamat IP yang berada dalam rentang subnet mask Raspberry Pi, sebagai contoh ```192.168.10.10```.
 * Hubungkan port Ethernet Raspberry Pi ke komputer/laptop Anda kemudian nyalakan.
 * Akses Raspberry Pi melalui PuTTY dengan alamat IP ```192.168.10.250``` dan port ```22```.
-* Akan ada saat dimana kita perlu untuk mengakses lingkungan desktop Raspberry Pi secara remote. Untuk hal tersebut kita dapat memanfaatkan server VNC (Virtual Network Computing) yang terdapat di dalam Raspberry Pi. Ikuti langkah-langkah yang disebutkan pada [link berikut](https://www.raspberrypi.org/documentation/remote-access/vnc/) untuk mengaktifkan server VNC dan mengaksesnya. Anda dapat mengatur resolusi dari VNC viewer dengan mengikuti langkah-langkah yang terdapat pada [link berikut](https://support.realvnc.com/knowledgebase/article/View/523/2/troubleshooting-vnc-server-on-the-raspberry-pi).
+* Akan ada saat dimana kita perlu untuk mengakses lingkungan desktop Raspberry Pi secara remote. Untuk hal tersebut kita dapat memanfaatkan server VNC (Virtual Network Computing) yang terdapat di dalam Raspberry Pi. Ikuti langkah-langkah yang disebutkan pada [link](https://www.raspberrypi.org/documentation/remote-access/vnc/) berikut untuk mengaktifkan server VNC dan mengaksesnya. Anda dapat mengatur resolusi dari VNC viewer dengan mengikuti langkah-langkah yang terdapat pada [link](https://support.realvnc.com/knowledgebase/article/View/523/2/troubleshooting-vnc-server-on-the-raspberry-pi) berikut.
 
 ## Judul-judul proyek yang akan disertakan pada repository ini adalah:
 * [01. Blinking and Fading a LED](/01_Blinking_and_Fading_a_LED)
