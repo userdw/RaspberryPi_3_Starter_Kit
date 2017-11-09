@@ -15,7 +15,7 @@ Through this project you will be introduced to the usage of Light Dependent Resi
 3. Plug the LDR Sensor to the header on the I/O Expansion Shield labelled **A1**,
 4. Run the [Ambient_Light_Monitoring](/05_Ambient_Light_Monitoring/Ambient_Light_Monitoring) code into Raspberry Pi 3 using Python.
 
-Once you turn on the Raspberry Pi 3, it will enter calibration mode for about 3 seconds. Cover the LDR Sensor with your finger to determine the lowest brightness, and uncover the LDR Sensor to determine the highest brightness. Be careful of shadows. If there are no mistakes, LED Module will gets brighter when the ambient light gets dimmer. On the contrary, LED Module will gets dimmer when the ambient light gets brighter.
+If there are no mistakes, LED Module will gets brighter when the ambient light gets dimmer. On the contrary, LED Module will gets dimmer when the ambient light gets brighter.
 
 # [BAHASA INDONESIA] Proyek 5: Ambient Light Monitoring
 Proyek ini digunakan untuk memberikan gambaran mengenai penggunaan sensor Light Dependent Resistor (LDR) untuk mengukur intensitas cahaya lingkungan sekitar. Aplikasi seperti ini dapat ditemukan pada sistem lampu taman hingga pengatur tingkat kecerahan layar pada smartphone kita. Sistem pada proyek ini akan mendeteksi intensitas cahaya sekitar menggunakan LDR Sensor. Apabila intensitas cahaya yang diterima semakin besar, maka tingkat kecerahan LED akan naik. Sebaliknya, apabila intensitas cahaya yang diterima semakin kecil, maka tingkat kecerahan LED akan menurun.
@@ -34,4 +34,4 @@ Proyek ini digunakan untuk memberikan gambaran mengenai penggunaan sensor Light 
 3. Hubungkan LDR Sensor ke header I/O Expansion Shield yang berlabel **A1**,
 4. Jalankan kode program [Ambient_Light_Monitoring](/05_Ambient_Light_Monitoring/Ambient_Light_Monitoring) pada Raspberry Pi 3 menggunakan Python.
 
-Pada saat Raspberry Pi 3 dinyalakan, Raspberry Pi 3 akan memasuki proses kalibrasi selama kurang lebih 3 detik. Tutupi LDR Sensor dengan jari untuk mendapatkan nilai kecerahan terendah, dan hilangkan halangan pada LDR Sensor untuk mendapatkan nilai kecerahan tertinggi. Bayangan akan mempengaruhi proses kalibrasi. Apabila tidak terdapat kesalahan, nyala LED Module akan semakin terang saat cahaya sekitar semakin gelap. Sebaliknya, nyala LED Module akan semakin redup saat cahaya sekitar semakin terang.
+Apabila tidak terdapat kesalahan, nyala LED Module akan semakin terang saat cahaya sekitar semakin gelap. Sebaliknya, nyala LED Module akan semakin redup saat cahaya sekitar semakin terang.
