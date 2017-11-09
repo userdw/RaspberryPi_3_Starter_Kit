@@ -7,7 +7,7 @@ from time import strftime
 try:
   while 1:
     os.system("clear")
-    value1= MCP3202.readADC(0)
+    value1= MCP3202_python3.readADC(0)
     voltage = round(float(value1 * 5000 / 4096), 2)
     temperature = (voltage - 550) / 10
     tampil = round(float(temperature), 2)
