@@ -68,7 +68,7 @@ Repository ini dibuat sebagai pelengkap dari Raspberry Pi 3 Starter Kit. Raspber
 * [06. Potentiometer Controlled Servo](/06_Potentiometer_Controlled_Servo)
 * [07. Weather Station](/07_Weather_Station)
 
-Proyek-proyek yang terdapat pada poin-poin di atas ditujukan sebagai pengantar pemrograman pada Raspberry Pi 3. Kita akan menggunakan bahasa pemrograman Python 3 dan [WiringPi-Python](https://github.com/WiringPi/WiringPi-Python) yang berfungsi sebagai antarmuka Python 3 untuk mengakses pin I/O Raspberry Pi. WiringPi-Python sendiri merupakan Python wrapper untuk library [WiringPi](http://wiringpi.com/) yang dikembangkan menggunakan bahasa C. Instalasi WiringPi-Python dapat dilakukan dengan mengetikkan dan menjalankan perintah-perintah di bawah pada terminal:
+Proyek-proyek yang terdapat pada poin-poin di atas ditujukan sebagai pengantar pemrograman pada Raspberry Pi 3. Adapun bahasa pemrograman yang akan digunakan adalah Python 3, dan [WiringPi-Python](https://github.com/WiringPi/WiringPi-Python) akan difungsikan sebagai antarmuka Python 3 untuk mengakses pin I/O Raspberry Pi. WiringPi-Python sendiri merupakan Python wrapper untuk library [WiringPi](http://wiringpi.com/) yang dikembangkan menggunakan bahasa C. Instalasi WiringPi-Python dapat dilakukan dengan mengetikkan dan menjalankan perintah-perintah di bawah pada terminal:
 ```
 sudo apt-get update
 sudo apt-get install python-dev python-pip
