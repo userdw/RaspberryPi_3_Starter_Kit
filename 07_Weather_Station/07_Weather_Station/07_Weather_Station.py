@@ -12,7 +12,7 @@ try:
 		temperature = (voltage - 550) / 10
 		tampil = round(float(temperature), 2)
  		print("Weather Station")
-		print("Curent Temperature : ", tampil, u"\u2103", "C")
+		print("Curent Temperature : ", tampil, u"\xb0", "C")
     		print("")
 		print("Press CTRL+C to exit")
    		time.sleep(0.075)
