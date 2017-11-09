@@ -54,7 +54,7 @@ Repository ini dibuat sebagai pelengkap dari Raspberry Pi 3 Starter Kit. Raspber
 
 <img src="/images/sudo nano bashrc2.PNG" height="400">
 
-* Konfigurasikan antarmuka Ethernet komputer/laptop Anda agar memiliki alamat IP yang berada dalam rentang subnet mask Raspberry Pi, sebagai contoh ```192.168.10.10```.
+* Konfigurasikan antarmuka port Ethernet komputer/laptop Anda agar memiliki alamat IP yang berada dalam rentang subnet mask Raspberry Pi, sebagai contoh ```192.168.10.10```.
 * Hubungkan port Ethernet Raspberry Pi ke komputer/laptop Anda kemudian nyalakan.
 * Akses Raspberry Pi melalui PuTTY dengan alamat IP ```192.168.10.250``` dan port ```22```.
 * Akan ada saat dimana kita perlu untuk mengakses lingkungan desktop Raspberry Pi secara remote. Untuk hal tersebut kita dapat memanfaatkan server VNC (Virtual Network Computing) yang terdapat di dalam Raspberry Pi. Ikuti langkah-langkah yang disebutkan pada [link](https://www.raspberrypi.org/documentation/remote-access/vnc/) berikut untuk mengaktifkan server VNC dan mengaksesnya. Anda dapat mengatur resolusi dari VNC viewer dengan mengikuti langkah-langkah yang terdapat pada [link](https://support.realvnc.com/knowledgebase/article/View/523/2/troubleshooting-vnc-server-on-the-raspberry-pi) berikut.
