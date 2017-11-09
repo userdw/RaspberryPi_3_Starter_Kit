@@ -15,7 +15,7 @@ How to add movement detection feature to your project? The answer is PIR sensor,
 3. Plug the PIR Sensor to the header on the I/O Expansion Shield labelled **2**,
 4. Run the [Motion_Detector](/04_Motion_Detector/Motion_Detector.py) code into Raspberry Pi 3 using Python.
 
-If there are no mistakes, LED Module should blink as long as there is movevment detected by PIR Sensor.
+If there are no mistakes, LED Module should lights up as long as there is movevment detected by PIR Sensor.
 
 # [BAHASA INDONESIA] Proyek 4: Motion Detector
 Bagaimana kita dapat menambahkan fitur pendeteksi gerakan pada sistem kita? Jawabannya adalah dengan menggunakan sensor PIR, dimana PIR sendiri merupakan kependekan dari Passive Infrared. Sensor PIR bekerja dengan cara mengukur cahaya infra merah yang dipancarkan oleh obyek yang berada pada area pendeteksiannya. Apabila terdapat perubahan dari intensitas cahaya infra merah yang diterima oleh sensor PIR, maka sensor PIR akan mengirimkan sinyal pada sistem kita. Sensor PIR akan dapat mendeteksi gerakan dari obyek-obyek selama cahaya infra merah yang dipancarkan melebihi nilai threshold dari sensor PIR tersebut. Aplikasi yang paling umum dari PIR adalah pintu otomatis yang akan membuka sendiri apabila ada orang yang berjalan mendekat. Pada proyek ini kira akan membuat sebuah sistem sederhana yang akan mendeteksi gerakan tubuh kita memanfaatkan PIR Sensor dan LED Module. Apabila sistem mendeteksi gerakan tubuh kita, maka sistem akan menyalakan LED Module.
@@ -34,4 +34,4 @@ Bagaimana kita dapat menambahkan fitur pendeteksi gerakan pada sistem kita? Jawa
 3. Hubungkan PIR Sensor ke header I/O Expansion Shield yang berlabel **2**,
 4. Jalankan kode program [Motion_Detector](/04_Motion_Detector/Motion_Detector.py) pada Raspberry Pi 3 menggunakan Python.
 
-Apabila tidak terdapat kesalahan, LED Module akan berkedip selama terdapat gerakan yang dideteksi oleh PIR Sensor.
+Apabila tidak terdapat kesalahan, LED Module akan menyala selama terdapat gerakan yang dideteksi oleh PIR Sensor.
