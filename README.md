@@ -28,7 +28,7 @@ This repository has been created as the companion for Raspberry Pi 3 Starter Kit
 * [06. Potentiometer Controlled Servo](/06_Potentiometer_Controlled_Servo)
 * [07. Weather Station](/07_Weather_Station)
 
-Those projects listed above are aimed as introductory to Raspberry Pi 3 programming. All those projects are using WiringPi library for accessing the I/O pins. More information about WiringPi can be found [here](http://wiringpi.com). Since those projects mentioned above will use Python 3, we need to install Python 3 wraper for WiringPi (since it was written in C). Installation for WiringPi Python 3 wrapper (a.k.a WiringPi-Python) can be done by running the commands below on terminal:
+Those projects listed above are aimed as introductory to Raspberry Pi 3 programming. We will use Python 3 as the programming language and [WiringPi-Python](https://github.com/WiringPi/WiringPi-Python) as the Python package to interface with Raspberry Pi's I/O pins. WiringPi-Python itself is a Python wrapper for [WiringPi](http://wiringpi.com/) library which is written in C. Installation for WiringPi-Python can be done by running the commands below on terminal:
 ```
 sudo apt-get update
 sudo apt-get install python-dev python-pip
