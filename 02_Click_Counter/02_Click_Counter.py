@@ -1,17 +1,21 @@
-import wiringpi
+import wiringpi as wpi
 from time import sleep
 
-wiringpi.wiringPiSetup()
-wiringpi.pinMode(21, 0)
+DIGITAL_PUSH_BUTTON = 21
+
+wpi.wiringPiSetup()
+wpi.pinMode(DIGITAL_PUSH_BUTTON, wpi.INPUT)
+
 count = 0
 
 try:
-	while True: # endless loop
-		inputValue = wiringpi.digitalRead(21)
-		if inputValue == True:
+	while True:
+		if wpi.digitalRead(DIGITAL_PUSH_BUTTON) == wpi.HIGH:
 			count = count + 1
 			print("Button pressed " + str(count) + " times")
-		sleep(0.3)
-		
+			while wpi.digitalRead(DIGITAL_PUSH_BUTTON) == wpi.HIGH:
+				pass
+			sleep(0.5)
+				
 except KeyboardInterrupt:
 	print("exit")
