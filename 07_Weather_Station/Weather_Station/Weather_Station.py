@@ -13,7 +13,7 @@ try:
 		print("Curent Temperature : ", tampil, u"\xb0", "C")
 		print("")
 		print("Press CTRL+C to exit")
-		time.sleep(0.075)
+		sleep(0.075)
 		
 except KeyboardInterrupt:
 	print("exit")
