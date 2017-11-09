@@ -5,14 +5,14 @@ Through this project you will be introduced to the usage of Light Dependent Resi
 
 ### In this project you will need:
 * Raspberry Pi 3 (1),
-* I/O Expansion Shield (1),
+* Raspberry Pi IO Expansion Shield (1),
 * LED Module (1),
 * LDR Sensor (1).
 
 ### Assemble the modules following these steps:
-1. Plug the I/O Expansion Shield to the top of Raspberry Pi 3,
-2. Plug the LED Module to the header on the I/O Expansion Shield labelled **10**,
-3. Plug the LDR Sensor to the header on the I/O Expansion Shield labelled **A1**,
+1. Plug the Raspberry Pi IO Expansion Shield to the top of Raspberry Pi 3,
+2. Plug the LED Module to the header on the Raspberry Pi IO Expansion Shield labelled **10**,
+3. Plug the LDR Sensor to the header on the Raspberry Pi IO Expansion Shield labelled **A1**,
 4. Run the [Ambient_Light_Monitoring](/05_Ambient_Light_Monitoring/Ambient_Light_Monitoring) code into Raspberry Pi 3 using Python.
 
 If there are no mistakes, LED Module will gets brighter when the ambient light gets dimmer. On the contrary, LED Module will gets dimmer when the ambient light gets brighter.
@@ -24,14 +24,14 @@ Proyek ini digunakan untuk memberikan gambaran mengenai penggunaan sensor Light 
 
 ### Modul-modul yang dibutuhkan pada proyek ini:
 * Raspberry Pi 3 (1),
-* I/O Expansion Shield (1),
+* Raspberry Pi IO Expansion Shield (1),
 * LED Module (1),
 * LDR Sensor (1).
 
 ### Hubungkan modul-modul di atas mengikuti langkah-langkah di bawah ini:
-1. Pasang I/O Expansion Shield di atas Raspberry Pi 3,
-2. Hubungkan LED Module ke header I/O Expansion Shield yang berlabel **10**,
-3. Hubungkan LDR Sensor ke header I/O Expansion Shield yang berlabel **A1**,
+1. Pasang Raspberry Pi IO Expansion Shield di atas Raspberry Pi 3,
+2. Hubungkan LED Module ke header Raspberry Pi IO Expansion Shield yang berlabel **10**,
+3. Hubungkan LDR Sensor ke header Raspberry Pi IO Expansion Shield yang berlabel **A1**,
 4. Jalankan kode program [Ambient_Light_Monitoring](/05_Ambient_Light_Monitoring/Ambient_Light_Monitoring) pada Raspberry Pi 3 menggunakan Python.
 
 Apabila tidak terdapat kesalahan, nyala LED Module akan semakin terang saat cahaya sekitar semakin gelap. Sebaliknya, nyala LED Module akan semakin redup saat cahaya sekitar semakin terang.
