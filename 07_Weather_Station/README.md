@@ -11,7 +11,7 @@ This project is aimed to give you a simple example about how to build a weather 
 ### Assemble the modules following these steps:
 1. Plug the Raspberry Pi IO Expansion Shield to the top of Raspberry Pi 3,
 2. Plug the MCP9700 Temperature Sensor to the header on the Raspberry Pi IO Expansion Shield labelled **A0**,
-3. Run the [Weather_Station](/07_Weather_Station/Weather_Station) code in Raspberry Pi 3 using python.
+3. Run the [Weather_Station](/07_Weather_Station/Weather_Station) code in Raspberry Pi 3 using Python.
 
 If there are no mistakes, system will start to measure the ambient temperature and display the result on terminal.
 
@@ -28,6 +28,6 @@ Proyek ini ditujukan untuk memberikan contoh sederhana mengenai penggunaan Raspb
 ### Hubungkan modul-modul di atas mengikuti langkah-langkah di bawah ini:
 1. Pasang Raspberry Pi IO Expansion Shield di atas Raspberry Pi 3,
 2. Hubungkan MCP9700 Temperature Sensor ke header Raspberry Pi IO Expansion Shield yang berlabel **A0**,
-5. Jalankan kode program [Weather_Station](/07_Weather_Station/Weather_Station) pada Raspberry Pi 3 menggunakan python.
+3. Jalankan kode program [Weather_Station](/07_Weather_Station/Weather_Station) pada Raspberry Pi 3 menggunakan Python.
 
 Apabila tidak terdapat kesalahan, sistem akan mulai melakukan pengukuran suhu dan menampilkan hasilnya pada terminal.
