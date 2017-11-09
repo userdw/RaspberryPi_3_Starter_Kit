@@ -11,7 +11,7 @@ Through this project you will be introduced to the usage of Light Dependent Resi
 
 ### Assemble the modules following these steps:
 1. Plug the I/O Expansion Shield to the top of Raspberry Pi 3,
-2. Plug the LED Module to the header on the I/O Expansion Shield labelled **9**,
+2. Plug the LED Module to the header on the I/O Expansion Shield labelled **10**,
 3. Plug the LDR Sensor to the header on the I/O Expansion Shield labelled **A1**,
 4. Run the [Ambient_Light_Monitoring](/05_Ambient_Light_Monitoring/Ambient_Light_Monitoring) code into Raspberry Pi 3 using Python.
 
@@ -30,7 +30,7 @@ Proyek ini digunakan untuk memberikan gambaran mengenai penggunaan sensor Light 
 
 ### Hubungkan modul-modul di atas mengikuti langkah-langkah di bawah ini:
 1. Pasang I/O Expansion Shield di atas Raspberry Pi 3,
-2. Hubungkan LED Module ke header I/O Expansion Shield yang berlabel **9**,
+2. Hubungkan LED Module ke header I/O Expansion Shield yang berlabel **10**,
 3. Hubungkan LDR Sensor ke header I/O Expansion Shield yang berlabel **A1**,
 4. Jalankan kode program [Ambient_Light_Monitoring](/05_Ambient_Light_Monitoring/Ambient_Light_Monitoring) pada Raspberry Pi 3 menggunakan Python.
 
