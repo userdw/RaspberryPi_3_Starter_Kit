@@ -3,7 +3,7 @@ Since you visited this page, you must know that Raspberry Pi 3 itself is a compu
 
 <img src="/images/bmkgSource.jpg" height="400">
 
-First, not all of us have time to bother ourself to check weather prediction. But that doesn't mean the information is not useful, we usually just don't care. But when it comes to it, it could save your day by reminding you to get your umbrella ready. Second, since we are maker, the traditional things like browsing internet through web browser software doesn't have any appeal on our eyes. We just want something different. What if, let's say, we want to display the weather prediction information on character LCD? We will try answer that question step by step.
+First, not all of us have time to bother ourself to check weather prediction. But that doesn't mean the information is not useful, we usually just don't care. But when it comes to it, it could save our day by reminding us to get our umbrella ready. Second, since we are maker, the traditional things like browsing internet through web browser software doesn't have any appeal on our eyes. We just want something different. What if, let's say, we want to display the weather prediction information on character LCD? We will try answer that question step by step.
 
 <img src="/images/webParsing.jpg" height="400">
 
@@ -11,4 +11,3 @@ First, not all of us have time to bother ourself to check weather prediction. Bu
 * Raspberry Pi 3 (1),
 * Character LCD 16x2 (1) <sup>* not included in Raspberry Pi 3 Starter Kit</sup>.
 
-If there are no mistakes, system will start to measure the ambient temperature and display it to te screen.
