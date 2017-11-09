@@ -1,5 +1,5 @@
 # [ENGLISH] Project 7: Weather Station
-This project is aimed to give you a simple example about how to use microcontroller as the main processor of weather station. In this project we will monitor the ambient temperature of a room. The system in this project will utilize the MCP9700 Temperature Sensor and  display the readings on the screen.
+This project is aimed to give you a simple example about how to use microcontroller as the main processor of weather station. In this project we will monitor the ambient temperature of a room. The system in this project will utilize the MCP9700 Temperature Sensor and  display the reading on the screen.
 
 <img src="/images/weather station.png" height="400">
 
