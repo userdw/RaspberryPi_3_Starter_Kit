@@ -11,8 +11,8 @@ How to add movement detection feature to your project? The answer is PIR sensor,
 
 ### Assemble the modules following these steps:
 1. Plug the I/O Expansion Shield to the top of Raspberry Pi 3,
-2. Plug the LED Module to the header on the I/O Expansion Shield labelled **9**,
-3. Plug the PIR Sensor to the header on the I/O Expansion Shield labelled **2**,
+2. Plug the LED Module to the header on the I/O Expansion Shield labelled **2**,
+3. Plug the PIR Sensor to the header on the I/O Expansion Shield labelled **9**,
 4. Run the [Motion_Detector](/04_Motion_Detector/Motion_Detector.py) code into Raspberry Pi 3 using Python.
 
 If there are no mistakes, LED Module should lights up as long as there is movevment detected by PIR Sensor.
@@ -30,8 +30,8 @@ Bagaimana kita dapat menambahkan fitur pendeteksi gerakan pada sistem kita? Jawa
 
 ### Hubungkan modul-modul di atas mengikuti langkah-langkah di bawah ini:
 1. Pasang I/O Expansion Shield di atas Raspberry Pi 3,
-2. Hubungkan LED Module ke header I/O Expansion Shield yang berlabel **9**,
-3. Hubungkan PIR Sensor ke header I/O Expansion Shield yang berlabel **2**,
+2. Hubungkan LED Module ke header I/O Expansion Shield yang berlabel **2**,
+3. Hubungkan PIR Sensor ke header I/O Expansion Shield yang berlabel **9**,
 4. Jalankan kode program [Motion_Detector](/04_Motion_Detector/Motion_Detector.py) pada Raspberry Pi 3 menggunakan Python.
 
 Apabila tidak terdapat kesalahan, LED Module akan menyala selama terdapat gerakan yang dideteksi oleh PIR Sensor.
