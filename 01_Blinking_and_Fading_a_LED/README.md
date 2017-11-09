@@ -9,7 +9,7 @@ Almost every start of exploring and developing on any embedded devices starts fr
 <img src="/images/blinking and fading LED.png" height="400">
 
 ### Assemble the modules following these steps:
-1. Plug the I/O Expansion Shield to the top of  Raspberry Pi 3,
+1. Plug the Raspberry Pi IO Expansion Shield to the top of  Raspberry Pi 3,
 2. Plug the LED Module to the header on the I/O Expansion Shield labelled **9**,
 3. Run the [Blinking_and_Fading_a_LED](/01_Blinking_and_Fading_a_LED/Blinking_and_Fading_a_LED.py) code in Raspberry Pi 3 with Python. 
 
@@ -26,7 +26,7 @@ Hampir semua awal dari eksplorasi dan pengembangan yang dilakukan pada embedded 
 <img src="/images/blinking and fading LED.png" height="400">
 
 ### Hubungkan modul-modul di atas mengikuti langkah-langkah di bawah ini:
-1. Pasang I/O Expansion Shield di atas Raspberry Pi 3,
+1. Pasang Raspberry Pi IO Expansion Shield di atas Raspberry Pi 3,
 2. Hubungkan LED Module ke header I/O Expansion Shield yang berlabel **9**,
 3. Jalankan kode program [Blinking_and_Fading_a_LED](/01_Blinking_and_Fading_a_LED/Blinking_and_Fading_a_LED.py) di Raspberry Pi 3 menggunakan Python. 
 
