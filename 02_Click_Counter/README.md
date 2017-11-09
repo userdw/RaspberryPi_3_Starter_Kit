@@ -13,7 +13,7 @@ On the last project we learned how to control output pin on Raspberry Pi 3 by ru
 2. Plug the Digital Push Button to the header on the I/O Expansion Shield labelled **2**,
 3. Run the [Click_Counter](/02_Click_Counter/Click_Counter.py) code into Raspberry Pi 3 using Python.
 
-If there are no mistakes, LED Module should blink according to the number of clicks given to the Digital Push Button.
+If there are no mistakes, the information about how many we pressed the button should appear in terminal.
 
 # [BAHASA INDONESIA] Proyek 2: Click Counter
 Pada proyek sebelumnya, kita telah belajar bagaimana mengendalikan pin output pada Raspberry Pi 3 dengan cara menjalankan kode program Python yang mengedipkan LED serta mengubah tingkat kecerahan LED. Pada proyek ini akan dibahas bagaimana kita menghitung klik (membaca pin input) pada sebuah tombol menggunakan Raspberry Pi 3. Proyek ini akan menghitung penekanan yang kita berikan pada Digital Push Button.
@@ -30,4 +30,4 @@ Pada proyek sebelumnya, kita telah belajar bagaimana mengendalikan pin output pa
 2. Hubungkan Digital Push Button ke header I/O Expansion Shield yang berlabel **2**,
 3. Jalankan kode program [Click_Counter](/02_Click_Counter/Click_Counter.py) ke Raspberry Pi 3 using Python.
 
-Apabila tidak terdapat kesalahan, maka LED Module akan berkedip sesuai dengan jumlah penekanan yang diberikan pada Digital Push Button.
+Apabila tidak terdapat kesalahan, informasi mengenai berapa banyak penekanan tombol yang kita lakukan akan ditampilkan pada terminal.
