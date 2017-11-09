@@ -12,20 +12,3 @@ First, not all of us have time to bother ourself to check weather prediction. Bu
 * Character LCD 16x2 (1) <sup>* not included in Raspberry Pi 3 Starter Kit</sup>.
 
 If there are no mistakes, system will start to measure the ambient temperature and display it to te screen.
-
-# [BAHASA INDONESIA] Proyek 7: Weather Station
-Proyek ini ditujukan untuk memberikan contoh sederhana mengenai penggunaan mikrokontroler sebagai sebuah stasiun cuaca. Adapun pada proyek ini hal yang akan dipantau adalah suhu sekitar dari sebuah ruangan. Sistem pada proyek ini akan memanfaatkan MCP9700 Temperature Sensor untuk pendeteksian suhu, dan menampilkannya pada layar.
-
-<img src="/images/weather station.png" height="443">
-
-### Modul-modul yang dibutuhkan pada proyek ini:
-* Raspberry Pi 3 (1),
-* I/O Expansion Shield (1),
-* MCP9700 Temperature Sensor (1),
-
-### Hubungkan modul-modul di atas mengikuti langkah-langkah di bawah ini:
-1. Pasang I/O Expansion Shield di atas Raspberry Pi 3,
-2. Hubungkan MCP9700 Temperature Sensor ke header I/O Expansion Shield yang berlabel **A0**,
-5. Jalankan kode program [Weather_Station](/07_Weather_Station/07_Weather_Station.py) pada Raspberry Pi 3 menggunakan python.
-
-Apabila tidak terdapat kesalahan, sistem akan mulai melakukan pengukuran suhu dan menampilkannya pada layar.
