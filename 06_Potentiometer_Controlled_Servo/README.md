@@ -10,11 +10,10 @@ If we need to control an output which have more states than on/off, we will have
 * Micro Servo (1).
 
 ### Assemble the modules following these steps:
-1. **Change the PWR_SEL jumper on I/O Expansion Shield to 3V3**,
-2. Plug the I/O Expansion Shield to the top of Raspberry Pi 3,
-3. Plug the Rotation Sensor to the header on the I/O Expansion Shield labelled **A0**,
-4. Plug the Micro Servo to the header on the I/O Expansion Shield labelled **6**,
-5. Run the [Potentiometer_Controlled_Servo](/06_Potentiometer_Controlled_Servo/Potentiometer_Controlled_Servo) code in Raspberry Pi 3 using Python.
+1. Plug the I/O Expansion Shield to the top of Raspberry Pi 3,
+2. Plug the Rotation Sensor to the header on the I/O Expansion Shield labelled **A0**,
+3. Plug the Micro Servo to the header on the I/O Expansion Shield labelled **9**,
+4. Run the [Potentiometer_Controlled_Servo](/06_Potentiometer_Controlled_Servo/Potentiometer_Controlled_Servo) code in Raspberry Pi 3 using Python.
 
 If there are no mistakes, Micro Servo movement will be determined by the rotation of Rotation Sensor. If you don't get the full swing from the servo, it might be you didn't change the position of PWR_SEL jumper to 3V3.
 
@@ -30,10 +29,9 @@ Apabila kita hendak mengendalikan suatu output yang memiliki beberapa keadaan se
 * Micro Servo (1).
 
 ### Hubungkan modul-modul di atas mengikuti langkah-langkah di bawah ini:
-1. **Ubah posisi jumper PWR_SEL pada I/O Expansion Shield ke 3V3**,
-2. Pasang I/O Expansion Shield di atas Raspberry Pi 3,
-3. Hubungkan Rotation Sensor ke header I/O Expansion Shield yang berlabel **A0**,
-4. Hubungkan Micro Servo ke header I/O Expansion Shield yang berlabel **6**,
-5. Jalankan kode program [Potentiometer_Controlled_Servo](/06_Potentiometer_Controlled_Servo/Potentiometer_Controlled_Servo) pada Raspberry Pi 3 menggunakan Python.
+1. Pasang I/O Expansion Shield di atas Raspberry Pi 3,
+2. Hubungkan Rotation Sensor ke header I/O Expansion Shield yang berlabel **A0**,
+3. Hubungkan Micro Servo ke header I/O Expansion Shield yang berlabel **9**,
+4. Jalankan kode program [Potentiometer_Controlled_Servo](/06_Potentiometer_Controlled_Servo/Potentiometer_Controlled_Servo) pada Raspberry Pi 3 menggunakan Python.
 
 Apabila tidak terdapat kesalahan, gerakan Micro Servo akan ditentukan dari putaran yang diberikan ke Rotation Sensor.
