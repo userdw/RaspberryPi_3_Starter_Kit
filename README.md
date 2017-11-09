@@ -68,9 +68,13 @@ Repository ini dibuat sebagai pelengkap dari Raspberry Pi 3 Starter Kit. Raspber
 * [06. Potentiometer Controlled Servo](/06_Potentiometer_Controlled_Servo)
 * [07. Weather Station](/07_Weather_Station)
 
-Proyek-proyek yang terdapat pada poin-poin di atas ditujukan sebagai pengantar untuk pemrograman Raspberry Pi 3. Berikut adalah tabel pin yang membantu anda untuk mengakses pin pada shield menggunakan library WiringPi untuk Raspberry Pi 3 I/O Expansion Shield.
+Proyek-proyek yang terdapat pada poin-poin di atas ditujukan sebagai pengantar pemrograman pada Raspberry Pi 3. Kita akan menggunakan bahasa pemrograman Python 3 dan [WiringPi-Python](https://github.com/WiringPi/WiringPi-Python) yang berfungsi sebagai antarmuka Python 3 untuk mengakses pin I/O Raspberry Pi. WiringPi-Python sendiri merupakan Python wrapper untuk library [WiringPi](http://wiringpi.com/) yang dikembangkan menggunakan bahasa C. Instalasi WiringPi-Python dapat dilakukan dengan mengetikkan dan menjalankan perintah-perintah di bawah pada terminal:
+```
+sudo apt-get update
+sudo apt-get install python-dev python-pip
+sudo pip3 install wiringpi2
+```
+
+Gambar di bawah dapat dijadikan sebagai referensi untuk pengaksesan pin I/O Expansion Shield dengan library WiringPi pada Raspberry Pi 3.
 
 <img src="/images/pin table.png" height="400">
-
-Untuk panduan installasi library WiringPi dapat mengkikuti langkah berikut : http://wiringpi.com/download-and-install/. Kemudian terdapat library kedua yang harus terinstall juga yaitu WiringPi for python, untuk panduan installasi dapat mengikuti langkah berikut : https://goo.gl/Lnh8Xn
-
