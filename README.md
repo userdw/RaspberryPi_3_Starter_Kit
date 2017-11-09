@@ -39,10 +39,9 @@ Image below can be used as reference for accessing I/O Expansion Shield pins wit
 <img src="/images/pin table.png" height="400">
 
 # [BAHASA INDONESIA] Raspberry Pi 3 Starter Kit
-Silahkan kunjungi link berikut untuk mengunduh sistem operasi untuk raspberry pi dengan versi terbaru : https://www.raspberrypi.org/downloads/raspbian/. Repository ini dibuat sebagai pelengkap dari Raspberry Pi 3 Starter Kit. Raspberry Pi 3 Starter Kit merupakan produk yang sesuai untuk digunakan sebagai titik awal eksplorasi ide-ide yang dapat direalisasikan dengan mini PC berharga terjangkau ini.
-Informasi untuk produk tersebut dapat ditemukan pada link-link di bawah:
-* [Raspberry Pi 3 Starter Kit](http://digiwarestore.com/en/) - Halaman produk Raspberry Pi Starter Kit
-* [Raspberry Pi](https://www.raspberrypi.org/)- Raspberry Pi sebagai development board utama
+Repository ini dibuat sebagai pelengkap dari Raspberry Pi 3 Starter Kit. Raspberry Pi 3 Starter Kit sesuai untuk digunakan sebagai titik awal bagi para penghobi ataupun akademisi untuk mulai mengeksplorasi hal-hal yang dapat diwujudkan dengan mini PC berharga terjangkau ini. Informasi untuk Raspberry Pi 3 Starter Kit dapat ditemukan pada link-link di bawah:
+* [Raspberry Pi 3 Starter Kit](http://digiwarestore.com/en/) - Halaman produk Raspberry Pi
+* [Raspberry Pi](https://www.raspberrypi.org/) - Website resmi Raspberry Pi
 
 ## Konfigurasi Awal
 * Tambahkan file ssh tanpa extension dan simpan dalam micro SD card yang digunakan Raspberry pi 3
