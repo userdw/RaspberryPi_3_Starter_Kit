@@ -13,7 +13,7 @@ This project is aimed to give you a simple example about how to use microcontrol
 2. Plug the MCP9700 Temperature Sensor to the header on the Raspberry Pi IO Expansion Shield labelled **A0**,
 3. Run the [Weather_Station](/07_Weather_Station/Weather_Station) code in Raspberry Pi 3 using python.
 
-If there are no mistakes, system will start to measure the ambient temperature and display it on the screen.
+If there are no mistakes, system will start to measure the ambient temperature and display it on terminal.
 
 # [BAHASA INDONESIA] Proyek 7: Weather Station
 Proyek ini ditujukan untuk memberikan contoh sederhana mengenai penggunaan mikrokontroler sebagai sebuah stasiun cuaca. Adapun pada proyek ini hal yang akan dipantau adalah suhu sekitar dari sebuah ruangan. Sistem pada proyek ini akan memanfaatkan MCP9700 Temperature Sensor untuk pendeteksian suhu, dan menampilkannya pada layar.
@@ -30,4 +30,4 @@ Proyek ini ditujukan untuk memberikan contoh sederhana mengenai penggunaan mikro
 2. Hubungkan MCP9700 Temperature Sensor ke header Raspberry Pi IO Expansion Shield yang berlabel **A0**,
 5. Jalankan kode program [Weather_Station](/07_Weather_Station/Weather_Station) pada Raspberry Pi 3 menggunakan python.
 
-Apabila tidak terdapat kesalahan, sistem akan mulai melakukan pengukuran suhu dan menampilkannya pada layar.
+Apabila tidak terdapat kesalahan, sistem akan mulai melakukan pengukuran suhu dan menampilkannya pada terminal.
