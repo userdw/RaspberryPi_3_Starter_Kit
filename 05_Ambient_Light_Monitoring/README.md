@@ -13,7 +13,7 @@ Through this project you will be introduced to the usage of Light Dependent Resi
 1. Plug the I/O Expansion Shield to the top of Raspberry Pi 3,
 2. Plug the LED Module to the header on the I/O Expansion Shield labelled **9**,
 3. Plug the LDR Sensor to the header on the I/O Expansion Shield labelled **A0**,
-4. Run the [Ambient_Light_Monitoring](/05_Ambient_Light_Monitoring/05_Ambient_Light_Monitoring.py) code into Raspberry Pi 3 using Python.
+4. Run the [Ambient_Light_Monitoring](/05_Ambient_Light_Monitoring/05_Ambient_Light_Monitoring) code into Raspberry Pi 3 using Python.
 
 Once you turn on the Raspberry Pi 3, it will enter calibration mode for about 3 seconds. Cover the LDR Sensor with your finger to determine the lowest brightness, and uncover the LDR Sensor to determine the highest brightness. Be careful of shadows. If there are no mistakes, LED Module will gets brighter when the ambient light gets dimmer. On the contrary, LED Module will gets dimmer when the ambient light gets brighter.
 
