@@ -1,22 +1,25 @@
-import wiringpi
+import wiringpi as wpi
 from time import sleep
 
-wiringpi.wiringPiSetup()
-wiringpi.pinMode(1, 0)
-wiringpi.pinMode(21, 1)
+PIR_SENSOR = 1
+LED_MODULE = 21
+
+wpi.wiringPiSetup()
+wpi.pinMode(PIR_SENSOR, wpi.INPUT)
+wpi.pinMode(LED_MODULE, wpi.OUTPUT)
 
 try:
-	while True: # endless loop
-		if wiringpi.digitalRead(1) == True:
+	while True:
+		if wpi.digitalRead(PIR_SENSOR) == wpi.HIGH:
 			print("Moving Object Detected")
 			sleep(0.5)
-			wiringpi.digitalWrite(21, 1)
+			wpi.digitalWrite(LED_MODULE, wpi.HIGH)
 		else:
 			print("No Object Detected")
 			sleep(0.5)
-			wiringpi.digitalWrite(21, 0)
+			wpi.digitalWrite(LED_MODULE, wpi.LOW)
 			
 except KeyboardInterrupt:
-	wiringpi.pinMode(21, 1)
-	wiringpi.digitalWrite(21, 0)
+	wpi.pinMode(LED_MODULE, wpi.OUTPUT)
+	wpi.digitalWrite(LED_MODULE, wpi.LOW)
 	print("exit")
