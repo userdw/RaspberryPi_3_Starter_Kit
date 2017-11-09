@@ -19,7 +19,7 @@ This repository has been created as the companion for Raspberry Pi 3 Starter Kit
 * Access Raspberry Pi using PuTTY with ```192.168.10.250``` as IP address and ```22``` as Port.
 * Sometime there are cases when we need to access Raspberry Pi's Desktop remotely. In that case we can make use of VNC (Virtual Network Computing) server inside Raspberry Pi. Follow the steps mentioned [here](https://www.raspberrypi.org/documentation/remote-access/vnc/) to enable the VNC server and connecting to it. You can set your VNC viewer resolution following the steps mentioned [here](https://support.realvnc.com/knowledgebase/article/View/523/2/troubleshooting-vnc-server-on-the-raspberry-pi).
  
-## The titles of the projects which will be included in this repository are:
+## The titles of the projects which included in this repository are:
 * [01. Blinking and Fading a LED](/01_Blinking_and_Fading_a_LED)
 * [02. Click Counter](/02_Click_Counter)
 * [03. Proximity Indicator](/03_Proximity_Indicator)
@@ -59,7 +59,7 @@ Repository ini dibuat sebagai pelengkap dari Raspberry Pi 3 Starter Kit. Raspber
 * Akses Raspberry Pi melalui PuTTY dengan alamat IP ```192.168.10.250``` dan port ```22```.
 * Akan ada saat dimana kita perlu untuk mengakses lingkungan desktop Raspberry Pi secara remote. Untuk hal tersebut kita dapat memanfaatkan server VNC (Virtual Network Computing) yang terdapat di dalam Raspberry Pi. Ikuti langkah-langkah yang disebutkan pada [link](https://www.raspberrypi.org/documentation/remote-access/vnc/) berikut untuk mengaktifkan server VNC dan mengaksesnya. Anda dapat mengatur resolusi dari VNC viewer dengan mengikuti langkah-langkah yang terdapat pada [link](https://support.realvnc.com/knowledgebase/article/View/523/2/troubleshooting-vnc-server-on-the-raspberry-pi) berikut.
 
-## Judul-judul proyek yang akan disertakan pada repository ini adalah:
+## Judul-judul proyek yang disertakan pada repository ini adalah:
 * [01. Blinking and Fading a LED](/01_Blinking_and_Fading_a_LED)
 * [02. Click Counter](/02_Click_Counter)
 * [03. Proximity Indicator](/03_Proximity_Indicator)
