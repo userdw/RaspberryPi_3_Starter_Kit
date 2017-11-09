@@ -12,9 +12,9 @@ Measuring distance can be done through a lot of methods. One of the most common 
 
 ### Assemble the modules following these steps:
 1. Plug the Raspberry Pi IO Expansion Shield to the top of Raspberry Pi 3,
-2. Plug the LED Module to the header on the I/O Expansion Shield labelled **9**,
-3. Plug the Buzzer Module to the header on the I/O Expansion Shield labelled **2**,
-4. Plug the IR Sensor to the header on the I/O Expansion Shield labelled **A0**,
+2. Plug the LED Module to the header on the Raspberry Pi IO Expansion Shield labelled **9**,
+3. Plug the Buzzer Module to the header on the Raspberry Pi IO Expansion Shield labelled **2**,
+4. Plug the IR Sensor to the header on the Raspberry Pi IO Expansion Shield labelled **A0**,
 5. Run the [Proximity_Indicator](/03_Proximity_Indicator/Proximity_Indicator) code into Raspberry Pi 3 using Python.
 
 If there are no mistakes, LED Module should blink faster as the object gets near, and Buzzer Module should beep faster as well. On the contrary, LED Module should blink slower as the objects gets further, and Buzzer Module should beep slower as well.
@@ -33,9 +33,9 @@ Pengukuran jarak dapat dilakukan dengan banyak cara, dimana salah satu metode ya
 
 ### Hubungkan modul-modul di atas mengikuti langkah-langkah di bawah ini:
 1. Pasang Raspberry Pi IO Expansion Shield di atas Raspberry Pi 3,
-2. Hubungkan LED Module ke header I/O Expansion Shield yang berlabel **9**,
-3. Hubungkan Buzzer Module ke header I/O Expansion Shield yang berlabel **2**,
-4. Hubungkan IR Sensor ke header I/O Expansion Shield yang berlabel **A0**,
+2. Hubungkan LED Module ke header Raspberry Pi IO Expansion Shield yang berlabel **9**,
+3. Hubungkan Buzzer Module ke header Raspberry Pi IO Expansion Shield yang berlabel **2**,
+4. Hubungkan IR Sensor ke header Raspberry Pi IO Expansion Shield yang berlabel **A0**,
 5. Jalankan kode program [Proximity_Indicator](/03_Proximity_Indicator/Proximity_Indicator) ke Raspberry Pi 3 menggunakan Python.
 
 Apabila tidak terdapat kesalahan, maka LED Module akan berkedip semakin cepat saat obyek yang dideteksi semakin mendekat, dan Buzzer Module akan berbunyi semakin cepat pula. Sebaliknya, LED Module akan berkedip semakin lambat saat obyek yang dideteksi semakin menjauh, dan Buzzer Module akan berbunyi semakin lambat pula.
