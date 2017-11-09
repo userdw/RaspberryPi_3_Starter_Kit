@@ -1,5 +1,5 @@
 # [ENGLISH] Project 7: Weather Station
-This project is aimed to give you a simple example about how to use microcontroller as the main processor of weather station. In this project we will monitor the ambient temperature of a room. The system in this project will utilize the MCP9700 Temperature Sensor and  display the reading on the screen.
+This project is aimed to give you a simple example about how to use microcontroller as the main processor of weather station. In this project we will monitor the ambient temperature of a room. The system in this project will utilize the MCP9700 Temperature Sensor and  display the reading on terminal.
 
 <img src="/images/weather station.png" height="400">
 
@@ -16,7 +16,7 @@ This project is aimed to give you a simple example about how to use microcontrol
 If there are no mistakes, system will start to measure the ambient temperature and display the result on terminal.
 
 # [BAHASA INDONESIA] Proyek 7: Weather Station
-Proyek ini ditujukan untuk memberikan contoh sederhana mengenai penggunaan mikrokontroler sebagai sebuah stasiun cuaca. Adapun pada proyek ini hal yang akan dipantau adalah suhu sekitar dari sebuah ruangan. Sistem pada proyek ini akan memanfaatkan MCP9700 Temperature Sensor untuk pendeteksian suhu, dan menampilkannya pada layar.
+Proyek ini ditujukan untuk memberikan contoh sederhana mengenai penggunaan mikrokontroler sebagai sebuah stasiun cuaca. Adapun pada proyek ini hal yang akan dipantau adalah suhu sekitar dari sebuah ruangan. Sistem pada proyek ini akan memanfaatkan MCP9700 Temperature Sensor untuk pendeteksian suhu, dan menampilkannya pada terminal.
 
 <img src="/images/weather station.png" height="443">
 
