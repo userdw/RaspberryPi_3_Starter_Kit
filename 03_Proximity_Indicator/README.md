@@ -13,7 +13,7 @@ Measuring distance can be done through a lot of methods. One of the most common 
 1. Plug the I/O Expansion Shield to the top of Raspberry Pi 3,
 2. Plug the LED Module to the header on the I/O Expansion Shield labelled **9**,
 3. Plug the IR Sensor to the header on the I/O Expansion Shield labelled **A0**,
-4. Run the [Proximity_Indicator](/03_Proximity_Indicator/03_Proximity_Indicator) code into Raspberry Pi 3 using Python.
+4. Run the [Proximity_Indicator](/03_Proximity_Indicator/Proximity_Indicator) code into Raspberry Pi 3 using Python.
 
 Once you turn on the Raspberry Pi 3, it will enter calibration mode for about 3 seconds. Cover the IR Sensor with the desired object which will be tracked to determine the highest brightness, and uncover the IR Sensor to determine the lowest brightness.If there are no mistakes, LED Module should blink faster as the object gets near. On the contrary, LED Module should blink slower as the objects gets further.
 
