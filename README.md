@@ -39,7 +39,7 @@ Image below can be used as reference for accessing I/O Expansion Shield pins wit
 <img src="/images/pin table.png" height="400">
 
 # [BAHASA INDONESIA] Raspberry Pi 3 Starter Kit
-Repository ini dibuat sebagai pelengkap dari Raspberry Pi 3 Starter Kit. Raspberry Pi 3 Starter Kit sesuai untuk digunakan sebagai titik awal bagi para penghobi ataupun akademisi untuk mulai mengeksplorasi hal-hal yang dapat diwujudkan dengan Raspberry Pi 3. Informasi untuk Raspberry Pi 3 Starter Kit dapat ditemukan pada link-link di bawah:
+Repository ini dibuat sebagai pelengkap dari Raspberry Pi 3 Starter Kit. Raspberry Pi 3 Starter Kit sesuai untuk digunakan sebagai titik awal bagi para penghobi maupun akademisi untuk mulai mengeksplorasi hal-hal yang dapat diwujudkan dengan Raspberry Pi 3. Informasi untuk Raspberry Pi 3 Starter Kit dapat ditemukan pada link-link di bawah:
 * [Raspberry Pi 3 Starter Kit](http://digiwarestore.com/en/) - Halaman produk Raspberry Pi 3 Starter Kit
 * [Raspberry Pi](https://www.raspberrypi.org/) - Website resmi Raspberry Pi
 
