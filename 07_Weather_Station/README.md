@@ -5,12 +5,12 @@ This project is aimed to give you a simple example about how to use microcontrol
 
 ### In this project you will need:
 * Raspberry Pi 3 (1),
-* I/O Expansion Shield (1),
+* Raspberry Pi IO Expansion Shield (1),
 * MCP9700 Temperature Sensor (1),
 
 ### Assemble the modules following these steps:
-1. Plug the I/O Expansion Shield to the top of Raspberry Pi 3,
-2. Plug the MCP9700 Temperature Sensor to the header on the I/O Expansion Shield labelled **A0**,
+1. Plug the Raspberry Pi IO Expansion Shield to the top of Raspberry Pi 3,
+2. Plug the MCP9700 Temperature Sensor to the header on the Raspberry Pi IO Expansion Shield labelled **A0**,
 3. Run the [Weather_Station](/07_Weather_Station/Weather_Station) code in Raspberry Pi 3 using python.
 
 If there are no mistakes, system will start to measure the ambient temperature and display it to te screen.
@@ -22,12 +22,12 @@ Proyek ini ditujukan untuk memberikan contoh sederhana mengenai penggunaan mikro
 
 ### Modul-modul yang dibutuhkan pada proyek ini:
 * Raspberry Pi 3 (1),
-* I/O Expansion Shield (1),
+* Raspberry Pi IO Expansion Shield (1),
 * MCP9700 Temperature Sensor (1),
 
 ### Hubungkan modul-modul di atas mengikuti langkah-langkah di bawah ini:
-1. Pasang I/O Expansion Shield di atas Raspberry Pi 3,
-2. Hubungkan MCP9700 Temperature Sensor ke header I/O Expansion Shield yang berlabel **A0**,
+1. Pasang Raspberry Pi IO Expansion Shield di atas Raspberry Pi 3,
+2. Hubungkan MCP9700 Temperature Sensor ke header Raspberry Pi IO Expansion Shield yang berlabel **A0**,
 5. Jalankan kode program [Weather_Station](/07_Weather_Station/Weather_Station) pada Raspberry Pi 3 menggunakan python.
 
 Apabila tidak terdapat kesalahan, sistem akan mulai melakukan pengukuran suhu dan menampilkannya pada layar.
