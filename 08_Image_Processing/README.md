@@ -58,13 +58,6 @@ print(cv2.__version__)
 ```
 If there are no errors prompted, then we've been successfully installed OpenCV on our Raspberry Pi 3. The steps mentioned above is a slightly modified version [this](https://www.pyimagesearch.com/2017/10/09/optimizing-opencv-on-the-raspberry-pi/).
 
-### In this project you will need:
-* Raspbery Pi 3 (1),
-* Raspberry Pi IO Expansion Shield (1),
-* LED Module (1).
-
-<img src="/images/blinking and fading LED.png" height="400">
-
 ## The topics which will be included in this part are:
 * Color spaces
 * Histogram
