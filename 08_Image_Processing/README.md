@@ -61,13 +61,13 @@ print(cv2.__version__)
 If there are no errors prompted, that means we've been successfully installed OpenCV on our Raspberry Pi 3. The steps mentioned above is a slightly modified version [this](https://www.pyimagesearch.com/2017/10/09/optimizing-opencv-on-the-raspberry-pi/).
 
 ## The topics which will be included in this project are:
-* Color spaces
-* Histogram
-* Smoothing filter (averaging filter)
-* Thresholding
-* Morphology
-* Labelling
-* Blob detection
+* [Color spaces].
+* [Histogram].
+* [Averaging filter].
+* [Thresholding].
+* [Morphology].
+* [Labelling].
+* [Blob detection].
 
 # [BAHASA INDONESIA] Proyek 8: Image Processing
 Under construction
