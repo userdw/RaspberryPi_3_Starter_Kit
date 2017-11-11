@@ -1,5 +1,7 @@
 # [ENGLISH] Image Processing
-Commonly found microcontrollers can't handle any application that involves image processing as one of its features, because the available resources simply aren't enough. Usually, the last resort is to utilize a computer/laptop for that matter.
+Commonly found microcontrollers can't handle any application that involves image processing as one of its features. That's because the available resources simply aren't enough. Usually, the last resort is to utilize a computer/laptop for that matter.
+
+<img src="/images/roboLaptop.jpg" height="300">
 
 As you can see, the look of the robot above is somewhat terrible and expensive at the same time. Now we can actually replace the laptop with Raspberry Pi 3, therefore the price for building one would be far cheaper and not to mention that the appearance would be somewhat better. In this part we will try to do some image processing stuffs on Raspberry Pi 3 with Python 3 and OpenCV.
 
