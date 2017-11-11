@@ -25,7 +25,7 @@ cd ~/opencv-3.3.0/
 mkdir build
 cd build
 ```
-* Type and run the command below:
+* Type and run the command below on your terminal:
 ```
 cmake -D CMAKE_BUILD_TYPE=RELEASE \
   -D CMAKE_INSTALL_PREFIX=/usr/local \
@@ -37,7 +37,7 @@ cmake -D CMAKE_BUILD_TYPE=RELEASE \
   -D BUILD_EXAMPLES=OFF ..
 ```
 * Open ```/etc/dphys-swapfile``` then edit ```CONF_SWAPSIZE=100``` to ```CONF_SWAPSIZE=1024```.
-* Type and run the command below:
+* Type and run the commands below on your terminal:
 ```
 sudo /etc/init.d/dphys-swapfile stop
 sudo /etc/init.d/dphys-swapfile start
@@ -46,7 +46,7 @@ sudo make install
 sudo ldconfig
 ```
 * Open ```/etc/dphys-swapfile``` then edit ```CONF_SWAPSIZE=1024``` to ```CONF_SWAPSIZE=100```.
-* Type and run the command below:
+* Type and run the commands below on your terminal:
 ```
 sudo /etc/init.d/dphys-swapfile stop
 sudo /etc/init.d/dphys-swapfile start
@@ -56,7 +56,7 @@ sudo /etc/init.d/dphys-swapfile start
 import cv2
 print(cv2.__version__)
 ```
-If there are no errors prompted, then we've been successfully installed OpenCV on our Raspberry Pi 3.
+If there are no errors prompted, then we've been successfully installed OpenCV on our Raspberry Pi 3. The steps mentioned above is a slightly modified version [this](https://www.pyimagesearch.com/2017/10/09/optimizing-opencv-on-the-raspberry-pi/).
 
 ### In this project you will need:
 * Raspbery Pi 3 (1),
