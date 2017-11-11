@@ -1,4 +1,4 @@
-# [ENGLISH] Image Processing
+# [ENGLISH] Project 8: Image Processing
 Commonly found microcontrollers can't handle any application that involves image processing as one of its features. That's because the available resources simply aren't enough. Usually, the last resort is to utilize a computer/laptop for that matter.
 
 <img src="/images/roboLaptop.jpg" height="300">
@@ -60,7 +60,7 @@ print(cv2.__version__)
 ```
 If there are no errors prompted, then we've been successfully installed OpenCV on our Raspberry Pi 3. The steps mentioned above is a slightly modified version [this](https://www.pyimagesearch.com/2017/10/09/optimizing-opencv-on-the-raspberry-pi/).
 
-## The topics which will be included in this part are:
+## The topics which will be included in this project are:
 * Color spaces
 * Histogram
 * Smoothing filter (averaging filter)
@@ -69,5 +69,5 @@ If there are no errors prompted, then we've been successfully installed OpenCV o
 * Labelling
 * Blob detection
 
-# [BAHASA INDONESIA] Image Processing
+# [BAHASA INDONESIA] Proyek 8: Image Processing
 Under construction
