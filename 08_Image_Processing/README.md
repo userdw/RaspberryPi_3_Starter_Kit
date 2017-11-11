@@ -1,5 +1,3 @@
-Under construction
-
 # [ENGLISH] Image Processing
 Commonly found microcontrollers can't handle any application that involves image processing as one of its features, because the available resources aren't enough. Usually, the last resort is to utilize computer/laptop for that matter.
 
@@ -53,6 +51,12 @@ sudo ldconfig
 sudo /etc/init.d/dphys-swapfile stop
 sudo /etc/init.d/dphys-swapfile start
 ```
+* Check OpenCV installation by typing commands below on Python 3:
+```
+import cv2
+print(cv2.__version__)
+```
+If there are no errors prompted, then we've been successfully installed OpenCV on our Raspberry Pi 3.
 
 ### In this project you will need:
 * Raspbery Pi 3 (1),
@@ -68,19 +72,5 @@ sudo /etc/init.d/dphys-swapfile start
 
 If there are no mistakes, the LED Module should start blinking then increase and fade in its brightness.
 
-# [BAHASA INDONESIA] Proyek 1: Blinking and Fading a LED
-Hampir semua awal dari eksplorasi dan pengembangan yang dilakukan pada embedded device dimulai dari mengedipkan LED, di mana hal tersebut digunakan untuk memastikan bahwa board kita dapat bekerja dengan baik, serta bagi kita agar mengetahui bagaimana bentuk kode yang paling sederhana untuk mengakses output pin dari board tersebut. Hal yang sama akan kita lakukan untuk perjalanan eksplorasi Raspberry Pi 3 kita. Melalui proyek ini, kami berharap Anda akan mendapatkan gambaran bahwa mengendalikan output pin pada Raspberry Pi 3 adalah hal yang mudah dilakukan. Bahasa pemrograman yang akan digunakan adalah Python. Python merupakan bahasa pemrograman yang bersahabat bagi programmer awal yang baru saja memasuki dunia pemrograman. Adapun sintaks Python yang mudah dibaca akan membuat Anda dapat mulai mengendalikan output pin pada Raspberry Pi 3 dengan cepat.
-
-### Modul-modul yang dibutuhkan pada proyek ini:
-* Raspberry Pi 3 (1),
-* Raspberry Pi IO Expansion Shield (1),
-* LED Module (1).
-
-<img src="/images/blinking and fading LED.png" height="400">
-
-### Hubungkan modul-modul di atas mengikuti langkah-langkah di bawah ini:
-1. Pasang Raspberry Pi IO Expansion Shield di atas Raspberry Pi 3,
-2. Hubungkan LED Module ke header Raspberry Pi IO Expansion Shield yang berlabel **9**,
-3. Jalankan kode program [Blinking_and_Fading_a_LED](/01_Blinking_and_Fading_a_LED/Blinking_and_Fading_a_LED.py) di Raspberry Pi 3 menggunakan Python. 
-
-Apabila tidak terdapat kesalahan, maka LED Module akan berkedip kemudian tingkat kecerahannya akan berubah.
+# [BAHASA INDONESIA] Image Processing
+Under construction
