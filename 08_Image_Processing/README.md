@@ -65,12 +65,14 @@ If there are no errors prompted, then we've been successfully installed OpenCV o
 
 <img src="/images/blinking and fading LED.png" height="400">
 
-### Assemble the modules following these steps:
-1. Plug the Raspberry Pi IO Expansion Shield to the top of  Raspberry Pi 3,
-2. Plug the LED Module to the header on the Raspberry Pi IO Expansion Shield labelled **9**,
-3. Run the [Blinking_and_Fading_a_LED](/01_Blinking_and_Fading_a_LED/Blinking_and_Fading_a_LED.py) code in Raspberry Pi 3 with Python. 
-
-If there are no mistakes, the LED Module should start blinking then increase and fade in its brightness.
+## The topics which will be included in this part are:
+* Color spaces
+* Histogram
+* Smoothing filter (averaging filter)
+* Thresholding
+* Morphology
+* Labelling
+* Blob detection
 
 # [BAHASA INDONESIA] Image Processing
 Under construction
