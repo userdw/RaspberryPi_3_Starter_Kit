@@ -12,16 +12,16 @@ sudo apt-get install qtcreator pyqt5-dev-tools
 * We will use Qt Designer to design our GUI. The installation has been done in the previous step, and can be found in ```/usr/lib/arm-linux-gnueabihf/qt5/bin/designer```. To make it easier for us to open it, we can make a desktop shortcut for it. Follow the steps below to make the shortcut:
     * Make a new file on desktop without any extension. Give it an easy to remember name, for example ```Qt Designer```.
     * Insert the code below to the file:
-```
-[Desktop Entry]
-Name=Qt Designer
-Comment=Qt Designer
-Exec=sudo /usr/lib/arm-linux-gnueabihf/qt5/bin/designer
-Type=Application
-Encoding=UTF-8
-Terminal=false
-Categories=None;
-```
+    ```
+    [Desktop Entry]
+    Name=Qt Designer
+    Comment=Qt Designer
+    Exec=sudo /usr/lib/arm-linux-gnueabihf/qt5/bin/designer
+    Type=Application
+    Encoding=UTF-8
+    Terminal=false
+    Categories=None;
+    ```
 
 # [BAHASA INDONESIA] Proyek 9: Graphical User Interface
 Under construction
