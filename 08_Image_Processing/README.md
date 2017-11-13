@@ -64,13 +64,13 @@ If there are no errors prompted, that means we've been successfully installed Op
 In this project we will use the well known Matplotlib to display our image. You can install Matplotlib by typing and running ```sudo apt-get install python3-matplotlib``` command on terminal.
 
 ## The topics which will be included in this project are:
-* [Color spaces].
+* [Color Spaces].
 * [Histogram].
-* [Averaging filter].
+* [Averaging Filter].
 * [Thresholding].
 * [Morphology].
 * [Labelling].
-* [Blob detection].
+* [Blob Detection].
 
 # [BAHASA INDONESIA] Proyek 8: Image Processing
 Under construction
