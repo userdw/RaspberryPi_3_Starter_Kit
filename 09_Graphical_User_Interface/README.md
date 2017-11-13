@@ -1,73 +1,27 @@
 # [ENGLISH] Project 9: Graphical User Interface
-Commonly found microcontrollers can't handle any application that involves image processing as one of its features. That's because the available resources simply aren't enough. Usually, the last resort is to utilize a computer/laptop for that matter.
+Raspberry Pi 3 is a mini computer, therefore most of things that can be done on normal computer can be done as well on Raspberry Pi 3. Graphical User Interface programming, or GUI programming for short is one of them. With Raspberry Pi 3 we can make sophisticated GUI design with less effort when compared to microcontroller. In this project we will try to do some GUI design and programming on Raspberry Pi 3 using Python and Qt.
 
-<img src="/images/roboLaptop.jpg" height="300">
-
-As you can see, the look of the robot above is somewhat terrible and expensive at the same time. Now we can actually replace the laptop with Raspberry Pi 3, therefore the price for building one would be far cheaper and not to mention that the appearance would be somewhat better. In this project we will try to do some image processing stuffs on Raspberry Pi 3 with Python 3 and [OpenCV](https://opencv.org/).
-
-## OpenCV Installation
-Before we get started, we need to install OpenCV on our Raspberry Pi 3. The installation can be done by following the steps below:
-* Type and run the commands below on your terminal:
+## Qt Installation
+Before we get started, we need to install Qt on our Raspberry Pi 3. The installation can be done by following the steps below:
+* Type and run the commands below on your terminal to install all the required tools and packages on Raspberry Pi 3:
 ```
-sudo apt-get update && sudo apt-get upgrade
-sudo apt-get install build-essential cmake pkg-config
-sudo apt-get install libjpeg-dev libtiff5-dev libjasper-dev libpng12-dev
-sudo apt-get install libavcodec-dev libavformat-dev libswscale-dev libv4l-dev
-sudo apt-get install libxvidcore-dev libx264-dev
-sudo apt-get install libgtk2.0-dev libgtk-3-dev
-sudo apt-get install libcanberra-gtk*
-sudo apt-get install libatlas-base-dev gfortran
-sudo apt-get install python2.7-dev python3-dev
-cd ~
-wget -O opencv.zip https://github.com/Itseez/opencv/archive/3.3.0.zip
-unzip opencv.zip
-wget -O opencv_contrib.zip https://github.com/Itseez/opencv_contrib/archive/3.3.0.zip
-unzip opencv_contrib.zip
-cd ~/opencv-3.3.0/
-mkdir build
-cd build
+sudo apt-get install python3-pyqt5
+sudo apt-get install qttools5-dev-tools
+sudo apt-get install qtcreator pyqt5-dev-tools
 ```
-* Type and run the command below on your terminal:
+* We will use Qt Designer to design our GUI. The installation has been done in the previous step, and can be found in ```/usr/lib/arm-linux-gnueabihf/qt5/bin/designer```. To make it easier for us to open it, we can make a desktop shortcut for it. Follow the steps below to make the shortcut:
+    * Make a new file on desktop without any extension. Give it an easy to remember name, for example ```Qt Designer```.
+	* Insert the code below to the file:
 ```
-cmake -D CMAKE_BUILD_TYPE=RELEASE \
-  -D CMAKE_INSTALL_PREFIX=/usr/local \
-  -D OPENCV_EXTRA_MODULES_PATH=~/opencv_contrib-3.3.0/modules \
-  -D ENABLE_NEON=ON \
-  -D ENABLE_VFPV3=ON \
-  -D BUILD_TESTS=OFF \
-  -D INSTALL_PYTHON_EXAMPLES=OFF \
-  -D BUILD_EXAMPLES=OFF ..
+[Desktop Entry]
+Name=Qt Designer
+Comment=Qt Designer
+Exec=sudo /usr/lib/arm-linux-gnueabihf/qt5/bin/designer
+Type=Application
+Encoding=UTF-8
+Terminal=false
+Categories=None;
 ```
-* Open ```/etc/dphys-swapfile``` then edit ```CONF_SWAPSIZE=100``` to ```CONF_SWAPSIZE=1024```.
-* Type and run the commands below on your terminal:
-```
-sudo /etc/init.d/dphys-swapfile stop
-sudo /etc/init.d/dphys-swapfile start
-make -j4
-sudo make install
-sudo ldconfig
-```
-* Open ```/etc/dphys-swapfile``` then edit ```CONF_SWAPSIZE=1024``` to ```CONF_SWAPSIZE=100```.
-* Type and run the commands below on your terminal:
-```
-sudo /etc/init.d/dphys-swapfile stop
-sudo /etc/init.d/dphys-swapfile start
-```
-* Check OpenCV installation by typing commands below on Python 3:
-```
-import cv2
-print(cv2.__version__)
-```
-If there are no errors prompted, that means we've been successfully installed OpenCV on our Raspberry Pi 3. The steps mentioned above is a slightly modified version [this](https://www.pyimagesearch.com/2017/10/09/optimizing-opencv-on-the-raspberry-pi/).
-
-## The topics which will be included in this project are:
-* [Color spaces].
-* [Histogram].
-* [Averaging filter].
-* [Thresholding].
-* [Morphology].
-* [Labelling].
-* [Blob detection].
 
 # [BAHASA INDONESIA] Proyek 9: Graphical User Interface
 Under construction
