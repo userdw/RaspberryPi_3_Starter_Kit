@@ -24,6 +24,8 @@ Categories=None;
 ```
 * You can open Qt Designer by double-clicking the file.
 
+<img src="/images/Qt.png" height="400">
+
 ## The topics which will be included in this project are:
 * [Button]
 * [Input Widgets]
