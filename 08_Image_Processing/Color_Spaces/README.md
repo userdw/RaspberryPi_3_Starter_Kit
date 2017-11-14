@@ -2,7 +2,7 @@
 
 <img src="/images/Lenna.jpg" height="400">
 
-A color model or color space is an abstract mathematical model describing the way colors can be represented as tuples of numbers. One color space is better suited for some cases than the other, therefore it's important for us to know some of the color spaces available.
+Colors doesn't exist, as they are just what we are perceive with our vision. A color model or color space is an abstract mathematical model describing the way colors can be represented as tuples of numbers. One color space is better suited for some cases than the other, therefore it's important for us to know some of the color spaces available.
 
 ## RGB
 RGB (Red, Green, Blue) is the most usual way to represent a color image. It came from the phiposophy that everything start from black. A given color can be produced through emitting and combining red, green, and blue light together with specific intensity for each light. OpenCV use BGR instead of RGB. They are basically the same in value but different in order. As for why OpenCV use BGR, [this article](https://www.learnopencv.com/why-does-opencv-use-bgr-color-format/) might give you the reason. You can get each channel value with built-in OpenCV function ```cv2.split```. Below is the code to extract BGR values in an image and store them separately in variables.
@@ -21,7 +21,6 @@ cv2.imshow("Image", _imgRslt)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
-
 The output image should be the same as image below, representing blue, green, and red channel respectively.
 
 <img src="/images/BGR_Lenna.jpg" height="200">
