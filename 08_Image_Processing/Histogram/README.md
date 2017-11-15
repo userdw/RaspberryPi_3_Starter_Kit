@@ -27,4 +27,6 @@ After we equalized the histogram, we can obtain more information on the lower im
 
 <img src="/images/histogramEquation.png" width="500">
 
+where **cdf**<sub>**min**</sub> is the minimum non-zero value of the cumulative distribution function (in this case 1), M × N gives the image's number of pixels (for the example above 64, where M is width and N the height) and L is the number of grey levels used (in most cases, like this one, 256).
+
 ## Histogram Distance
