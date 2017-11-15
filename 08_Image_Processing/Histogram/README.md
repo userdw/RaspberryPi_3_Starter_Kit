@@ -18,3 +18,4 @@ The example of how to plot histogram of an image can be found [here](/08_Image_P
 
 ## Histogram Equalization
 
+## Histogram Distance
