@@ -17,5 +17,10 @@ The example of how to plot histogram of an image can be found [here](/08_Image_P
 <img src="/images/histogram.png" height="400">
 
 ## Histogram Equalization
+Histogram equalization is a technique to stretch histogram so it doesn't confined to some specific range of values only. Histogram of a dark image tends to confined to low values, on the contrary histogram of a bright image tends to confined to high values. Compare two images below.
+
+<img src="/images/poorLightHistogram.png" height="400">
+
+<img src="/images/equalizedHistogram.png" height="400">
 
 ## Histogram Distance
