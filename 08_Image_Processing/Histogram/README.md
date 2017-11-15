@@ -23,6 +23,8 @@ Histogram equalization is a technique to stretch histogram so it doesn't confine
 
 <img src="/images/equalizedHistogram.png" height="400">
 
-We can see more details in the lower image, since we stretched the histogram.
+After we equalized the histogram, we can obtain more information on the lower image than upper image. The general histogram equalization formula is as below.
+
+<img src="/images/histogramEquation.png" width="500">
 
 ## Histogram Distance
