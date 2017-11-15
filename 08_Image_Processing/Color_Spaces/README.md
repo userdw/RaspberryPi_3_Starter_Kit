@@ -25,11 +25,11 @@ credits to: https://commons.wikimedia.org/wiki/User:SharkD
 
 <img src="/images/hlsFormula.jpg" width="500">
 
-<img src="/images/hlsSpace.png" height="400">
-
 If the value of H after calculation is less than 0, we should add 360 to it. The outputs from the above equation will be:
 * 0 <= L <= 1
 * 0 <= S <= 1
 * 0 <= H <= 360
 
 Since we usually use 8-bit depth for each channel, the value of L and S will be scaled-up to 0 - 255, and H will be divided by 2 so it will fit the 8-bit range.
+
+<img src="/images/hlsSpace.png" height="400">
