@@ -1,8 +1,15 @@
 # [ENGLISH] Histogram
 
-Histogram is another way of understanding an image. It is a plot with x-axis ranging from 0 to 255 (usually) describing pixel intensity, and y-axis describing the number of pixels with corresponding intensity found in the image. By looking at the histogram of an image, we get intuition about contrast, brightness, intensity distribution etc. of that image. Calculating histogram in OpenCV can be done using ```cv2.calcHist(images, channels, mask, histSize, ranges[, hist[, accumulate]])```. The explanation for those parameters is as below:
-1. asdasd
-2. asdasd
+Histogram is another way of understanding an image. It is a plot with x-axis ranging from 0 to 255 (usually) describing pixel intensity, and y-axis describing the number of pixels with corresponding intensity found in the image. By looking at the histogram of an image, we get intuition about contrast, brightness, intensity distribution etc. of that image.
+
+Calculating histogram in OpenCV can be done using ```cv2.calcHist(images, channels, mask, histSize, ranges[, hist[, accumulate]])```. The explanation for those parameters is as below:
+1. ```images```: it is the source image of type uint8 or float32. it should be given in square brackets, ie, ```[img]```.
+2. ```channels```: it is also given in square brackets. It is the index of channel for which we calculate histogram. For example, if input is grayscale image, its value is ```[0]```. For color image, you can pass ```[0]```, ```[1]``` or ```[2]``` to calculate histogram of blue, green or red channel respectively.
+3. ```mask```: mask image. To find histogram of full image, it is given as ```None```. But if you want to find histogram of particular region of image, you have to create a mask image for that and give it as mask.
+4. ```histSize```: this represents our BIN count. Need to be given in square brackets. For full scale, usually we pass ```[256]```.
+5. ```ranges```: this is our RANGE. Usually, it is ```[0,256]```.
+
+More theory about histogram can be found on [here](https://en.wikipedia.org/wiki/Histogram).
 
 ## RGB
 RGB (Red, Green, Blue) is the most usual way to represent a color image. It came from the phiposophy that everything start from black. A given color can be produced through emitting and combining red, green, and blue light together with specific intensity for each light. OpenCV use BGR instead of RGB. They are basically the same in value but different in order. As for why OpenCV use BGR, [this article](https://www.learnopencv.com/why-does-opencv-use-bgr-color-format/) might give you the reason. You can get each channel value with built-in OpenCV function ```cv2.split```. The code can be found [here](/08_Image_Processing/Color_Spaces/rgb).
