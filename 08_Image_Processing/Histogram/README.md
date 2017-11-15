@@ -1,1 +1,35 @@
-Under construction
+# [ENGLISH] Histogram
+
+Histogram is another way of understanding an image. It is a plot with x-axis ranging from 0 to 255 (usually) describing pixel intensity, and y-axis describing the number of pixels with corresponding intensity found in the image. By looking at the histogram of an image, we get intuition about contrast, brightness, intensity distribution etc. of that image. Calculating histogram in OpenCV can be done using ```cv2.calcHist(images, channels, mask, histSize, ranges[, hist[, accumulate]])```. The explanation for those parameters is as below:
+1. asdasd
+2. asdasd
+
+## RGB
+RGB (Red, Green, Blue) is the most usual way to represent a color image. It came from the phiposophy that everything start from black. A given color can be produced through emitting and combining red, green, and blue light together with specific intensity for each light. OpenCV use BGR instead of RGB. They are basically the same in value but different in order. As for why OpenCV use BGR, [this article](https://www.learnopencv.com/why-does-opencv-use-bgr-color-format/) might give you the reason. You can get each channel value with built-in OpenCV function ```cv2.split```. The code can be found [here](/08_Image_Processing/Color_Spaces/rgb).
+
+<img src="/images/rgbSpace.png" height="400">
+
+## Grayscale
+Grayscale is one of the most popular color space used in image processing. Grayscale is simpler to process since it is represented in 1 channel, compared to 3 channels in color image. Most information in an image usually can be found through its luminance, and grayscale capture the luminance pretty well. In fact the conversion formula from RGB/BGR to grayscale used in OpenCV's function is the same with conversion formula from RGB/BGR to Y (luminance) component in YCrCb color space. Not only grayscale is simpler to compute, but it also captures a lot of information within an image. To convert a BGR image to grayscale we just need to use ```cv2.COLOR_BGR2GRAY``` as ```cv2.cvtColor``` parameter. Below is the code to convert BGR color space to grayscale. The code can be found [here](/08_Image_Processing/Color_Spaces/grayscale).
+
+<img src="/images/grayscaleFormula.png" width="500">
+
+<img src="/images/grayscaleSpace.png" height="400">
+
+## HLS
+HLS (Hue, Lightness, Saturation) color space is another way to represent colors. HLS color space defines colors more naturally. Hue specifies the base color, the other two values then let you specify the saturation of that color and how bright the color should be. HLS color space is cylindrical, and can be represented as the image below. To convert a BGR image to HLS we just need to use ```cv2.COLOR_BGR2GHLS``` as ```cv2.cvtColor``` parameter. The code can be found [here](/08_Image_Processing/Color_Spaces/hls).
+
+<img src="/images/HLS_Color_Space.png" height="200">
+
+credits to: https://commons.wikimedia.org/wiki/User:SharkD
+
+<img src="/images/hlsFormula.jpg" width="500">
+
+If the value of H after calculation is less than 0, we will add 360 to it. The outputs from the above equation will be:
+* 0 <= L <= 1
+* 0 <= S <= 1
+* 0 <= H <= 360
+
+Since we usually use 8-bit depth for each channel, the value of L and S will be scaled-up to 0 - 255, and H will be divided by 2 so it will fit the 8-bit range.
+
+<img src="/images/hlsSpace.png" height="400">
