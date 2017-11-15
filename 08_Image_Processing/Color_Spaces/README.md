@@ -15,12 +15,12 @@ Grayscale is one of the most popular color space used in image processing. Grays
 <img src="/images/grayscaleSpace.png" height="400">
 
 ## HLS
-HLS (Hue, Lightness, Saturation) color space is another way to represent colors. HLS color space defines colors more naturally. Hue specifies the base color, the other two values then let you specify the saturation of that color and how bright the color should be. HLS color space is cylindrical, and can be represented as the image below. To convert a BGR image to HLS we just need to use ```cv2.COLOR_BGR2GHLS``` as ```cv2.cvtColor``` parameter.
+HLS (Hue, Lightness, Saturation) color space is another way to represent colors. HLS color space defines colors more naturally. Hue specifies the base color, the other two values then let you specify the saturation of that color and how bright the color should be. HLS color space is cylindrical, and can be represented as the image below. To convert a BGR image to HLS we just need to use ```cv2.COLOR_BGR2GHLS``` as ```cv2.cvtColor``` parameter. The code can be found [here](/08_Image_Processing/Color_Spaces/hls).
 
 <img src="/images/HLS_Color_Space.png" height="200">
 credits to: https://commons.wikimedia.org/wiki/User:SharkD
 
-Below is the code to convert BGR color space to HLS.
+<img src="/images/hlsSpace.png" height="400">
 
 <img src="/images/HLS_Formula.jpg" width="500">
 
