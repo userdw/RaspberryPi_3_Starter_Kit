@@ -36,6 +36,6 @@ Aside from geometrical cues, we can use colors to identify objects. This is the 
 
 <img src="/images/histogramIntersectionFormula.png" width="200">
 
-<img src="/images/histogramIntersection.png" width="400">
+<img src="/images/histogramIntersection.png" height="400">
 
 where **I** and **M** is histograms to be intersected. **J** is the number of the BINS in both histogram represents the intensity level of a pixel. In OpenCV histogram intersection can be done using ```cv2.compareHist``` function. The example code on how to do histogram intersection of two images can be found [here](/08_Image_Processing/Histogram/histogramIntersection).
