@@ -31,4 +31,5 @@ where **cdf<sub>min</sub>** is the minimum non-zero value of the cumulative dist
 
 In OpenCV, we can use ```cv2.equalizeHist``` to do histogram equalization. The example code on how to do histogram equalization of an image can be found [here](/08_Image_Processing/Histogram/histogramEqualization)
 
-## Histogram Distance
+## Histogram Intersection
+Aside from geometrical cues, we can use colors to identify objects. This is the case when colors is a strong predictor of the object identity.
