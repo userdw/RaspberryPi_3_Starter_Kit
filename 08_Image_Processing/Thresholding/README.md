@@ -1,10 +1,14 @@
 # [ENGLISH] Thresholding
 
-The output from thresholding an image is binary image whose only have two possibilities for each pixels value. The value is either 0 (black-background) or 1 (white-foreground). This leads to smaller image size and simpler way of analyzing it. Simple thresholding can be done as follows.
+The output from thresholding an image is binary image whose only have two possibilities for each pixels value. The value is either 0 (black-background) or 1 (white-foreground). Sometimes we represents 1 as 255. This leads to smaller image size and simpler way of analyzing it. Thresholding can be done using some methods as follow.
+
+## Simple Thresholding
+Simple thresholding, just as its name, it works by following simple formula below.
 
 <img src="/images/simpleThresholdingFormula.png" width="400">
 
-## 
+When a pixel has value which is lower than the predetermined **th** then it will be set to 0. On the contrary, when a pixel has value which is higher than or equal to the predetermined **th** then it will be set as 255. Simple thresholding can be done by using ```cv2.threshold``` function and ```cv2.THRESH_BINARY``` as parameter.
+
 RGB (Red, Green, Blue) is the most usual way to represent a color image. It came from the phiposophy that everything start from black. A given color can be produced through emitting and combining red, green, and blue light together with specific intensity for each light. OpenCV use BGR instead of RGB. They are basically the same in value but different in order. As for why OpenCV use BGR, [this article](https://www.learnopencv.com/why-does-opencv-use-bgr-color-format/) might give you the reason. You can get each channel value with built-in OpenCV function ```cv2.split```. The code can be found [here](/08_Image_Processing/Color_Spaces/rgb).
 
 <img src="/images/rgbSpace.png" height="400">
