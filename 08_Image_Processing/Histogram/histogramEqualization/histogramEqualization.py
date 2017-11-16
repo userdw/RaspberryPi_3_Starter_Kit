@@ -20,7 +20,7 @@ _imageTotal = len(_images)
 
 _img = cv2.imread(_images[_imageIndex], cv2.IMREAD_UNCHANGED)
 _img = cv2.cvtColor(_img, cv2.COLOR_BGR2GRAY)
-_fig = plt.figure("Histogram")
+_fig = plt.figure("Histogram Equalization")
 _gs = GridSpec(16, 2)
 
 _fig1 = plt.subplot(_gs[0:7, 0])
