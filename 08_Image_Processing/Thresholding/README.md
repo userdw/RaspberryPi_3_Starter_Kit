@@ -1,8 +1,10 @@
 # [ENGLISH] Thresholding
 
-When working with uniform colored and fixed bacground, and we only need to understand Colors don't exist and they don't have any form as they are just what we perceive with our vision. A color model or color space is an abstract mathematical model describing the way colors can be represented as tuples of numbers. One color space is better suited for some cases than the other, therefore it's important for us to know some of the color spaces available.
+The output from thresholding an image is binary image whose only have two possibilities for each pixels value. The value is either 0 (black-background) or 1 (white-foreground). This leads to smaller image size and simpler way of analyzing it. Simple thresholding can be done as follows.
 
-## RGB
+<img src="/images/simpleThresholdingFormula.png" width="500">
+
+## 
 RGB (Red, Green, Blue) is the most usual way to represent a color image. It came from the phiposophy that everything start from black. A given color can be produced through emitting and combining red, green, and blue light together with specific intensity for each light. OpenCV use BGR instead of RGB. They are basically the same in value but different in order. As for why OpenCV use BGR, [this article](https://www.learnopencv.com/why-does-opencv-use-bgr-color-format/) might give you the reason. You can get each channel value with built-in OpenCV function ```cv2.split```. The code can be found [here](/08_Image_Processing/Color_Spaces/rgb).
 
 <img src="/images/rgbSpace.png" height="400">
