@@ -43,4 +43,6 @@ credits to: http://www.personal-view.com/talks/profile/1243/tida
 
 <img src="/images/ycrcbFormula.png" width="500">
 
-<img src="/images/hlsSpace.png" height="400">
+<img src="/images/ycrcbSpace.png" height="400">
+
+As we can see in the image above that most of the information can be captured from Y (luminance) component. If we look at it closer the image of Y component is the same with grayscale. That's because the formula used in converting RGB to grayscale is the same with formula used to calculate Y component in YCrCb color space.
