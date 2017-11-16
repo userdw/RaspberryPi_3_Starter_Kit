@@ -9,7 +9,7 @@ Calculating histogram in OpenCV can be done using ```cv2.calcHist(images, channe
 4. ```histSize```: this represents our BIN count. Need to be given in square brackets. For full scale, usually we pass ```[256]```.
 5. ```ranges```: this is our RANGE. Usually, it is ```[0,256]```.
 
-More theory about histogram can be found [here](https://en.wikipedia.org/wiki/Histogram).
+More theory on histogram can be found [here](https://en.wikipedia.org/wiki/Histogram).
 
 ## Plotting Histogram
 The example of how to plot histogram of an image can be found [here](/08_Image_Processing/Histogram/histogram). The result can be shown as the image below.
