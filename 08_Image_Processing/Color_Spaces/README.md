@@ -23,7 +23,7 @@ HLS (Hue, Lightness, Saturation) color space is another way to represent colors.
 
 credits to: https://commons.wikimedia.org/wiki/User:SharkD
 
-<img src="/images/hlsFormula.jpg" width="500">
+<img src="/images/hlsFormula.jpg" width="800">
 
 If the value of H after calculation is less than 0, we will add 360 to it. The outputs from the above equation will be:
 * 0 <= L <= 1
