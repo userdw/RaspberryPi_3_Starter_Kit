@@ -36,7 +36,7 @@ _histR = cv2.calcHist([_img], [2], None, [256], [0, 256]) / _img.size
 plt.xlabel("Intensity")
 plt.ylabel("PMF")
 _intensityPlotBGR = np.arange(_intensityBGR)
+plt.tight_layout()
 _fig2ShowIt = plt.plot(_intensityPlotBGR, _histB, "b", _intensityPlotBGR, _histG, "g", _intensityPlotBGR, _histR, "r", alpha = 0.8)
 
-plt.tight_layout()
 plt.show()
