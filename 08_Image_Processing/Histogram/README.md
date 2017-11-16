@@ -29,7 +29,7 @@ After we equalized the histogram, we can obtain more information on the lower im
 
 where **cdf<sub>min</sub>** is the minimum non-zero value of the cumulative distribution function, M × N gives the image's number of pixels and L is the number of gray levels used, usually 256. More information about histogram equalization can be found [here](https://en.wikipedia.org/wiki/Histogram_equalization).
 
-In OpenCV, we can use ```cv2.equalizeHist``` to do histogram equalization. The example code on how to do histogram equalization of an image can be found [here](/08_Image_Processing/Histogram/histogramEqualization).
+In OpenCV, we can use ```cv2.equalizeHist``` function to do histogram equalization. The example code on how to do histogram equalization of an image can be found [here](/08_Image_Processing/Histogram/histogramEqualization).
 
 ## Histogram Intersection
 Aside from geometrical cues, we can use colors to identify objects. This is the case when colors is a strong predictor of the object identity. Histogram intersection works as below.
