@@ -16,7 +16,7 @@ _imageIndex = 0
 _imageTotal = len(_images)
 
 _img1 = cv2.imread(_images[_imageIndex], cv2.IMREAD_UNCHANGED)
-_fig = plt.figure("RGB Spaces")
+_fig = plt.figure("HLS Spaces")
 _gs = GridSpec(3, 3)
 
 _fig1 = plt.subplot(_gs[0:3, 0:2])
