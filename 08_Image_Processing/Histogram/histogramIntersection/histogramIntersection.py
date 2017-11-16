@@ -79,6 +79,7 @@ _fig5ShowIt = plt.imshow(cv2.cvtColor(_img2, cv2.COLOR_BGR2RGB))
 _fig6 = plt.subplot(_gs[2, 2])
 plt.xticks(())
 plt.yticks(())
+plt.tight_layout()
 plt.text(0.5, 0.5, "Likelihood: " + str(_histSIntersect), ha = "center", va = "center", size = 12)
 
 plt.show()
