@@ -9,7 +9,7 @@ Simple thresholding, just as its name, it works by following simple formula belo
 
 When a pixel has value which is lower than the predetermined **th** then it will be set to 0. On the contrary, when a pixel has value which is higher than or equal to the predetermined **th** then it will be set as 255. Simple thresholding can be done by using ```cv2.threshold``` function and ```cv2.THRESH_BINARY``` as parameter.
 
-<img src="/images/simpleThresholding.png" width="400">
+<img src="/images/simpleThresholding.png" height="400">
 
 The example code on how to do simple thresholding can be found [here](/08_Image_Processing/Thresholding/simpleThresholding).
 
