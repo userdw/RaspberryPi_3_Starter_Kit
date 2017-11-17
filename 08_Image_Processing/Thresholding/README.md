@@ -16,7 +16,7 @@ The example code on how to do simple thresholding can be found [here](/08_Image_
 ## Adaptive Thresholding
 Adaptive thresholding, unlike simple thresholding, is a thresholding which has a different value of **th** for each pixels. The value of **th** will be determined by pixel's neighbor. For block size of 3 (or kernel size of 3x3), the formula for determining **th** is as below.
 
-<img src="/images/adThresholdingFormula.png" width="800">
+<img src="/images/adaptThresholdingFormula.png" width="800">
 
 Block size is usually (but not always) an odd number, because it will be easier to determine the center. When a pixel has value which is lower than the calculated **th** then it will be set to 0. On the contrary, when a pixel has value which is higher than or equal to the calculated **th** then it will be set as 255. Adaptive thresholding can be done by using ```cv2.adaptiveThreshold``` function and ```cv2.ADAPTIVE_THRESH_MEAN_C``` as parameter. ```cv2.adaptiveThreshold``` works **only with odd number of block size**.
 
