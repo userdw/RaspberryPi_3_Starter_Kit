@@ -23,3 +23,10 @@ Block size is usually (but not always) an odd number, because it will be easier 
 <img src="/images/adaptiveThresholding.png" height="400">
 
 The example code on how to do adaptive thresholding can be found [here](/08_Image_Processing/Thresholding/adaptiveThresholding).
+
+## Adaptive Gaussian Thresholding
+Adaptive Gaussian thresholding works the same way as adaptive thresholding, except that the kernel is Gaussian. Adaptive Gaussian thresholding can be done by using ```cv2.adaptiveThreshold``` function and ```cv2.ADAPTIVE_THRESH_GAUSSIAN_C``` as parameter.
+
+<img src="/images/adaptiveGaussianThresholding.png" height="400">
+
+The example code on how to do adaptive thresholding can be found [here](/08_Image_Processing/Thresholding/adaptiveGaussianThresholding).
