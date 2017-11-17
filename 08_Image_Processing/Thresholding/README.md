@@ -25,7 +25,7 @@ Block size is usually (but not always) an odd number, because it will be easier 
 The example code on how to do adaptive thresholding can be found [here](/08_Image_Processing/Thresholding/adaptiveThresholding).
 
 ## Adaptive Gaussian Thresholding
-Adaptive Gaussian thresholding works the same way as adaptive thresholding, except that the kernel is Gaussian.
+Adaptive Gaussian thresholding works the same way as adaptive thresholding, except that the kernel is Gaussian. Gaussian kernel can be made with equation as below.
 
 <img src="/images/gaussianKernelFormula.png" width="400">
 
