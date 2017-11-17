@@ -67,7 +67,7 @@ In this project we will use the well known Matplotlib to display our image. You 
 * [Color Spaces](/08_Image_Processing/Color_Spaces).
 * [Histogram](/08_Image_Processing/Histogram).
 * [Smoothing Filter](/08_Image_Processing/Smoothing_Filter).
-* [Thresholding].
+* [Thresholding](/08_Image_Processing/Thresholding).
 * [Morphology].
 * [Labelling].
 * [Blob Detection].
