@@ -14,7 +14,9 @@ When a pixel has value which is lower than the predetermined **th** then it will
 The example code on how to do simple thresholding can be found [here](/08_Image_Processing/Thresholding/simpleThresholding).
 
 ## Adaptive Thresholding
-Grayscale is one of the most popular color space used in image processing. Grayscale is simpler to process since it is represented in 1 channel, compared to 3 channels in color image. Most information in an image usually can be found through its luminance, and grayscale capture the luminance pretty well. In fact the conversion formula from RGB/BGR to grayscale used in OpenCV's function is the same with conversion formula from RGB/BGR to Y (luminance) component in YCrCb color space. Not only grayscale is simpler to compute, but it also captures a lot of information within an image. To convert a BGR image to grayscale we just need to use ```cv2.COLOR_BGR2GRAY``` as ```cv2.cvtColor``` parameter. Below is the code to convert BGR color space to grayscale. The code can be found [here](/08_Image_Processing/Color_Spaces/grayscale).
+Adaptive thresholding, unlike simple thresholding, is a thresholding which has a different value of **th** for each pixels. The value of **th** will be determined by pixel's neighbor. For kernel size of 3x3, the formula for determining **th** is as below.
+
+
 
 <img src="/images/grayscaleFormula.png" width="500">
 
