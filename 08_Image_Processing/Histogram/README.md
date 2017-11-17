@@ -27,7 +27,7 @@ After we equalized the histogram, we can obtain more information on the lower im
 
 <img src="/images/histogramEquation.png" width="500">
 
-where **cdf<sub>min</sub>** is the minimum non-zero value of the cumulative distribution function, M × N gives the image's number of pixels and L is the number of gray levels used, usually 256. More information about histogram equalization can be found [here](https://en.wikipedia.org/wiki/Histogram_equalization).
+where **cdf<sub>min</sub>** is the minimum non-zero value of the cumulative distribution function, **M × N** gives the image's number of pixels and **L** is the number of gray levels used, usually 256. More information about histogram equalization can be found [here](https://en.wikipedia.org/wiki/Histogram_equalization).
 
 In OpenCV, we can use ```cv2.equalizeHist``` function to do histogram equalization. The example code on how to do histogram equalization of an image can be found [here](/08_Image_Processing/Histogram/histogramEqualization).
 
