@@ -16,11 +16,13 @@ The example code on how to do simple thresholding can be found [here](/08_Image_
 ## Adaptive Thresholding
 Adaptive thresholding, unlike simple thresholding, is a thresholding which has a different value of **th** for each pixels. The value of **th** will be determined by pixel's neighbor. For kernel size of 3x3, the formula for determining **th** is as below.
 
+<img src="/images/adaptiveThresholdingFormula.png" width="400">
 
+When a pixel has value which is lower than the calculated **th** then it will be set to 0. On the contrary, when a pixel has value which is higher than or equal to the calculated **th** then it will be set as 255. Adaptive thresholding can be done by using ```cv2.adaptiveThreshold``` function and ```cv2.ADAPTIVE_THRESH_MEAN_C``` as parameter.
 
-<img src="/images/grayscaleFormula.png" width="500">
+<img src="/images/simpleThresholding.png" height="400">
 
-<img src="/images/grayscaleSpace.png" height="400">
+The example code on how to do adaptive thresholding can be found [here](/08_Image_Processing/Thresholding/adaptiveThresholding).
 
 ## HLS
 HLS (Hue, Lightness, Saturation) color space is another way to represent colors. HLS color space defines colors more naturally. Hue specifies the base color, the other two values then let you specify the saturation of that color and how bright the color should be. HLS color space is cylindrical, and can be represented as the image below. To convert a BGR image to HLS we just need to use ```cv2.COLOR_BGR2HLS``` as ```cv2.cvtColor``` parameter. The code can be found [here](/08_Image_Processing/Color_Spaces/hls).
