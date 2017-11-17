@@ -20,7 +20,7 @@ Adaptive thresholding, unlike simple thresholding, is a thresholding which has a
 
 When a pixel has value which is lower than the calculated **th** then it will be set to 0. On the contrary, when a pixel has value which is higher than or equal to the calculated **th** then it will be set as 255. Adaptive thresholding can be done by using ```cv2.adaptiveThreshold``` function and ```cv2.ADAPTIVE_THRESH_MEAN_C``` as parameter.
 
-<img src="/images/simpleThresholding.png" height="400">
+<img src="/images/adaptiveThresholding.png" height="400">
 
 The example code on how to do adaptive thresholding can be found [here](/08_Image_Processing/Thresholding/adaptiveThresholding).
 
