@@ -3,7 +3,7 @@
 The output from thresholding an image is binary image whose only have two possibilities for each pixels value. The value is either 0 (black-background) or 1 (white-foreground). Sometimes we represents 1 as 255. This leads to smaller image size and simpler way of analyzing it. Thresholding can be done using some methods as follow.
 
 ## Simple Thresholding
-Simple thresholding, just as its name, it works by following simple formula below.
+Simple thresholding, just as its name, works by following simple formula below.
 
 <img src="/images/simpleThresholdingFormula.png" width="400">
 
