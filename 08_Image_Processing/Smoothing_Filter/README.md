@@ -31,7 +31,7 @@ Local averaging can be done by using ```cv.blur``` function.
 
 <img src="/images/localAveragingResult.png" height="400">
 
-The example code can be found [here](/08_Image_Processing/Smoothing_Filter/imageAveraging).
+The example code can be found [here](/08_Image_Processing/Smoothing_Filter/localAveraging).
 
 ## Median filter
 Both image averaging and local averaging works by averaging pixels value, thus reducing the noise. The noise itself is still presents, but less apparent. Both filters are suitable to filter white noise since the actual pixel's value won't be "far" from its noisy value. 
