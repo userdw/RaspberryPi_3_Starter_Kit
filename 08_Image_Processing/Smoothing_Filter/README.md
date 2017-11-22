@@ -1,8 +1,12 @@
 # [ENGLISH] Smoothing Filter
 
-Two most commonly encountered type of noise on image are Gaussian noise and salt-and-pepper noise as illustrated below.
+Two most commonly encountered type of noise on images are Gaussian noise (or white noise) and salt-and-pepper noise as illustrated below.
 
 <img src="/images/lennaNoise.png" width="600">
+
+Noise can corrupt pixels value thus can cause misinterpretation of information. White noise on image is due to natural processes such as electrical noise during acquisition, and salt-and-pepper noise on image can be caused by malfunctioning of camera's sensor cells. White noise and salt-and-pepper noise [Probability Density Function (PDF)](https://en.wikipedia.org/wiki/Probability_density_function) is as below.
+
+PDF gives us probability of pixel's value. In white noise the probability of pixel's value deppends on its actual gray level, and for salt-and-pepper noise the probability of pixel's value is either lowest intensity (black) or highest intensity (white).
 
 We can enhance the image in some ways to get a better information from it. Depending on the condition and the type of noise, we can use:
 * Image averaging
@@ -14,7 +18,7 @@ Image averaging can be used if we have some images of the exactly same scene, bu
 
 <img src="/images/imageAveraging.png" height="400">
 
-The drawback of this method is that we need to have multiple images of the exactly same scene. This method can be applied only if our camera and scene are static.
+The drawback of this method is that we need to have multiple images of the exactly same scene. This method can be applied for cases such as if our camera and scene are static.
 
 ## Local averaging (mean filter)
 Local averaging or mean filter works by averaging pixel's value and its neighbors. The calculated value will be used to update the pixel's value. Example of local averaging of ```3x3``` window is as below.
@@ -30,7 +34,7 @@ The example code can be found [here](/08_Image_Processing/Smoothing_Filter/image
 ## Median filter
 Both image averaging and local averaging works by averaging pixels value, thus reducing the noise. The noise itself is still presents, but less apparent. Both filters are suitable to filter white noise.
 
-Salt and pepper is different kind of noise.
+Salt and pepper is different kind of noise. If the value
 
 <img src="/images/meanFilter.png" width="700">
 
