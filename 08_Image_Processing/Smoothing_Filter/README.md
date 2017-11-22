@@ -16,7 +16,7 @@ We can enhance the image in some ways to get a better information from it. Depen
 * Median filter
 
 ## Image Averaging
-Image averaging can be used if we have some images of the exactly same scene, but with different white noise. The concept is very simple, we just need to add all those images together then divide it by the number of images. The example code can be found [here](/08_Image_Processing/Smoothing_Filter/imageAveraging).
+Image averaging can be used if we have some images of the exactly same scene, but with different white noise. The concept is very simple, we just need to add all those images together then divide it by the number of images. The example code can be found [here](/08_Image_Processing/Smoothing_Filter/averaging).
 
 <img src="/images/imageAveraging.png" height="400">
 
