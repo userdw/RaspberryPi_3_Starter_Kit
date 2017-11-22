@@ -34,11 +34,11 @@ Local averaging can be done by using ```cv.blur``` function.
 The example code can be found [here](/08_Image_Processing/Smoothing_Filter/imageAveraging).
 
 ## Median filter
-Both image averaging and local averaging works by averaging pixels value, thus reducing the noise. The noise itself is still presents, but less apparent. Both filters are suitable to filter white noise.
+Both image averaging and local averaging works by averaging pixels value, thus reducing the noise. The noise itself is still presents, but less apparent. Both filters are suitable to filter white noise since the actual pixel's value won't be "far" from its noisy value. 
 
-Salt and pepper is different kind of noise. If the value
+Salt-and-pepper is another different story. Since noisy pixels will have either lowest intensity or highest intensity, averaging them won't do much. Therefore we will use median filter instead of local averaging.
 
-<img src="/images/meanFilter.png" width="700">
+<img src="/images/medianFilter.png" width="700">
 
 Local averaging can be done by using ```cv.blur``` function.
 
