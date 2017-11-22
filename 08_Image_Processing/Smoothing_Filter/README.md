@@ -38,7 +38,7 @@ Both image averaging and local averaging works by averaging pixels value, thus r
 
 Salt-and-pepper is another different story. Since noisy pixels will have either lowest intensity or highest intensity, averaging them won't do much. Therefore we will use median filter instead of local averaging.
 
-<img src="/images/medianFilter2.png" width="500">
+<img src="/images/medianFilter3.png" width="400">
 
 Local averaging can be done by using ```cv.blur``` function.
 
