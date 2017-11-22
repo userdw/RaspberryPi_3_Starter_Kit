@@ -21,9 +21,11 @@ Local averaging or mean filter works by averaging pixel's value and its neighbor
 
 <img src="/images/meanFilter.png" width="700">
 
+Local averaging can be done by using ```cv.blur``` function.
+
 <img src="/images/localAveragingResult.png" height="400">
 
-Local averaging can be done by using ```cv.blur``` function. The example code can be found [here](/08_Image_Processing/Smoothing_Filter/imageAveraging).
+The example code can be found [here](/08_Image_Processing/Smoothing_Filter/imageAveraging).
 
 ## HLS
 HLS (Hue, Lightness, Saturation) color space is another way to represent colors. HLS color space defines colors more naturally. Hue specifies the base color, the other two values then let you specify the saturation of that color and how bright the color should be. HLS color space is cylindrical, and can be represented as the image below. To convert a BGR image to HLS we just need to use ```cv2.COLOR_BGR2HLS``` as ```cv2.cvtColor``` parameter. The code can be found [here](/08_Image_Processing/Color_Spaces/hls).
