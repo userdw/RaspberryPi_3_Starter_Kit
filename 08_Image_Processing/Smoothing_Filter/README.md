@@ -1,6 +1,6 @@
 # [ENGLISH] Smoothing Filter
 
-Two most commonly encountered type of noise on images are Gaussian noise (or white noise) and salt-and-pepper noise as illustrated below.
+Two most commonly encountered type of noise on images are Gaussian noise (or white noise) and salt-and-pepper noise.
 
 <img src="/images/lennaNoise.png" width="600">
 
