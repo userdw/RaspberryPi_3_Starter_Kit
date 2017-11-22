@@ -10,20 +10,16 @@ We can enhance the image in some ways to get a better information from it. Depen
 * Median Filter
 
 ## Image Averaging
-Image averaging can be used if we have some images of the exactly same scene, but with different white noise. The concept is very simple, we just need to add all those images together then divide it by the number of images.  The example code can be found [here](/08_Image_Processing/Smoothing_Filter/imageAveraging).
+Image averaging can be used if we have some images of the exactly same scene, but with different white noise. The concept is very simple, we just need to add all those images together then divide it by the number of images. The example code can be found [here](/08_Image_Processing/Smoothing_Filter/imageAveraging).
 
 <img src="/images/imageAveraging.png" height="400">
 
-RGB (Red, Green, Blue) is the most usual way to represent a color image. It came from the phiposophy that everything start from black. A given color can be produced through emitting and combining red, green, and blue light together with specific intensity for each light. OpenCV use BGR instead of RGB. They are basically the same in value but different in order. As for why OpenCV use BGR, [this article](https://www.learnopencv.com/why-does-opencv-use-bgr-color-format/) might give you the reason. You can get each channel value with built-in OpenCV function ```cv2.split```. The code can be found [here](/08_Image_Processing/Color_Spaces/rgb).
+The drawback of this method is that we need to have multiple images of the exactly same scene. This method can be applied only if our camera and scene are static.
 
-<img src="/images/rgbSpace.png" height="400">
+## Local averaging (mean filter)
+Local averaging or mean filter works by averaging pixel's value and its neighbors. The calculated value will be used to update the pixel's value.
 
-## Grayscale
-Grayscale is one of the most popular color space used in image processing. Grayscale is simpler to process since it is represented in 1 channel, compared to 3 channels in color image. Most information in an image usually can be found through its luminance, and grayscale capture the luminance pretty well. In fact the conversion formula from RGB/BGR to grayscale used in OpenCV's function is the same with conversion formula from RGB/BGR to Y (luminance) component in YCrCb color space. Not only grayscale is simpler to compute, but it also captures a lot of information within an image. To convert a BGR image to grayscale we just need to use ```cv2.COLOR_BGR2GRAY``` as ```cv2.cvtColor``` parameter. Below is the code to convert BGR color space to grayscale. The code can be found [here](/08_Image_Processing/Color_Spaces/grayscale).
-
-<img src="/images/grayscaleFormula.png" width="500">
-
-<img src="/images/grayscaleSpace.png" height="400">
+<img src="/images/meanFilter.png" width="700">
 
 ## HLS
 HLS (Hue, Lightness, Saturation) color space is another way to represent colors. HLS color space defines colors more naturally. Hue specifies the base color, the other two values then let you specify the saturation of that color and how bright the color should be. HLS color space is cylindrical, and can be represented as the image below. To convert a BGR image to HLS we just need to use ```cv2.COLOR_BGR2HLS``` as ```cv2.cvtColor``` parameter. The code can be found [here](/08_Image_Processing/Color_Spaces/hls).
