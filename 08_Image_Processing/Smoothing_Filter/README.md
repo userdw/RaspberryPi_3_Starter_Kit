@@ -1,8 +1,10 @@
 # [ENGLISH] Smoothing Filter
 
-The two most commonly encountered type of noise are Gaussian noise and salt-and-pepper noise. Below are example of 
+The two most commonly encountered type of noise are Gaussian noise and salt-and-pepper noise as illustrated below.
 
-<img src="/images/Lenna.jpg" height="400">
+<img src="/images/lennaNoise.png" width="500">
+
+You can produce the noise using 
 
 Colors don't exist and they don't have any form as they are just what we perceive with our vision. A color model or color space is an abstract mathematical model describing the way colors can be represented as tuples of numbers. One color space is better suited for some cases than the other, therefore it's important for us to know some of the color spaces available.
 
