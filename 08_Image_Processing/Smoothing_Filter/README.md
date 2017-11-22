@@ -4,7 +4,7 @@ Two most commonly encountered type of noise on images are Gaussian noise (or whi
 
 <img src="/images/lennaNoise.png" width="600">
 
-Noise can corrupt pixels value thus can cause misinterpretation of information. White noise on image is due to natural processes such as electrical noise during acquisition, and salt-and-pepper noise on image can be caused by malfunctioning of camera's sensor cells. White noise and salt-and-pepper noise [Probability Density Function (PDF)](https://en.wikipedia.org/wiki/Probability_density_function) is as below.
+Noise can corrupt pixel's value thus can cause misinterpretation of information. White noise on image is due to natural processes such as electrical noise during acquisition, and salt-and-pepper noise on image can be caused by malfunctioning of camera's sensor cells. White noise and salt-and-pepper noise [Probability Density Function (PDF)](https://en.wikipedia.org/wiki/Probability_density_function) is as below.
 
 PDF gives us probability of pixel's value. In white noise the probability of pixel's value deppends on its actual gray level, and for salt-and-pepper noise the probability of pixel's value is either lowest intensity (black) or highest intensity (white).
 
