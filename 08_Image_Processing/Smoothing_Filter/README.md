@@ -4,7 +4,7 @@ Two most commonly encountered type of noise on image are Gaussian noise and salt
 
 <img src="/images/lennaNoise.png" width="800">
 
-We can enhance the image in some ways to get a better information from it. Depending on condition and the type of noise, we can use:
+We can enhance the image in some ways to get a better information from it. Depending on the condition and the type of noise, we can use:
 * Image averaging
 * Local averaging (mean filter)
 * Median Filter
