@@ -2,7 +2,7 @@
 
 The two most commonly encountered type of noise are Gaussian noise and salt-and-pepper noise as illustrated below.
 
-<img src="/images/lennaNoise.png" width="500">
+<img src="/images/lennaNoise.png" width="800">
 
 You can produce the noise using 
 
