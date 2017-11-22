@@ -2,7 +2,7 @@
 
 Two most commonly encountered type of noise on image are Gaussian noise and salt-and-pepper noise as illustrated below.
 
-<img src="/images/lennaNoise.png" width="800">
+<img src="/images/lennaNoise.png" width="700">
 
 We can enhance the image in some ways to get a better information from it. Depending on the condition and the type of noise, we can use:
 * Image averaging
@@ -17,9 +17,13 @@ Image averaging can be used if we have some images of the exactly same scene, bu
 The drawback of this method is that we need to have multiple images of the exactly same scene. This method can be applied only if our camera and scene are static.
 
 ## Local averaging (mean filter)
-Local averaging or mean filter works by averaging pixel's value and its neighbors. The calculated value will be used to update the pixel's value.
+Local averaging or mean filter works by averaging pixel's value and its neighbors. The calculated value will be used to update the pixel's value. Example of local averaging of ```3x3``` window is as below.
 
 <img src="/images/meanFilter.png" width="700">
+
+<img src="/images/localAveragingResult.png" height="400">
+
+Local averaging can be done by using ```cv.blur``` function. The example code can be found [here](/08_Image_Processing/Smoothing_Filter/imageAveraging).
 
 ## HLS
 HLS (Hue, Lightness, Saturation) color space is another way to represent colors. HLS color space defines colors more naturally. Hue specifies the base color, the other two values then let you specify the saturation of that color and how bright the color should be. HLS color space is cylindrical, and can be represented as the image below. To convert a BGR image to HLS we just need to use ```cv2.COLOR_BGR2HLS``` as ```cv2.cvtColor``` parameter. The code can be found [here](/08_Image_Processing/Color_Spaces/hls).
