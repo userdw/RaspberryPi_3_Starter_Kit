@@ -40,7 +40,7 @@ Salt-and-pepper is another different story. Since noisy pixels will have either 
 
 <img src="/images/medianFilter3.png" width="400">
 
-Local averaging can be done by using ```cv.medianBlur``` function.
+Median filtering can be done by using ```cv.medianBlur``` function.
 
 <img src="/images/medianFilterResult.png" height="400">
 
