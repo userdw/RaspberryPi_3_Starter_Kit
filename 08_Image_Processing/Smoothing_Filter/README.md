@@ -8,7 +8,7 @@ Noise can corrupt pixel's value thus can cause misinterpretation of information.
 
 <img src="/images/noisePdf.png" width="600">
 
-PDF gives us probability of pixel's value. In white noise the probability of pixel's value deppends on its actual gray level, and for salt-and-pepper noise the probability of pixel's value is either lowest intensity (black) or highest intensity (white).
+PDF gives us probability of pixel's value. In white noise the probability of pixel's value is in the form of Gaussian distribution. For salt-and-pepper noise the probability is in the form of impulse which is either lowest intensity (black) or highest intensity (white) deppending on its intensity (```g```).
 
 We can enhance the image in some ways to get a better information from it. Depending on the condition and the type of noise, we can use:
 * Image averaging
