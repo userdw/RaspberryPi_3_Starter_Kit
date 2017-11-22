@@ -22,8 +22,6 @@ _imgHeight, _imgWidth = _img.shape
 _fig = plt.figure("Median Smoothing")
 _gs = GridSpec(1, 2)
 
-_noiseMean = 0.0
-_stdDeviation = 0.3
 _nRollingWindow = 3
 
 _fig1 = plt.subplot(_gs[0, 0])
