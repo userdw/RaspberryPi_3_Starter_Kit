@@ -33,4 +33,4 @@ Adaptive Gaussian thresholding can be done by using ```cv2.adaptiveThreshold``` 
 
 <img src="/images/adaptiveGaussianThresholding.png" height="400">
 
-The example code on how to do adaptive thresholding can be found [here](/08_Image_Processing/Thresholding/adaptiveGaussianThresholding).
+The example code on how to do adaptive Gaussian thresholding can be found [here](/08_Image_Processing/Thresholding/adaptiveGaussianThresholding).
