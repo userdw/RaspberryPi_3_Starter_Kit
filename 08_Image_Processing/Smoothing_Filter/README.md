@@ -2,7 +2,7 @@
 
 Two most commonly encountered type of noise on image are Gaussian noise and salt-and-pepper noise as illustrated below.
 
-<img src="/images/lennaNoise.png" width="700">
+<img src="/images/lennaNoise.png" width="600">
 
 We can enhance the image in some ways to get a better information from it. Depending on the condition and the type of noise, we can use:
 * Image averaging
