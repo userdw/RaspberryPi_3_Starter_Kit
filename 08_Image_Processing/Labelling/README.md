@@ -1,6 +1,8 @@
-# [ENGLISH] Histogram
+# [ENGLISH] Labelling
 
-Histogram is another way of understanding an image. It is a plot with x-axis ranging from 0 to 255 (usually) describing pixel intensity, and y-axis describing the number of pixels with corresponding intensity found in the image. By looking at the histogram of an image, we get intuition about contrast, brightness, intensity distribution etc. of that image.
+As human we have incredible ways of thinking and analyzing everything around us in just a fraction of second. For example if we are shown the image of circles as below, we can automatically count it.
+
+<img src="/images/targetCount.png" height="300">
 
 Calculating histogram in OpenCV can be done using ```cv2.calcHist(images, channels, mask, histSize, ranges[, hist[, accumulate]])```. The explanation for those parameters is as below:
 1. ```images```: it is the source image of type uint8 or float32. it should be given in square brackets, ie, ```[img]```.
