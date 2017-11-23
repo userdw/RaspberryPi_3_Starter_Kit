@@ -31,3 +31,12 @@ Opening is erosion followed by dilation. Opening is useful in removing noise. Op
 
 ## Closing
 Closing is dilation followed by erosion. Closing is useful in closing small holes (or black area) inside our foreground objects. Closing can be done by using ```cv2.morphologyEx``` function with ```cv2.MORPH_CLOSE``` as the parameter.
+
+## Example of Morphology Transformation
+The image below is the result of doing simple thresholding on image of coins.
+
+<img src="/images/morphologyExampleBefore.png" height="400">
+
+As we can see in the image above that there are so many noise from the result of simple thresholding alone. After opening transformation the output image is as below.
+
+<img src="/images/morphologyExampleAfter.png" height="400">
