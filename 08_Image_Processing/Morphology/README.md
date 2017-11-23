@@ -12,19 +12,21 @@ Structuring element (or sometimes called as kernel) is simply a mask that allows
 <img src="/images/structElement.png" width="600">
 
 ## Erosion
-Erosion, just as its name, will erode the boundaries of foreground object (pixels with value of 1).  A pixel in the original image will be considered as 1 only if all the pixels under the kernel is 1 as well, otherwise it is eroded (made to 0).
+Erosion, just as its name, will erode the boundaries of foreground object (pixels with value of 1).  A pixel in the original image will be considered as 1 only if all the pixels under the kernel is 1 as well, otherwise it is eroded (made to 0). Erosion can be done by using ```cv2.erode``` function.
 
 <img src="/images/erosionIllustration.png" width="600">
 
 ## Dilation
-
-Dilation is the opposite of erosion, it will increases the region of pixels with value of 1 in our image. Usually in noise removal, erosion is followed by dilation. When we erode an image, the noise will get removed as well as some part of our objects' area. To make our objects to have the same size as before we erode the image, we dilate it. Since the noise is gone, they won't come back.
+Dilation is the opposite of erosion, it will increases the region of pixels with value of 1 in our image. Usually in noise removal, erosion is followed by dilation. When we erode an image, the noise will get removed as well as some part of our objects' area. To make our objects to have the same size as before we erode the image, we dilate it. Since the noise is gone, they won't come back. Dilation can be done by using ```cv2.dilate``` function.
 
 <img src="/images/dilationIllustration.png" width="600">
 
 ## Opening
+Opening is erosion followed by dilation. Opening is useful in removing noise. Opening can be done by using ```cv2.morphologyEx``` function with ```cv2.MORPH_OPEN``` as the parameter.
 
 ## Closing
+Closing is dilation followed byerosion. Closing is useful in closing small holes (or black area) inside the foreground objects. Closing can be done by using ```cv2.morphologyEx``` function with ```cv2.MORPH_CLOSE``` as the parameter.
+
 
 Morphology commonly used in binary image to . Morphological operation such as
 Two most commonly encountered type of noise on images are Gaussian noise (or white noise) and salt-and-pepper noise.
