@@ -70,3 +70,4 @@ In this project we will use the well known Matplotlib to display our image. You 
 * [Thresholding](/08_Image_Processing/Thresholding).
 * [Morphology](/08_Image_Processing/Morphology).
 * [Labelling](/08_Image_Processing/Labelling).
+* [Accessing_Camera](/08_Image_Processing/Accessing_Camera).
