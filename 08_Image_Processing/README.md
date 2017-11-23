@@ -69,5 +69,4 @@ In this project we will use the well known Matplotlib to display our image. You 
 * [Smoothing Filter](/08_Image_Processing/Smoothing_Filter).
 * [Thresholding](/08_Image_Processing/Thresholding).
 * [Morphology](/08_Image_Processing/Morphology).
-* [Labelling].
-* [Blob Detection].
+* [Labelling](/08_Image_Processing/Labelling).
