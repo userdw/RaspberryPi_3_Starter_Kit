@@ -1,15 +1,15 @@
 # [ENGLISH] Morphology
 
 Sometimes we are using binary images because we only interested in object's form. This case can be found in industrial process such as counting objects on conveyor belt, sorting products, etc. Morphological transformations, commonly performed on binary image, are some simple operations based on the image shape. Some basic morphological transformations are:
-* Erosion
-* Dilation
-* Opening
-* Closing
+* Erosion.
+* Dilation.
+* Opening.
+* Closing.
 
 Before we continue, there are some terminologies used in morphology:
-* Foreground: pixel with value of 1
-* Background: pixel with value of 0
-* Structuring element: kernel that will slide through an image
+* Foreground: pixel with value of 1.
+* Background: pixel with value of 0.
+* Structuring element: kernel that will slide through an image.
 
 ## Structuring Element
 Structuring element (also called as kernel) is simply a mask that allows us to define arbitrary neighborhood structures. Structure element **will slide through the image**.
