@@ -7,13 +7,14 @@ Sometimes we are using binary images because we only interested in object's form
 * Closing
 
 ## Structuring Element
-Structuring element is simply a mask that allows us to define arbitrary neighborhood structures.
+Structuring element (or sometimes called as kernel) is simply a mask that allows us to define arbitrary neighborhood structures.
 
 <img src="/images/structElement.png" width="600">
 
 ## Erosion
-Eroding 
+Erosion, just as its name, will erode the boundaries of foreground object (pixels with value of 1).  A pixel in the original image will be considered as 1 only if all the pixels under the kernel is 1 as well, otherwise it is eroded (made to 0).
 
+<img src="/images/erosionIllustration.png" width="600">
 
 ## Dilation
 
