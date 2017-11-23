@@ -30,4 +30,4 @@ Dilation is the opposite of erosion, it will increases the region of foreground.
 Opening is erosion followed by dilation. Opening is useful in removing noise. Opening can be done by using ```cv2.morphologyEx``` function with ```cv2.MORPH_OPEN``` as the parameter.
 
 ## Closing
-Closing is dilation followed byerosion. Closing is useful in closing small holes (or black area) inside our foreground objects. Closing can be done by using ```cv2.morphologyEx``` function with ```cv2.MORPH_CLOSE``` as the parameter.
+Closing is dilation followed by erosion. Closing is useful in closing small holes (or black area) inside our foreground objects. Closing can be done by using ```cv2.morphologyEx``` function with ```cv2.MORPH_CLOSE``` as the parameter.
