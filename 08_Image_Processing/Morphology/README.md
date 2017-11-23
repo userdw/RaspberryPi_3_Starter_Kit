@@ -40,3 +40,5 @@ The image below is the result of doing simple thresholding on image of coins.
 As we can see in the image above that the output is noisy. We can remove the noise with opening transformation. After opening transformation the output image is as below.
 
 <img src="/images/morphologyExampleAfter.png" height="400">
+
+The example code can be found [here](/08_Image_Processing/Morphology/morphology).
