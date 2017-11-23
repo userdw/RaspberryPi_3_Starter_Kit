@@ -12,7 +12,7 @@ Before we continue, there are some terminologies used in morphology:
 * Structuring element: kernel that will slide through an image
 
 ## Structuring Element
-Structuring element (or sometimes called as kernel) is simply a mask that allows us to define arbitrary neighborhood structures. Structure element **will slide through the image**.
+Structuring element (also called as kernel) is simply a mask that allows us to define arbitrary neighborhood structures. Structure element **will slide through the image**.
 
 <img src="/images/structElement.png" width="600">
 
