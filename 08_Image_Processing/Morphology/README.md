@@ -18,7 +18,7 @@ Erosion, just as its name, will erode the boundaries of foreground object (pixel
 
 ## Dilation
 
-Dilation is the opposite of erosion, it will increases the region of pixels with value of 1 in our image. Usually in noise removal, erosion is followed by dilation. When we erode an image, the noise will get removed as well as some part of our objects area. To make the objects to have the same size as before we erode the image, we dilate it. Since the noise is gone, they won't come back.
+Dilation is the opposite of erosion, it will increases the region of pixels with value of 1 in our image. Usually in noise removal, erosion is followed by dilation. When we erode an image, the noise will get removed as well as some part of our objects' area. To make our objects to have the same size as before we erode the image, we dilate it. Since the noise is gone, they won't come back.
 
 <img src="/images/dilationIllustration.png" width="600">
 
