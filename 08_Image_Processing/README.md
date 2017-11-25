@@ -61,7 +61,10 @@ print(cv2.__version__)
 If there are no errors prompted, that means we've been successfully installed OpenCV on our Raspberry Pi 3. The steps mentioned above is a slightly modified version [this](https://www.pyimagesearch.com/2017/10/09/optimizing-opencv-on-the-raspberry-pi/).
 
 ## Matplotlib Installation
-In this project we will use the well known Matplotlib to display our image. You can install Matplotlib by typing and running ```sudo apt-get install python3-matplotlib``` command on terminal.
+In this project we will use the well known Matplotlib to display our image. We can install Matplotlib by typing and running ```sudo apt-get install python3-matplotlib``` command on terminal.
+
+## SciPy Installation
+Another package that will be used is SciPy. We can install SciPy by typing and running ```sudo apt-get install python3-scipy``` command on terminal.
 
 ## The topics which will be included in this project are:
 * [Color Spaces](/08_Image_Processing/Color_Spaces).
