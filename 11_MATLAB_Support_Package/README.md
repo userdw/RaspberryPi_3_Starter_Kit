@@ -1,7 +1,37 @@
 # [ENGLISH] Project 11: MATLAB Support Package
 As all of us must already know that MATLAB is one of the most popular tools available for conducting research, usually that involves making a simulation or analyzing data. The creator of MATLAB, MathWorks, is aware of the existence of Raspberry Pi and see the possibilities for combining MATLAB with it.
 
-In this project we will try to connect our Raspberry Pi 3 with MATLAB. The connection between Raspberry Pi 3 and MATLAB will be done through MATLAB Support Package for Raspberry Pi Hardware. MATLAB has began its support since R2014b version, which supports Raspberry Pi Model B+. **As for Raspberry Pi 3, the support has been released since April 2016 in R2016a version**. For more information about MATLAB Support Package for Raspberry Pi Hardware release note, please visit [this link](https://www.mathworks.com/help/supportpkg/raspberrypiio/release-notes.html).
+In this project we will try to connect and control our Raspberry Pi 3 with MATLAB. The connection between Raspberry Pi 3 and MATLAB will be done through MATLAB Support Package for Raspberry Pi Hardware. MATLAB has began its support since R2014b version, which supports Raspberry Pi Model B+. **As of Raspberry Pi 3, the support has been released since April 2016 in R2016a version**. For more information about MATLAB Support Package for Raspberry Pi Hardware release note, please visit [this link](https://www.mathworks.com/help/supportpkg/raspberrypiio/release-notes.html).
+
+Installation of MATLAB Support Package for Raspberry Pi Hardware can be done by following this [link](https://www.mathworks.com/help/supportpkg/raspberrypiio/ug/install-support-for-raspberry-pi-hardware.html). You will need to be logged in on your MathWorks account to complete the installation.
+
+After the installation process done, we can insert the SD card to be configured followed by clicking **Add-Ons > Manage Add-Ons**.
+
+
+
+Click **Setup** on the MATLAB Support Package for Raspberry Pi Hardware.
+
+
+
+Choose the appropriate model for Raspberry Pi we are currently using. In this case, it's Raspberry Pi 3 Model B.
+
+
+
+Choose the network configuration.
+
+
+
+Choose the SD card's drive letter. 
+
+
+
+Klik **Write** to start burning the Raspbian into the SD card.
+
+After the process finished we can now connect Raspberry Pi to our network.
+
+When Raspberry Pi has been connected, you can type and run ```rpi = raspi()```. If there are no mistakes, the output should be the same as below.
+
+* 
 
 ### In this project you will need:
 * Raspbery Pi 3 (1),
