@@ -7,25 +7,27 @@ Installation of MATLAB Support Package for Raspberry Pi Hardware can be done by 
 
 After the installation process done, we can insert the SD card to be configured followed by clicking **Add-Ons > Manage Add-Ons**.
 
-
+<img src="/images/setup1.png" width="400">
 
 Click **Setup** on the MATLAB Support Package for Raspberry Pi Hardware.
 
-
+<img src="/images/setup2.png" width="400">
 
 Choose the appropriate model for Raspberry Pi we are currently using. In this case, it's Raspberry Pi 3 Model B.
 
-
+<img src="/images/setup3.png" width="400">
 
 Choose the network configuration.
 
-
+<img src="/images/setup4.png" width="400">
 
 Choose the SD card's drive letter. 
 
-
+<img src="/images/setup5.png" width="400">
 
 Klik **Write** to start burning the Raspbian into the SD card.
+
+<img src="/images/setup6.png" width="400">
 
 After the process finished we can now connect Raspberry Pi to our network.
 
