@@ -1,5 +1,7 @@
 # [ENGLISH] Project 11: MATLAB Support Package
-Almost every start of exploring and developing on any embedded devices starts from blinking a LED, as it will helps us to know that our board is working and what is the simplest form of code that allows us to interface with its output pin. It will be the same for our journey to explore Raspberry Pi 3. Through this project we hope you will get a picture that controlling an output pin on Raspberry Pi 3 is an easy task. The programming language to be used is Python. Python is friendly towards people who just get started in programming world. With easy-to-read syntax it will be fast to learn how to control an output pin using Python.
+As all of us know, MATLAB is one of the most popular tools available for conducting research, usually that involves making a simulation or analyzing data. The creator of MATLAB, MathWorks, is aware of the existence of Raspberry Pi and see the possibilities for combining MATLAB with it.
+
+In this project we will try to connect our Raspberry Pi 3 with MATLAB. The connection between Raspberry Pi 3 and MATLAB will be done through MATLAB Support Package for Raspberry Pi Hardware. MATLAB has began its support since R2014b version, which supports Raspberry Pi Model B+. **As for Raspberry Pi 3, the support has been released since April 2016 in R2016a version**. For more information about MATLAB Support Package for Raspberry Pi Hardware release note, please visit [this link](https://www.mathworks.com/help/supportpkg/raspberrypiio/release-notes.html).
 
 ### In this project you will need:
 * Raspbery Pi 3 (1),
