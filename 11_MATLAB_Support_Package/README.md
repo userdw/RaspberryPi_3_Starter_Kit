@@ -11,7 +11,7 @@ After the installation process done, we can insert the SD card to be configured 
 
 Click **Setup** on the MATLAB Support Package for Raspberry Pi Hardware.
 
-<img src="/images/setup2.png" width="600">
+<img src="/images/setup2.png" width="750">
 
 Choose the appropriate model for Raspberry Pi we are currently using. In this case, it's Raspberry Pi 3 Model B.
 
