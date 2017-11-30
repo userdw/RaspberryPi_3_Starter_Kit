@@ -33,4 +33,4 @@ After the process finished we can now connect Raspberry Pi to our network.
 
 When Raspberry Pi has been connected, you can type and run ```rpi = raspi()```. If there are no mistakes, the output should be the same as below.
 
-<img src="/images/testingMATLABRPi.png" width="500">
+<img src="/images/testingMATLABRPi.png" width="600">
