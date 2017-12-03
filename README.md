@@ -27,10 +27,6 @@ This repository has been created as the companion for Raspberry Pi 3 Starter Kit
 * [05. Ambient Light Monitoring](/05_Ambient_Light_Monitoring)
 * [06. Potentiometer Controlled Servo](/06_Potentiometer_Controlled_Servo)
 * [07. Weather Station](/07_Weather_Station)
-* [08. Image Processing](/08_Image_Processing)
-* [09. Graphical User Interface](/09_Graphical_User_Interface)
-* [10. Database](/10_Database)
-* [11. MATLAB Support Package](/11_MATLAB_Support_Package)
 
 Those projects listed above are aimed as introductory to Raspberry Pi 3 programming. We will use Python 3 as the programming language and [WiringPi-Python](https://github.com/WiringPi/WiringPi-Python) as the Python package to interface with Raspberry Pi 3's I/O pins. WiringPi-Python itself is a Python wrapper for [WiringPi](http://wiringpi.com/) library which is written in C. Installation for WiringPi-Python can be done by running the commands below on terminal:
 ```
@@ -41,6 +37,12 @@ sudo pip3 install wiringpi2
 Image below can be used as reference for accessing Raspberry Pi IO Expansion Shield pins with WiringPi library on Raspberry Pi 3.
 
 <img src="/images/pin table.png" height="400">
+
+## Advanced Project Lists:
+* [08. Image Processing](/08_Image_Processing)
+* [09. Graphical User Interface](/09_Graphical_User_Interface)
+* [10. Database](/10_Database)
+* [11. MATLAB Support Package](/11_MATLAB_Support_Package)
 
 # [BAHASA INDONESIA] Raspberry Pi 3 Starter Kit
 Repository ini dibuat sebagai pelengkap dari Raspberry Pi 3 Starter Kit. Raspberry Pi 3 Starter Kit sesuai untuk digunakan sebagai titik awal bagi para penghobi maupun akademisi untuk mulai mengeksplorasi hal-hal yang dapat diwujudkan dengan Raspberry Pi 3. Informasi untuk Raspberry Pi 3 Starter Kit dapat ditemukan pada link-link di bawah:
@@ -71,10 +73,6 @@ Repository ini dibuat sebagai pelengkap dari Raspberry Pi 3 Starter Kit. Raspber
 * [05. Ambient Light Monitoring](/05_Ambient_Light_Monitoring)
 * [06. Potentiometer Controlled Servo](/06_Potentiometer_Controlled_Servo)
 * [07. Weather Station](/07_Weather_Station)
-* [08. Image Processing](/08_Image_Processing)
-* [09. Graphical User Interface](/09_Graphical_User_Interface)
-* [10. Database](/10_Database)
-* [11. MATLAB Support Package](/11_MATLAB_Support_Package)
 
 Proyek-proyek yang terdapat pada poin-poin di atas ditujukan sebagai pengantar pemrograman pada Raspberry Pi 3. Adapun bahasa pemrograman yang akan digunakan adalah Python 3. Agar program Python 3 yang kita buat dapat mengakses pin I/O Raspberry Pi 3, kita membutuhkan [WiringPi-Python](https://github.com/WiringPi/WiringPi-Python). WiringPi-Python sendiri merupakan Python wrapper untuk library [WiringPi](http://wiringpi.com/) yang dikembangkan menggunakan bahasa C. Instalasi WiringPi-Python dapat dilakukan dengan mengetikkan dan menjalankan perintah-perintah di bawah pada terminal:
 ```
@@ -85,3 +83,9 @@ sudo pip3 install wiringpi2
 Gambar di bawah dapat dijadikan sebagai referensi untuk pengaksesan pin Raspberry Pi IO Expansion Shield dengan library WiringPi pada Raspberry Pi 3.
 
 <img src="/images/pin table.png" height="400">
+
+## Daftar Proyek Lanjutan:
+* [08. Image Processing](/08_Image_Processing)
+* [09. Graphical User Interface](/09_Graphical_User_Interface)
+* [10. Database](/10_Database)
+* [11. MATLAB Support Package](/11_MATLAB_Support_Package)
