@@ -22,24 +22,18 @@ Sometimes we need to execute shell commands in Raspberry Pi from MATLAB. We can 
 system(rpi, 'ls')
 ```
 
-`'ls'` is a shell command that works the same as `dir` in Windows Command Prompt. We can subtitute it for another commands. If we need to run the shell command as superuser, we can add `'sudo'` as third parameter of `system` function.
+`ls` is a shell command that works the same as `dir` in Windows Command Prompt. We can subtitute it for another commands.
+
+## Restarting Raspberry Pi:
+Restarting Raspberry Pi can be done by running the command below.
 
 ```matlab
-rpi = raspi() %initializing Raspberry Pi connection
-showLEDs(rpi) %show available LEDs on Raspberry Pi
+system(rpi, 'sudo reboot')
 ```
 
-The output should be as below.
-
-<img src="/images/leds.jpg" height="300">
-
-After knowing that available LED is ```'led0'```, we can now try to blink it by running the commands below.
+## Shutting Down Raspberry Pi:
+Turning off Raspberry Pi without shutting it down is a bad practice since it can lead to corrupt data. Before turning Raspberry Pi off, we can shutdown it by using the command below.
 
 ```matlab
-for i = 1:5
-  writeLED(rpi, 'led0', true)
-  pause(1)
-  writeLED(rpi, 'led0', false)
-  pause(1)
-end
+system(rpi, 'sudo shutdown -h now')
 ```
