@@ -23,7 +23,8 @@ If we want to know which mode a pin currently using, we can run the command belo
 
 ```matlab
 %pinMode = configurePin(rpi, pinNumber)
-pinMode = configurePin(rpi, 5) %pinMode value is the mode which currently being used
+pinMode5 = configurePin(rpi, 5) %pinMode value is the mode which currently being used
+pinMode12 = configurePin(rpi, 12)
 ```
 
 ## Writing to Digital Pin
