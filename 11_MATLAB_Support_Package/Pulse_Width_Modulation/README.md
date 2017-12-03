@@ -1,44 +1,31 @@
 # [ENGLISH] Pulse Width Modulation
-With MATLAB, we can utilizing Raspberry Pi 3 comes with GPIO pins and we can use them to interface with external circuits such as sensors or actuators. First we want to know pins that are available, and we can do it by running the commands below.
+With MATLAB, we can use each of every available Raspberry Pi 3's pins to output PWM signal. In order to do so, we need to configure the pin to work in ```PWM``` mode by running the command below.
 
 ```matlab
-rpi = raspi() %initializing Raspberry Pi connection
-showPins(rpi) %show available pins on Raspberry Pi
+rpi = raspi()
+configurePin(rpi, 13, 'PWM')
 ```
 
-If we are using Raspberry Pi IO Expansion Shield, we can use the pin table below as reference.
-
-<img src="/images/matlabPins.png" height="500">
-
-## Configuring Pins
-Pins need to be configured before they can be used. We can use command below to configure a pin.
+## Setting PWM Frequency
+We can set the PWM frequency by running the command below.
 
 ```matlab
-%configurePin(rpi, pinNumber, mode)
-configurePin(rpi, 5, 'DigitalOutput') %mode can be either 'DigitalInput', 'DigitalOutput', or 'PWM'
-configurePin(rpi, 12, 'DigitalInput')
+%writePWMFrequency(rpi, pinNumber, frequency)
+writePWMFrequency(rpi, 13, 2000) %set the frequency to be 2000 hertz
 ```
 
-If we want to know which mode a pin currently using, we can run the command below.
+## Setting PWM Duty Cycle
+We can set the PWM duty cycle by running the command below.
 
 ```matlab
-%pinMode = configurePin(rpi, pinNumber)
-pinMode5 = configurePin(rpi, 5) %pinMode value is the mode which currently being used
-pinMode12 = configurePin(rpi, 12)
+%writePWMDutyCycle(rpi, pinNumber, dutyCycle)
+writePWMDutyCycle(rpi, 13, 0.3) %set the duty cycle to be 0.3, which is 30% of the square wave is high and the other 70% is low
 ```
 
-## Writing to Digital Pin
-We can write digital value to pin by running the command below.
+## Writing PWM Voltage
+We can write average voltage PWM output by running the command below.
 
 ```matlab
-%writeDigitalPin(rpi, pinNumber, value)
-writeDigitalPin(rpi, 5, true) %value can be either true or false
-```
-
-## Reading from Digital Pin
-We can read digital value from pin by running the command below.
-
-```matlab
-%pinValue = readDigitalPin(rpi, pinNumber)
-pinValue = readDigitalPin(rpi, 12) %pinValue value is either true or false, which is the current logic state of the pin
+%writePWMVoltage(rpi, pinNumber, voltage)
+writePWMVoltage(rpi, 13, 1.65) %set the average voltage of PWM pin to be 1.65, which is 50% duty cycle
 ```
