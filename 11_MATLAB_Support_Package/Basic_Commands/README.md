@@ -32,7 +32,7 @@ system(rpi, 'sudo reboot')
 ```
 
 ## Shutting Down Raspberry Pi:
-Turning off Raspberry Pi without shutting it down is a bad practice since it can lead to corrupt data. Before turning Raspberry Pi off, we can shutting it down by using the command below.
+Turning off Raspberry Pi without shutting it down is a bad practice since it can lead to corrupt data. Before turning Raspberry Pi off, we can shut it down by using the command below.
 
 ```matlab
 system(rpi, 'sudo shutdown -h now')
