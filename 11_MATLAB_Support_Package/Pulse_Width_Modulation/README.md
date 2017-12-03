@@ -19,7 +19,7 @@ We can set the PWM duty cycle by running the command below.
 
 ```matlab
 %writePWMDutyCycle(rpi, pinNumber, dutyCycle)
-writePWMDutyCycle(rpi, 13, 0.3) %set the duty cycle to be 0.3, which is 30% of the square wave is high and the other 70% is low
+writePWMDutyCycle(rpi, 13, 0.3) %set the duty cycle to be 0.3, which 30% of the square wave is high and the other 70% is low
 ```
 
 ## Writing PWM Voltage
