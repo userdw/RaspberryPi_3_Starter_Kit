@@ -8,7 +8,7 @@ showLEDs(rpi) %show available LEDs on Raspberry Pi
 
 The output should be as below.
 
-<img src="/images/leds.jpg" width="300">
+<img src="/images/leds.jpg" height="300">
 
 ## The topics which will be included in this project are:
 * [Accessing LED](/11_MATLAB_Support_Package).
