@@ -27,7 +27,7 @@ We can write average voltage PWM output by running the command below.
 
 ```matlab
 %writePWMVoltage(rpi, pinNumber, voltage)
-writePWMVoltage(rpi, 13, 1.65) %set the average voltage of PWM pin to be 1.65, which is 50% duty cycle
+writePWMVoltage(rpi, 13, 1.65) %set the average voltage of PWM pin to be 1.65, which is 50% duty cycle (the range of average voltage is 0 - 3.3 V)
 ```
 
 ## Example 1
