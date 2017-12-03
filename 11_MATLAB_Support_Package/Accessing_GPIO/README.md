@@ -1,39 +1,22 @@
 # [ENGLISH] Accessing GPIO
-Some basic commands that are available in MATLAB for interfacing with Raspberry Pi are as below.
-
-## Initializing Connection:
-Before we can controlling our Raspberry Pi from MATLAB, we need to initialize the connection first. We can do it by running the command below.
+Raspberry Pi 3 comes with GPIO pins and we can use them to interface with external circuits such as sensors or actuators. Firstly we want to know pins that are available, and we can do it by running the commands below.
 
 ```matlab
-rpi = raspi()
+rpi = raspi() %initializing Raspberry Pi connection
+showPins(rpi) %show available pins on Raspberry Pi
 ```
 
-## Disconnecting:
-Disconnecting Raspberry Pi is as simple as deleting a variable. We can delete a variable in MATLAB by running the command below.
+The output should be as below.
+
+<img src="/images/pins.jpg" height="300">
+
+After knowing that available LED is ```'led0'```, we can now try to blink it by running the commands below.
 
 ```matlab
-clear rpi
-```
-
-## Executing Shell Command from MATLAB:
-Sometimes we need to execute shell command in Raspberry Pi from MATLAB. We can do so by running the command below.
-
-```matlab
-system(rpi, 'ls')
-```
-
-`ls` is a shell command that works the same as `dir` in Windows Command Prompt. We can subtitute it for another commands.
-
-## Restart:
-Restarting Raspberry Pi can be done by running the command below.
-
-```matlab
-system(rpi, 'sudo reboot')
-```
-
-## Shutdown:
-Turning off Raspberry Pi without shutting it down is a bad practice since it can lead to corrupt data. Before turning Raspberry Pi off, we can shut it down by running the command below.
-
-```matlab
-system(rpi, 'sudo shutdown -h now')
+for i = 1:5
+  writeLED(rpi, 'led0', true)
+  pause(1)
+  writeLED(rpi, 'led0', false)
+  pause(1)
+end
 ```
