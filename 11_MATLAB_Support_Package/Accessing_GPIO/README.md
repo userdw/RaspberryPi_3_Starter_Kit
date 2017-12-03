@@ -8,7 +8,7 @@ showPins(rpi) %show available pins on Raspberry Pi
 
 The output should be as below.
 
-<img src="/images/pins.jpg" height="300">
+<img src="/images/pins.jpg" height="400">
 
 After knowing that available LED is ```'led0'```, we can now try to blink it by running the commands below.
 
