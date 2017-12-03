@@ -3,7 +3,7 @@ Commonly found microcontrollers can't handle any application that involves image
 
 <img src="/images/roboLaptop.jpg" height="300">
 
-As you can see, the look of the robot above is somewhat terrible and expensive at the same time. Now we can actually replace the laptop with Raspberry Pi 3, therefore the price for building one would be far cheaper and not to mention that the appearance would be somewhat better. In this project we will try to do some image processing stuffs on Raspberry Pi 3 with Python 3 and [OpenCV](https://opencv.org/).
+As you can see, the appearance of the robot above is somewhat terrible and expensive at the same time. Now we can actually replace the laptop with Raspberry Pi 3, therefore the price for building one would be far cheaper and not to mention that the look would be somewhat better. In this project we will try to do some image processing stuffs on Raspberry Pi 3 with Python 3 and [OpenCV](https://opencv.org/).
 
 ## OpenCV Installation
 Before we get started, we need to install OpenCV on our Raspberry Pi 3. The installation can be done by following the steps below:
