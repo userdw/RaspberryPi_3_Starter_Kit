@@ -10,6 +10,10 @@ The output should be as below.
 
 <img src="/images/pins.jpg" height="400">
 
+If we are using Raspberry Pi IO Expansion Shield, we can use the pin table below as reference.
+
+<img src="/images/matlabPins.jpg" height="500">
+
 After knowing that available LED is ```'led0'```, we can now try to blink it by running the commands below.
 
 ```matlab
