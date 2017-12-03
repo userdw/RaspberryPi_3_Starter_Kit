@@ -30,6 +30,7 @@ This repository has been created as the companion for Raspberry Pi 3 Starter Kit
 * [08. Image Processing](/08_Image_Processing)
 * [09. Graphical User Interface](/09_Graphical_User_Interface)
 * [10. Database](/10_Database)
+* [11. MATLAB Support Package](/11_MATLAB_Support_Package)
 
 Those projects listed above are aimed as introductory to Raspberry Pi 3 programming. We will use Python 3 as the programming language and [WiringPi-Python](https://github.com/WiringPi/WiringPi-Python) as the Python package to interface with Raspberry Pi 3's I/O pins. WiringPi-Python itself is a Python wrapper for [WiringPi](http://wiringpi.com/) library which is written in C. Installation for WiringPi-Python can be done by running the commands below on terminal:
 ```
@@ -73,6 +74,7 @@ Repository ini dibuat sebagai pelengkap dari Raspberry Pi 3 Starter Kit. Raspber
 * [08. Image Processing](/08_Image_Processing)
 * [09. Graphical User Interface](/09_Graphical_User_Interface)
 * [10. Database](/10_Database)
+* [11. MATLAB Support Package](/11_MATLAB_Support_Package)
 
 Proyek-proyek yang terdapat pada poin-poin di atas ditujukan sebagai pengantar pemrograman pada Raspberry Pi 3. Adapun bahasa pemrograman yang akan digunakan adalah Python 3. Agar program Python 3 yang kita buat dapat mengakses pin I/O Raspberry Pi 3, kita membutuhkan [WiringPi-Python](https://github.com/WiringPi/WiringPi-Python). WiringPi-Python sendiri merupakan Python wrapper untuk library [WiringPi](http://wiringpi.com/) yang dikembangkan menggunakan bahasa C. Instalasi WiringPi-Python dapat dilakukan dengan mengetikkan dan menjalankan perintah-perintah di bawah pada terminal:
 ```
