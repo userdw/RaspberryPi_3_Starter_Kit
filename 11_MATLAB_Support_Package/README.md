@@ -36,7 +36,7 @@ When Raspberry Pi has been connected, you can type and run ```rpi = raspi()```. 
 <img src="/images/testingMATLABRPi.png" width="600">
 
 ## The topics which will be included in this project are:
-* [Basic Commands](/11_MATLAB_Support_Package).
-* [Accessing LED](/11_MATLAB_Support_Package).
-* [Accessing GPIO](/11_MATLAB_Support_Package).
-* [Controlling Servo](/11_MATLAB_Support_Package).
+* [Basic Commands](/11_MATLAB_Support_Package/Basic_Commands).
+* [Accessing LED](/11_MATLAB_Support_Package/Accessing_LED).
+* [Accessing GPIO](/11_MATLAB_Support_Package/Accessing_GPIO).
+* [Controlling Servo](/11_MATLAB_Support_Package/Controlling_Servo).
