@@ -25,7 +25,7 @@ Choose the SD card's drive letter.
 
 <img src="/images/setup5.png" width="500">
 
-Klik **Write** to start burning the Raspbian into the SD card.
+Click **Write** to start burning the Raspbian into the SD card.
 
 <img src="/images/setup6.png" width="500">
 
