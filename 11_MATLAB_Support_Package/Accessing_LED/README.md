@@ -20,8 +20,3 @@ for i = 1:5
   pause(1)
 end
 ```
-
-## The topics which will be included in this project are:
-* [Accessing LED](/11_MATLAB_Support_Package).
-* [Accessing GPIO](/11_MATLAB_Support_Package).
-* [Controlling Servo](/11_MATLAB_Support_Package).
