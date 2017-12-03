@@ -1,5 +1,5 @@
 # [ENGLISH] Basic Commands
-Some basic commands that are available in MATLAB are as below.
+Some basic commands that are available in MATLAB for interfacing with Raspberry Pi are as below.
 
 ## Initializing Connection:
 Before we can controlling our Raspberry Pi from MATLAB, we need to initialize the connection first. We can do it by running the command below.
