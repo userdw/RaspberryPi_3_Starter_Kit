@@ -12,7 +12,7 @@ rpi = raspi()
 Disconnecting Raspberry Pi is as simple as deleting a variable. We can delete a variable in MATLAB by running the command below.
 
 ```matlab
-clear rpi %
+clear rpi
 ```
 
 ## Execute Raspberry Pi's Shell Commands from MATLAB:
