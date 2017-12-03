@@ -31,7 +31,7 @@ writePWMVoltage(rpi, 13, 1.65) %set the average voltage of PWM pin to be 1.65, w
 ```
 
 ## Example 1
-The code below is a simple example of how to write PWM with frequency of 2000 hertz and duty cycle of 70%.
+The code below is a simple example of how to write PWM signal with frequency of 2000 hertz and duty cycle of 70%.
 
 ```matlab
 rpi = raspi()
@@ -41,7 +41,7 @@ writePWMDutyCycle(rpi, 13, 0.7)
 ```
 
 ## Example 2
-The code below is a simple example of how to write PWM with frequency of 2000 hertz and average voltage of 1.5 V.
+The code below is a simple example of how to write PWM signal with frequency of 2000 hertz and average voltage of 1.5 V.
 
 ```matlab
 rpi = raspi();
