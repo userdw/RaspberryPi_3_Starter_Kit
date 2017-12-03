@@ -15,8 +15,8 @@ Disconnecting Raspberry Pi is as simple as deleting a variable. We can delete a 
 clear rpi
 ```
 
-## Execute Shell Commands from MATLAB:
-Sometimes we need to execute shell commands in Raspberry Pi from MATLAB. We can do so by running the command below.
+## Executing Shell Command from MATLAB:
+Sometimes we need to execute shell command in Raspberry Pi from MATLAB. We can do so by running the command below.
 
 ```matlab
 system(rpi, 'ls')
