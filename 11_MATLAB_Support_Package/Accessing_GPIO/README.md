@@ -16,6 +16,7 @@ Pins need to be configured before they can be used. We can use command below to 
 ```matlab
 %configurePin(rpi, pinNumber, mode)
 configurePin(rpi, 5, 'DigitalOutput') %mode can be either 'DigitalInput', 'DigitalOutput', or 'PWM'
+configurePin(rpi, 12, 'DigitalInput')
 ```
 
 If we want to know which mode a pin currently using, we can run the command below.
@@ -25,4 +26,18 @@ If we want to know which mode a pin currently using, we can run the command belo
 pinMode = configurePin(rpi, 5) %pinMode value is the mode which currently being used
 ```
 
-## Write
+## Writing to Digital Pin
+We can write digital value to pin by running the command below.
+
+```matlab
+%writeDigitalPin(rpi, pinNumber, value)
+writeDigitalPin(rpi, 5, true) %value can be either true or false
+```
+
+## Reading from Digital Pin
+We can read digital value from pin by running the command below.
+
+```matlab
+%pinValue = readDigitalPin(rpi, pinNumber)
+pinValue = readDigitalPin(rpi, 12) %pinValue value is either true or false, which is the current logic state of the pin
+```
