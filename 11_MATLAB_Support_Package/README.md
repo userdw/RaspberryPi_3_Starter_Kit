@@ -39,4 +39,5 @@ When Raspberry Pi has been connected, you can type and run ```rpi = raspi()```. 
 * [Basic Commands](/11_MATLAB_Support_Package/Basic_Commands).
 * [Accessing LED](/11_MATLAB_Support_Package/Accessing_LED).
 * [Accessing GPIO](/11_MATLAB_Support_Package/Accessing_GPIO).
+* [Pulse Width Modulation](/11_MATLAB_Support_Package/Pulse_Width_Modulation).
 * [Controlling Servo](/11_MATLAB_Support_Package/Controlling_Servo).
