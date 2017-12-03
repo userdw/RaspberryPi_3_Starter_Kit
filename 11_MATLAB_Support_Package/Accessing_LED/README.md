@@ -10,6 +10,17 @@ The output should be as below.
 
 <img src="/images/leds.jpg" height="300">
 
+After knowing that available LED is ```'led0'```, we can now try to blink it by running the commands below.
+
+```matlab
+for i = 1:5
+  writeLED(rpi, 'led0', true)
+  pause(1)
+  writeLED(rpi, 'led0', false)
+  pause(1)
+end
+```
+
 ## The topics which will be included in this project are:
 * [Accessing LED](/11_MATLAB_Support_Package).
 * [Accessing GPIO](/11_MATLAB_Support_Package).
