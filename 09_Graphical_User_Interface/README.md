@@ -32,6 +32,3 @@ Categories=None;
 * [Display Widgets].
 * [Timer]
 * [Controlling Raspberry Pi 3's I/O through GUI]
-
-# [BAHASA INDONESIA] Proyek 9: Graphical User Interface
-Under construction
