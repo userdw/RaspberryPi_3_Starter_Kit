@@ -5,6 +5,7 @@ DIGITAL_PUSH_BUTTON = 21
 
 wpi.wiringPiSetup()
 wpi.pinMode(DIGITAL_PUSH_BUTTON, wpi.INPUT)
+wpi.pullUpDnControl(DIGITAL_PUSH_BUTTON, wpi.PUD_DOWN)
 
 count = 0
 
