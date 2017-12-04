@@ -1,44 +1,19 @@
 # [ENGLISH] Controlling Servo
-Raspberry Pi 3 comes with GPIO pins and we can use them to interface with external circuits such as sensors or actuators. First we want to know pins that are available, and we can do it by running the commands below.
+In this part we will try to control a servo motor attached on Raspberry Pi 3 through MATLAB. We can initialize servo connection and its parameters by running the code below.
 
 ```matlab
-rpi = raspi() %initializing Raspberry Pi connection
-showPins(rpi) %show available pins on Raspberry Pi
+rpi = raspi()
+rpiServo = servo(rpi, 23, 'MinPulseDuration',6.00e-4,'MaxPulseDuration',2.4e-3) %initializing servo connection on pin 23 (pin 17 on shield) with minimum pulse 0.6 ms and maximum pulse 2.4 ms
 ```
 
-If we are using Raspberry Pi IO Expansion Shield, we can use the pin table below as reference.
+Note that usually pulse needed to control servo is ranged from 1 ms to 2 ms. In our case, the servo included in Raspberry Pi 3 Starter Kit use a slightly different range, which is 0.6 ms to 2.4 ms.
 
-<img src="/images/matlabPins.png" height="500">
-
-## Configuring Pins
-Pins need to be configured before they can be used. We can use command below to configure a pin.
+After the initialization is done, we can control the servo by using ```writePosition``` function. The example is as below.
 
 ```matlab
-%configurePin(rpi, pinNumber, mode)
-configurePin(rpi, 5, 'DigitalOutput') %mode can be either 'DigitalInput', 'DigitalOutput', or 'PWM'
-configurePin(rpi, 12, 'DigitalInput')
-```
-
-If we want to know which mode a pin currently using, we can run the command below.
-
-```matlab
-%pinMode = configurePin(rpi, pinNumber)
-pinMode5 = configurePin(rpi, 5) %pinMode value is the mode which currently being used
-pinMode12 = configurePin(rpi, 12)
-```
-
-## Writing to Digital Pin
-We can write digital value to pin by running the command below.
-
-```matlab
-%writeDigitalPin(rpi, pinNumber, value)
-writeDigitalPin(rpi, 5, true) %value can be either true or false
-```
-
-## Reading from Digital Pin
-We can read digital value from pin by running the command below.
-
-```matlab
-%pinValue = readDigitalPin(rpi, pinNumber)
-pinValue = readDigitalPin(rpi, 12) %pinValue value is either true or false, which is the current logic state of the pin
+writePosition(rpiServo, 0) %move servo to 0 degree
+writePosition(rpiServo, 45) %move servo to 45 degree
+writePosition(rpiServo, 90) %move servo to 90 degree
+writePosition(rpiServo, 135) %move servo to 135 degree
+writePosition(rpiServo, 180) %move servo to 180 degree
 ```
