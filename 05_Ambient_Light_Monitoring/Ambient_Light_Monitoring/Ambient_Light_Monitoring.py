@@ -28,8 +28,6 @@ try:
 		print("Press CTRL+C to exit")
 		wpi.softPwmWrite(LED_MODULE, int(map))
 		sleep(0.02)
-		wpi.softPwmWrite(LED_MODULE, int(map))
-		sleep(0.02)
 
 except KeyboardInterrupt:
 	wpi.pinMode(LED_MODULE, wpi.OUTPUT)
