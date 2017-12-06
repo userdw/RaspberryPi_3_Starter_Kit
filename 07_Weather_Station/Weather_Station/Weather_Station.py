@@ -6,8 +6,8 @@ try:
 	while True:
 		os.system("clear")
 		value1= MCP3202.readADC(0)
-		voltage = round(float(value1 * 5000 / 4096), 2)
-		temperature = (voltage - 550) / 10
+		voltage = round(float(value1 * 5000 / 4095), 2)
+		temperature = (voltage - 500) / 10
 		tampil = round(float(temperature), 2)
 		print("Weather Station")
 		print("Curent Temperature : ", tampil, u"\xb0", "C")
