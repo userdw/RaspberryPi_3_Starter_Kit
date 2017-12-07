@@ -22,13 +22,13 @@ _fig = plt.figure("Averaging Smoothing")
 _gs = GridSpec(3, 4)
 
 _noiseMean1 = 0.0
-_stdDeviation1 = 0.3
+_stdDeviation1 = 0.5
 _noiseMean2 = 0.0
-_stdDeviation2 = 0.3
+_stdDeviation2 = 0.5
 _noiseMean3 = 0.0
-_stdDeviation3 = 0.3
+_stdDeviation3 = 0.5
 _noiseMean4 = 0.0
-_stdDeviation4 = 0.3
+_stdDeviation4 = 0.5
 
 _fig1 = plt.subplot(_gs[0:3, 3])
 _fig1.set_title("Original")
