@@ -2,7 +2,6 @@ import os, cv2
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.gridspec import GridSpec
-from matplotlib.widgets import Slider, Button
 
 _intensityBGR = 256
 
