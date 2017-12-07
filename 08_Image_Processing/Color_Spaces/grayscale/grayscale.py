@@ -24,8 +24,6 @@ _fig1.set_title("RGB Space")
 _img1Show = cv2.cvtColor(_img1, cv2.COLOR_BGR2RGB) #for displaying purpose
 plt.imshow(_img1Show)
 
-_img2, _img3, _img4 = cv2.split(_img1)
-
 _fig2 = plt.subplot(_gs[0:2, 1])
 _fig2.set_title("Grayscale Space")
 _img2 = cv2.cvtColor(_img1, cv2.COLOR_BGR2GRAY)
