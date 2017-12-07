@@ -4,6 +4,8 @@ import matplotlib.pyplot as plt
 from matplotlib.gridspec import GridSpec
 from matplotlib.widgets import Slider, Button
 
+#images to be compared must have the same dimension
+
 _intensityHLS = 256
 _intensityPlotHLS = np.arange(_intensityHLS)
 
