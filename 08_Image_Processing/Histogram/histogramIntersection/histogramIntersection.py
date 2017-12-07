@@ -2,9 +2,6 @@ import os, cv2
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.gridspec import GridSpec
-from matplotlib.widgets import Slider, Button
-
-#images to be compared must have the same dimension
 
 _intensityHLS = 256
 _intensityPlotHLS = np.arange(_intensityHLS)
@@ -82,6 +79,6 @@ _fig6 = plt.subplot(_gs[2, 2])
 plt.xticks(())
 plt.yticks(())
 plt.tight_layout()
-plt.text(0.5, 0.5, "Likelihood: " + str(_histIntersect), ha = "center", va = "center", size = 12)
+plt.text(0.5, 0.5, "Likelihood: " + str("%.5f" %_histIntersect), ha = "center", va = "center", size = 12)
 
 plt.show()
