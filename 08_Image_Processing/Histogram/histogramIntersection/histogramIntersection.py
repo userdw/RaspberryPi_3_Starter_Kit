@@ -40,7 +40,7 @@ _histS2 = cv2.calcHist([_img2HLS], [2], None, [256], [0, 256])
 _histHIntersect = cv2.compareHist(_histH1, _histH2, cv2.HISTCMP_INTERSECT)
 _histLIntersect = cv2.compareHist(_histL1, _histL2, cv2.HISTCMP_INTERSECT)
 _histSIntersect = cv2.compareHist(_histS1, _histS2, cv2.HISTCMP_INTERSECT)
-_histIntersect = (_histHIntersect + _histLIntersect + _histSIntersect) / 3
+_histIntersect = ((_histHIntersect + _histLIntersect + _histSIntersect)) / _img1.size
 
 _fig = plt.figure("Histogram Intersection")
 _gs = GridSpec(3, 3)
@@ -80,6 +80,6 @@ _fig6 = plt.subplot(_gs[2, 2])
 plt.xticks(())
 plt.yticks(())
 plt.tight_layout()
-plt.text(0.5, 0.5, "Likelihood: " + str(_histSIntersect), ha = "center", va = "center", size = 12)
+plt.text(0.5, 0.5, "Likelihood: " + str(_histIntersect), ha = "center", va = "center", size = 12)
 
 plt.show()
