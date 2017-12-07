@@ -38,4 +38,4 @@ Aside from geometrical cues, we can use colors to identify objects. This is the 
 
 where **I** and **M** is histograms to be intersected. **J** is the number of the BINS in both histogram, and it represents the intensity level of a pixel. In OpenCV, histogram intersection can be done using ```cv2.compareHist``` function with ```cv2.HISTCMP_INTERSECT``` as parameter. The example code on how to do histogram intersection of two images can be found [here](/08_Image_Processing/Histogram/histogramIntersection).
 
-<img src="/images/histogramIntersectionOfTwoImages.png" height="400">
+<img src="/images/histogramIntersectionResult.png" height="400">
