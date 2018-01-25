@@ -44,6 +44,11 @@ Image below can be used as reference for accessing Raspberry Pi IO Expansion Shi
 * [10. Database](/10_Database)
 * [11. MATLAB Support Package](/11_MATLAB_Support_Package)
 
+You can clone this repository on your Raspberry Pi running the command below on terminal:
+```
+git clone https://github.com/userdw/RaspberryPi_3_Starter_Kit
+```
+
 # [BAHASA INDONESIA] Raspberry Pi 3 Starter Kit
 Repository ini dibuat sebagai pelengkap dari Raspberry Pi 3 Starter Kit. Raspberry Pi 3 Starter Kit sesuai untuk digunakan sebagai titik awal bagi para penghobi maupun akademisi untuk mulai mengeksplorasi hal-hal yang dapat diwujudkan dengan Raspberry Pi 3. Informasi untuk Raspberry Pi 3 Starter Kit dapat ditemukan pada link-link di bawah:
 * [Raspberry Pi 3 Starter Kit](http://digiwarestore.com/en/) - Halaman produk Raspberry Pi 3 Starter Kit
@@ -89,3 +94,8 @@ Gambar di bawah dapat dijadikan sebagai referensi untuk pengaksesan pin Raspberr
 * [09. Graphical User Interface](/09_Graphical_User_Interface)
 * [10. Database](/10_Database)
 * [11. MATLAB Support Package](/11_MATLAB_Support_Package)
+
+Anda dapat mengunduh repository ini pada Raspberry Pi dengan menjalankan perintah di bawah pada terminal:
+```
+git clone https://github.com/userdw/RaspberryPi_3_Starter_Kit
+```
