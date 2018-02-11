@@ -34,7 +34,7 @@ Since we usually use 8-bit depth for each channel, the value of L and S will be 
 
 <img src="/images/hlsSpace.png" height="400">
 
-## YCbCr
+## YCrCb
 YCrCb color space is used because of RGB color space has a lot of redudancy thus inefficient to be used as representation for storage and transmission. YCrCb is a 3 channels color space with Y, Cr, and Cb components. Y represents luminance, and Cr Cb represents chroma. YCrCb is a 3D color space and can be represented as the image below. To convert a BGR image to YCrCb we just need to use ```cv2.COLOR_BGR2YCrCb``` as ```cv2.cvtColor``` function parameter. The code can be found [here](/08_Image_Processing/Color_Spaces/ycrcb).
 
 <img src="/images/YCrCb_Color_Space.jpg" height="400">
