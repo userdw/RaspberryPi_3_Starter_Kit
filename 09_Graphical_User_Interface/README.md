@@ -1,7 +1,7 @@
 # [ENGLISH] Project 9: Graphical User Interface
 Raspberry Pi 3 is a mini computer, therefore most of things that can be done on normal computer can be done as well on Raspberry Pi 3. Graphical User Interface programming, or GUI programming for short, is one of them. With Raspberry Pi 3 we can make sophisticated GUI design with less effort when compared to microcontroller. In this project we will try to do some GUI design and programming on Raspberry Pi 3 using Python and Qt.
 
-## Qt Installation
+## Installation
 Before we get started, we need to install Qt on our Raspberry Pi 3. The installation can be done by following the steps below:
 * Type and run the commands below on your terminal to install all the required tools and packages for Qt on Raspberry Pi 3:
 ```
