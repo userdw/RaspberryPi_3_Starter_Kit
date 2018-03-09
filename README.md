@@ -19,7 +19,7 @@ This repository has been created as the companion for Raspberry Pi 3 Starter Kit
 * Access Raspberry Pi 3 using PuTTY with ```192.168.10.250``` as IP address and ```22``` as Port.
 * Sometime there are cases when we need to access Raspberry Pi 3's Desktop remotely. In that case we can make use of VNC (Virtual Network Computing) server inside Raspberry Pi 3. Follow the steps mentioned [here](https://www.raspberrypi.org/documentation/remote-access/vnc/) to enable the VNC server and connecting to it. You can change Raspberry Pi 3's desktop resolution on VNC viewer by following the steps mentioned [here](https://support.realvnc.com/knowledgebase/article/View/523/2/troubleshooting-vnc-server-on-the-raspberry-pi).
  
-## The titles of the projects which included in this repository are:
+## The title of the projects which included in this repository are:
 * [01. Blinking and Fading a LED](/01_Blinking_and_Fading_a_LED)
 * [02. Click Counter](/02_Click_Counter)
 * [03. Proximity Indicator](/03_Proximity_Indicator)
