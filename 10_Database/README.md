@@ -41,3 +41,5 @@ digambarkan dengan bentuk persegi panjang seperti yang ditunjukkan pada gambar d
    * One to many, setiap attribute pada entitas A dapat berhubungan dengan lebih dari satu attribute pada entitas B, namun tidak sebaliknya. Sebagai contoh: satu orang dapat meminjam beberapa buku, namun satu buku tidak dapat dipinjam oleh beberapa siswa.
    * Many to many, Sebagai contoh: satu buku dapat terdiri dari banyak pengarang demikian juga satu pengarang dapat menulis banyak buku.
 
+### Contoh Database Sederhana
+Pada sebuah perpustakaan, setiap harinya pasti terdapat banyak aktivitas seperti membaca, meminjam, mengembalikan buku, dan juga melakukan pendaftaran sebagai anggota baru perpustakaan. Dalam hal ini, untuk mengefektifkan kinerja pegawai perpustakaan maka diperlukanlah sebuah sistem informasi yang berisi tentang data buku, data petugas, data peminjam, transaksi peminjaman, transaksi pengembalian, dan lain sebagainya. Dibawah ini merupakan contoh ERD database perpustakaan sederhana yang menunjukkan hubungan antara perpustakaan, mahasiswa, dan buku.
