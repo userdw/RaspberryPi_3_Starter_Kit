@@ -12,7 +12,7 @@ Proses memasukkan dan mengambil data dari dan ke media penyimpanan data memerluk
 <img src="/images/SQLite.png" height="100">
 </p>
 
-### Entity Relationship Diagram (ERD)
+## Entity Relationship Diagram (ERD)
 ERD adalah sebuah diagram yang berfungsi untukmenggambarkan hubungan antar entitas/tabel menggunakan primary key di dalam sebuah database. Sekilas ERD ini terlihat sangat mirip dengan diagram alir (flowchart) yang mempunyai simbol khusus dengan makna yang berbeda-beda. Pada dasarnya terdapat komponen utama yang khusus digunakan untuk menggambarkan hubungan antar data menggunakan ERD, komponen tersebut antara lain:
 1. Entitas, adalah suatu objek atau konsep yang berisi tentang suatu informasi seperti informasi orang, benda, tempat, kejadian, maupun konsep. Dalam sebuah sistem database, entitas berbentuk sebuah tabel dua dimensi yang terdiri dari baris dan kolom. Simbol dari entitas
 digambarkan dengan bentuk persegi panjang seperti yang ditunjukkan pada gambar dibawah ini.
@@ -48,3 +48,60 @@ Pada sebuah perpustakaan, setiap harinya pasti terdapat banyak aktivitas seperti
 <img src="/images/ERDPerpustakaan.jpg" height="400">
 </p>
 
+## SQL Query
+* Membuat database:
+```
+import sqlite3
+conn = sqlite3.connect("library.db")
+c=conn.cursor()
+```
+* Membuat tabel:
+```
+import sqlite3
+conn = sqlite3.connect("library.db")
+c=conn.cursor()
+c.execute("CREATE TABLE IF NOT EXISTS students (student_id REAL, student_name TEXT, student_addr TEXT)")
+```
+* Mengisi tabel:
+```
+import sqlite3
+conn = sqlite3.connect("library.db")
+c=conn.cursor()
+c.execute("INSERT INTO students (student_id, student_name, student_addr) VALUES ('20170001', 'Albert', 'Amsterdam')")
+c.execute("INSERT INTO students (student_id, student_name, student_addr) VALUES ('20170002', 'Hiroshi', 'Tokyo')")
+c.execute("INSERT INTO students (student_id, student_name, student_addr) VALUES ('20170003', 'Krishna', 'New Delhi')")
+c.execute("INSERT INTO students (student_id, student_name, student_addr) VALUES ('20170004', 'Reza', 'Jakarta')")
+c.execute("INSERT INTO students (student_id, student_name, student_addr) VALUES ('20170005', 'Aroon', 'Bangkok')")
+```
+* Membaca dan menampilkan data pada tabel tertentu menggunanakan fungsi pandas:
+```
+import sqlite3
+import pandas as pd
+conn = sqlite3.connect("library.db")
+df = pd.read_sql_query("SELECT * FROM students", conn)
+print(df)
+```
+* Memperbaharui data pada tabel tertentu:
+```
+import sqlite3
+import pandas as pd
+conn = sqlite3.connect("library.db")
+c=conn.cursor()
+values = ('Sydney', 20170001)
+c.execute("UPDATE students SET student_addr=? WHERE student_id=?", values)
+conn.commit()
+df = pd.read_sql_query("SELECT * FROM students", conn)
+print(df)
+```
+* Menghapus data pada tabel tertentu:
+```
+import sqlite3
+import pandas as pd
+conn = sqlite3.connect("library.db")
+c=conn.cursor()
+values = (20170003)
+c.execute("DELETE FROM students WHERE student_id=?", values)
+conn.commit()
+df = pd.read_sql_query("SELECT * FROM students", conn)
+print(df)
+```
