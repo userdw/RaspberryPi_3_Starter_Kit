@@ -48,6 +48,9 @@ Pada sebuah perpustakaan, setiap harinya pasti terdapat banyak aktivitas seperti
 <img src="/images/ERDPerpustakaan.jpg" height="400">
 </p>
 
+## Instalasi Pandas
+Dalam proyek ini kita akan menggunakan Pandas yang digunakan untuk mempermudah kita untuk mengolah data. Kita dapat menginstal Pandas dengan mengetik dan menjalankan perintah ``` sudo pip3 install pandas``` di terminal.
+
 ## SQL Query
 * Membuat database:
 ```
