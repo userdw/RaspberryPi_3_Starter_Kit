@@ -3,7 +3,7 @@ Database merupakan kumpulan data yang saling berhubungan antara kumpulan data sa
 cuti, dan lain sebagainya.Gambar dibawah ini menunjukkan pusat penyimpanan data media social Facebook yang diletakkan dalam ruangan yang cukup besar.
 
 <p align="center">
-<img src="/images/Database center.jpeg" height="250">
+<img src="/images/Database center.jpeg" height="300">
 </p>
 
 Proses memasukkan dan mengambil data dari dan ke media penyimpanan data memerlukan perangkat lunak yang disebut yang disebut dengan Database Management System (DBMS). Perangkat lunak ini digunakan untuk memelihara, mengontrol, mengelola, mengakses, dan menganalisis data dalam jumlah besar serta dapat menjalankan perintah-perintah yang diminta oleh pengguna (database user) atau aplikasi lain. Sebelum adanya DBMS, data umumnya disimpan dalam bentuk file teks yang sudah disediakan oleh sistem operasi. Namun seiring dengan bertambahnya kecepatan dalam pengolahan data, metode penyimpanan dalam bentuk file teks hanya akan berjalan secara optimal apabila ukuran filenya relatif kecil. Beberapa contoh DBMS yang terkenal antara lain MySQL, PostgreSQL, EnterpriseDB, MongoDB, MariaDB, Microsoft SQL Server, Oracle, Sybase, SAP HANA, MemSQL, SQLite, dan IBM DB2. Gambar dibawah ini menunjukkan simbol dari DBMS bernama SQLite.
@@ -44,4 +44,7 @@ digambarkan dengan bentuk persegi panjang seperti yang ditunjukkan pada gambar d
 ### Contoh Database Sederhana
 Pada sebuah perpustakaan, setiap harinya pasti terdapat banyak aktivitas seperti membaca, meminjam, mengembalikan buku, dan juga melakukan pendaftaran sebagai anggota baru perpustakaan. Dalam hal ini, untuk mengefektifkan kinerja pegawai perpustakaan maka diperlukanlah sebuah sistem informasi yang berisi tentang data buku, data petugas, data peminjam, transaksi peminjaman, transaksi pengembalian, dan lain sebagainya. Dibawah ini merupakan contoh ERD database perpustakaan sederhana yang menunjukkan hubungan antara perpustakaan, mahasiswa, dan buku.
 
-to be continued
+<p align="center">
+<img src="/images/ERDPerpustakaan.jpg" height="400">
+</p>
+
