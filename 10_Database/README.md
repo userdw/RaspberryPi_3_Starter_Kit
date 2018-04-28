@@ -102,7 +102,7 @@ import sqlite3
 import pandas as pd
 conn = sqlite3.connect("library.db")
 c=conn.cursor()
-values = (20170003)
+values = (20170003,)
 c.execute("DELETE FROM students WHERE student_id=?", values)
 conn.commit()
 df = pd.read_sql_query("SELECT * FROM students", conn)
