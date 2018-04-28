@@ -74,6 +74,7 @@ c.execute("INSERT INTO students (student_id, student_name, student_addr) VALUES 
 c.execute("INSERT INTO students (student_id, student_name, student_addr) VALUES ('20170003', 'Krishna', 'New Delhi')")
 c.execute("INSERT INTO students (student_id, student_name, student_addr) VALUES ('20170004', 'Reza', 'Jakarta')")
 c.execute("INSERT INTO students (student_id, student_name, student_addr) VALUES ('20170005', 'Aroon', 'Bangkok')")
+conn.commit()
 ```
 * Membaca dan menampilkan data pada tabel tertentu menggunanakan fungsi pandas:
 ```
