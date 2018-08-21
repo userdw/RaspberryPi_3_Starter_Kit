@@ -44,7 +44,7 @@ digambarkan dengan bentuk persegi panjang seperti yang ditunjukkan pada gambar d
 Pada sebuah perpustakaan, setiap harinya pasti terdapat banyak aktivitas seperti membaca, meminjam, mengembalikan buku, dan juga melakukan pendaftaran sebagai anggota baru perpustakaan. Dalam hal ini, untuk mengefektifkan kinerja pegawai perpustakaan maka diperlukanlah sebuah sistem informasi yang berisi tentang data buku, data petugas, data peminjam, transaksi peminjaman, transaksi pengembalian, dan lain sebagainya. Dibawah ini merupakan contoh ERD database perpustakaan sederhana yang menunjukkan hubungan antara perpustakaan, mahasiswa, dan buku.
 
 <p align="center">
-<img src="/images/ERDPerpustakaan.jpg" height="400">
+<img src="/images/ERDPerpustakaan.PNG" height="400">
 </p>
 
 ## Instalasi Pandas
