@@ -12,3 +12,5 @@ This is the simple way to make your program/script run automatically after GUI s
 5. Add the command for your script i.e sudo python3 ```sudo python /home/pi/Desktop/tes.py```
 6. Save the file with press ```Ctrl``` + ```x``` then ```y``` followed up by ```Enter```
 7. Then type ```sudo reboot``` in the lxterminal, then your script automatically started after reboot your Raspberry Pi 
+
+<img src="/images/bashrc_autorun.PNG" height="400">
