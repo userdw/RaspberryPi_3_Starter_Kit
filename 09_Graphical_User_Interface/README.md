@@ -30,7 +30,7 @@ After design your own ui(user interface) then the output file from Qt Designer i
 
 Note : ```pyuic5``` the version depends on your installation, you can check the manual for ```pyuic``` with type in **lxterminal** ```man pyuic5``` (if you'r using version 5 pyuic)
 
-<img src="/images/manpyuic5.png" height="400">
+<img src="/images/manpyuic5.PNG" height="400">
 
 ## The topics which will be included in this project are:
 * [Button](/09_Graphical_User_Interface/Button/)
