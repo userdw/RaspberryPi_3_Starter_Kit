@@ -28,7 +28,7 @@ Categories=None;
 
 After design your own ui(user interface) then the output file from Qt Designer is some file with ```.ui``` extension, this file purely design code form Qt Designer. We must convert the file into Python code with ```.py``` extension first,  then we can add some code and execute it with Python we can open the **lxterminal** then type ```pyuic5 -x file.ui -o file.py```, **-x** for execute **-o** for output so make sure you're on the right directory.
 
-Note : ```pyuic5``` the version depends on your installation, you can check the manual for ```pyuic``` with type in **lxterminal** ```man pyuic5``` (if you'r using version 5 pyuic)
+Note : ```pyuic5``` version depends on your installation before this project using version 5 , you can check the manual for ```pyuic``` with type in your **lxterminal** ```man pyuic5``` (if you'r using version 5 pyuic)
 
 <img src="/images/manpyuic5.PNG" height="400">
 
