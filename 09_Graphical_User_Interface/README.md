@@ -26,9 +26,9 @@ Categories=None;
 
 <img src="/images/Qt.png" height="400">
 
-After design your own ui(user interface) then the output file from Qt Designer is some file with ```.ui``` extension, this file purely design code form Qt Designer. We must convert the file into Python code with ```.py``` extension first,  then we can add some code and execute it with Python we can open the ```lxterminal``` then type ```pyuic5 -x file.ui -o file.py```, **-x** for execute **-o** for output so make sure you're on the right directory.
+After design your own ui(user interface) then the output file from Qt Designer is some file with ```.ui``` extension, this file purely design code form Qt Designer. We must convert the file into Python code with ```.py``` extension first,  then we can add some code and execute it with Python we can open the **lxterminal** then type ```pyuic5 -x file.ui -o file.py```, **-x** for execute **-o** for output so make sure you're on the right directory.
 
-Note : ```pyuic``` version depends on your installation
+Note : ```pyuic5``` the version depends on your installation, you can check the manual for ```pyuic``` with type in **lxterminal** ```man pyuic5``` (if you'r using version 5 pyuic)
 
 ## The topics which will be included in this project are:
 * [Button](/09_Graphical_User_Interface/Button/)
