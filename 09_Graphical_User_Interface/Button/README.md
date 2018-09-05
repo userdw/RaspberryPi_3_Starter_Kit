@@ -4,7 +4,7 @@ In this project we will learn how to use Qt designer in Raspberry Pi 3, at first
 
 <img src="/images/Button1.PNG" height="200">
 
-You can drag & drop the widget that you need from ```widget box``` available on the left side
+You can drag & drop the widget that you need from ```widget box``` available on the left side panel
 
 if you press the ```+``` button then counter value will increased by 10, if you press the ```-``` button then counter value will decreased by 10. You can see the value in display label or terminal.
 
