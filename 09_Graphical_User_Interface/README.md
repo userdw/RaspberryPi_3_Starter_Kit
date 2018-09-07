@@ -34,7 +34,7 @@ Note : ```pyuic5``` version depends on your installation before this project usi
 
 ## The topics which will be included in this project are:
 * [Button](/09_Graphical_User_Interface/Button/)
-* [Input Widgets]
+* [Input Widgets](/09_Graphical_User_Interface/Input_Widget/)
 * [Display Widgets].
 * [Timer]
 * [Controlling Raspberry Pi 3's I/O through GUI]
