@@ -15,4 +15,4 @@ After your design has complete then press the ```Ctrl+r``` for preview, your pre
 
 if your design has been finish then you must convert it to ***python*** code using ```pyuic5 -x file.ui -o file.py``` then you can execute it with ```python3 file.py```
 
-The source code from this project can be found [here] (/src)
+The source code from this project can be found [here](/src)
