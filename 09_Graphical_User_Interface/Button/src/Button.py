@@ -64,7 +64,7 @@ class Ui_Form(object):
         self.bPlus.setText(_translate("Form", "+"))
 	
 	#Declaration for other routines
-    def whichbtn(self,b):						# Read the signal from QPushButton
+    def whichbtn(self,b):					# Read the signal from QPushButton
         print ("Button "+b.text())
         value=str(b.text())
         if value == "+" and self.count <100:
