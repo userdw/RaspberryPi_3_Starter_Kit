@@ -8,7 +8,7 @@
 
 
 from PyQt5 import QtCore, QtGui, QtWidgets
-from PyQt5.QtCore import QTimer,QTime
+from PyQt5.QtCore import QTimer
 from PyQt5.QtWidgets import QMessageBox
 
 class Ui_Form(object):
@@ -110,7 +110,7 @@ class Ui_Form(object):
           self.i =59
           self.j-=1
         # Condition 4  
-        if (self.i>0 and self.j > 0 and self.k > 0):
+        if (self.i==0 and self.j > 0 and self.k > 0):
           self.i =59
           self.k-=1
         # Decrease second value by 1 each timer reset
@@ -147,7 +147,7 @@ class Ui_Form(object):
             self.clickMethod()					# Show message box
             self.pushButton.setChecked(False)
             self.pushButton.setText("START")
-          elif(self.i==0 or self.j == 0 or self.k == 0):
+          else:
             self.qTimer.start()					# Start timer
         else:
           self.pushButton.setText("START")
