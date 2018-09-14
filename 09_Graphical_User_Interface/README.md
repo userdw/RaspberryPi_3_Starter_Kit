@@ -33,8 +33,8 @@ Note : ```pyuic5``` version depends on your installation before this project usi
 <img src="/images/manpyuic5.PNG" height="400">
 
 ## The topics which will be included in this project are:
-* [Button](/09_Graphical_User_Interface/Button/)
-* [Input Widgets](/09_Graphical_User_Interface/Input_Widget/)
-* [Display Widgets].
-* [Timer]
-* [Controlling Raspberry Pi 3's I/O through GUI]
+* [Button](/09_Graphical_User_Interface/1.Button/)
+* [Input Widgets](/09_Graphical_User_Interface/2.Input_Widget/)
+* [Display Widgets](/09_Graphical_User_Interface/3.Display_Widget/)
+* [Timer](/09_Graphical_User_Interface/2.Timer/)
+* [Controlling Raspberry Pi 3's I/O through GUI](/09_Graphical_User_Interface/5.Controlling_GPIO_on_Raspberry_Pi/)
