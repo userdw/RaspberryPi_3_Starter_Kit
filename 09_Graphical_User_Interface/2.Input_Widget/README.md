@@ -13,6 +13,6 @@ After your design has complete then press the ```Ctrl+r``` for preview, your pre
 
 <img src="/images/Inputwidgets1.PNG" height="400">
 
-if your design has been finish then you must convert it to ***python*** code using ```pyuic5 -x file.ui -o yourfile.py``` then you can execute it with ```python3 yourfile.py```
+if your design has been finish then you must convert it to **python** code using ```pyuic5 -x file.ui -o yourfile.py``` then you can execute it with ```python3 "yourfile.py"```
 
 The source code from this project can be found [here](/src)
