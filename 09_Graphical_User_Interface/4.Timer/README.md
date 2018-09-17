@@ -9,7 +9,7 @@ In this project we will make a simple countdown timer with 2 digit format **(HH:
 
 After your design has complete then press the ```Ctrl+r``` for preview, your preview window will pop up directly.
 
-<img src="/images/Timer2.PNG" height="120">
+<img src="/images/Timer3.PNG" height="150">
 
 If your design has been finish then you must convert it to ***python*** code using ```pyuic5 -x file.ui -o yourfile.py``` then you can execute it with ```python3 yourfile.py```
 
