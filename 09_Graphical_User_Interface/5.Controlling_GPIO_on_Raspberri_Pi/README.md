@@ -1,4 +1,4 @@
-# [ENGLISH] Timer
+# [ENGLISH] Controllig GPIO on Raspberry Pi
 In this project we will make a Graphical User Interface for controlling device conected to raspberry pi. For all information about the widgets you can found [here](http://pyqt.sourceforge.net/Docs/PyQt4/qtgui.html), so we will use several component below:
 
 * [QTextEdit](http://pyqt.sourceforge.net/Docs/PyQt4/qtextedit.html)
@@ -24,7 +24,7 @@ In this project we will make a Graphical User Interface for controlling device c
 
 After your design has complete then press the ```Ctrl+r``` for preview, your preview window will pop up directly.
 
-
+<img src="/images/Controlling_GPIO2.PNG" height="120">
 
 If your design has been finish then you must convert it to ***python*** code using ```pyuic5 -x file.ui -o yourfile.py``` then you can execute it with ```python3 yourfile.py```
 
