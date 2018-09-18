@@ -20,7 +20,7 @@ In this project we will make a Graphical User Interface for controlling device c
 4. Plug the Temperature Module to the header on the Raspberry Pi IO Expansion Shield labelled **A0**,
 5. Run the [Controlling_GPIO_on_Raspberri_Pi](/09_Graphical_User_Interface/5.Controlling_GPIO_on_Raspberri_Pi/src) code in Raspberry Pi 3 with Python.
 
-<img src="/images/Controlling_GPIO1.PNG" height="130">
+<img src="/images/Controlling_GPIO1.PNG" height="145>
 
 After your design has complete then press the ```Ctrl+r``` for preview, your preview window will pop up directly.
 
