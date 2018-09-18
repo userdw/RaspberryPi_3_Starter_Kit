@@ -24,7 +24,7 @@ In this project we will make a Graphical User Interface for controlling device c
 
 After your design has complete then press the ```Ctrl+r``` for preview, your preview window will pop up directly.
 
-<img src="/images/Controlling_GPIO4.PNG" height="137">
+<img src="/images/Controlling_GPIO3.PNG" height="137">
 
 If your design has been finish then you must convert it to ***python*** code using ```pyuic5 -x file.ui -o yourfile.py``` then you can execute it with ```python3 yourfile.py```
 
