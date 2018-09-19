@@ -36,5 +36,5 @@ Note : ```pyuic5``` version depends on your installation before this project usi
 * [Button](/09_Graphical_User_Interface/1.Button/)
 * [Input Widgets](/09_Graphical_User_Interface/2.Input_Widget/)
 * [Display Widgets](/09_Graphical_User_Interface/3.Display_Widget/)
-* [Timer](/09_Graphical_User_Interface/2.Timer/)
+* [Timer](/09_Graphical_User_Interface/4.Timer/)
 * [Controlling Raspberry Pi 3's I/O through GUI](/09_Graphical_User_Interface/5.Controlling_GPIO_on_Raspberry_Pi/)
