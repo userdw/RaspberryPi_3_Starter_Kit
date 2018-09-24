@@ -4,6 +4,7 @@ This project we will make a simple form with a **File Dialog** to open an image 
 
 * [QMenu](http://pyqt.sourceforge.net/Docs/PyQt4/qmenu.html) 
 * [QScrollArea](http://pyqt.sourceforge.net/Docs/PyQt4/qscrollarea.html)
+* [QScrollBar](http://pyqt.sourceforge.net/Docs/PyQt4/qscrollbar.html)
 
 <p align="center">
   <img src="/images/Displaywidget.PNG" height="400" />
