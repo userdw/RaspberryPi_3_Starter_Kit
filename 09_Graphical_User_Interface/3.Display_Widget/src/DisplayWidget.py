@@ -124,7 +124,7 @@ class Ui_MainWindow(object):
         self.actionZoom_In_25.setEnabled(self.scaleFactor < 3.0)	# Maximum ZoomIn factor
         self.actionZoom_Out_25.setEnabled(self.scaleFactor > 0.333)	# Maximum ZoomOut factor
     
-    def adjustScrollBar(self, scrollBar, factor):					# Adjust Scrollbar factor
+    def adjustScrollBar(self, scrollBar, factor):			# Adjust Scrollbar factor
         scrollBar.setValue(int(factor * scrollBar.value()
           + ((factor - 1) * scrollBar.pageStep()/2)))
     
@@ -145,9 +145,9 @@ class Ui_MainWindow(object):
                 return
 			# Setup QPixmap for display an image file
             self.imageLabel.setPixmap(QtGui.QPixmap.fromImage(image))
-            self.scaleFactor = 1.0										# Normal scale factor
+            self.scaleFactor = 1.0						# Normal scale factor
             self.actionFit_to_Window.setEnabled(True)
-            self.updateActions()										# UpdateAction routine
+            self.updateActions()						# UpdateAction routine
             
             if not self.actionFit_to_Window.isChecked():
                 self.imageLabel.adjustSize()
@@ -167,15 +167,15 @@ class Ui_MainWindow(object):
         
     def createActions(self):
         self.actionOpen =QAction("Open", MainWindow)
-        self.actionOpen.setShortcut('Ctrl+o')					# Shortcut key for open a file
+        self.actionOpen.setShortcut('Ctrl+o')				# Shortcut key for open a file
         self.actionOpen.triggered.connect(self.open)
         
         self.actionExit =QAction("Close", MainWindow)
-        self.actionExit.setShortcut('Ctrl+Q')					# Shortcut key for close window
+        self.actionExit.setShortcut('Ctrl+Q')				# Shortcut key for close window
         self.actionExit.triggered.connect(MainWindow.close)
         
         self.actionZoom_In_25 =QAction("Zoom In", MainWindow)
-        self.actionZoom_In_25.setShortcut("Ctrl+]")				# Shortcut key for Zoom In
+        self.actionZoom_In_25.setShortcut("Ctrl+]")			# Shortcut key for Zoom In
         self.actionZoom_In_25.triggered.connect(self.zoomIn)
         self.actionZoom_In_25.setEnabled(False)     
 
