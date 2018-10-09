@@ -14,7 +14,7 @@ import wiringpi as wpi
 MICRO_SERVO = 1
 
 wpi.wiringPiSetup()
-wpi.softPwmCreate(MICRO_SERVO, 0, 200)
+wpi.softPwmCreate(MICRO_SERVO, 0, 100)
 
 def translate(value,leftMin,leftMax,rightMin,rightMax):
 	# Figure out how 'wide' each range is
@@ -30,7 +30,7 @@ try:
 		os.system("clear")
 		value1 = MCP3202.readADC(0)
 		map = translate(value1, 0, 4095, 6, 24)		# Range from 0.6 milisecond until 2.4 milisecond
-		position = translate (value1, 0, 4095, 0, 180)
+		position = translate (value1, 0, 4095, 0, 180)	# 0.6 milisecond for 0 degree and 24 milisecond for 180 degree
 		print("Servo Position")
 		print("Curent Position : ", int(position), "degree")
 		print("")
