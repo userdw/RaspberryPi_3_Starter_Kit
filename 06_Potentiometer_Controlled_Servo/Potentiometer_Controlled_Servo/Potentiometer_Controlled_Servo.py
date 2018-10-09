@@ -2,6 +2,15 @@ import MCP3202, os
 from time import sleep
 import wiringpi as wpi
 
+#		       90(15)
+#			 ^
+#		 	 |
+#		 	 |
+#			 |
+#            0(6) <------*-----> 180 (24)
+# Each “cycle” of PWM output takes 10mS with the default range value of 100,
+# so trying to change the PWM value more than 100 times a second will be futile.
+
 MICRO_SERVO = 1
 
 wpi.wiringPiSetup()
@@ -20,7 +29,7 @@ try:
 	while True:
 		os.system("clear")
 		value1 = MCP3202.readADC(0)
-		map = translate(value1, 0, 4095, 6, 24)
+		map = translate(value1, 0, 4095, 6, 24)		# Range from 0.6 milisecond until 2.4 milisecond
 		position = translate (value1, 0, 4095, 0, 180)
 		print("Servo Position")
 		print("Curent Position : ", int(position), "degree")
