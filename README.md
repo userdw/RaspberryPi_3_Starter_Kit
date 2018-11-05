@@ -12,7 +12,9 @@ This repository has been created as the companion for Raspberry Pi 3 Starter Kit
 * To change keyboard layout to ```US```, type and run ```sudo nano /etc/default/keyboard``` then change ```XKBLAYOUT="gb"``` to ```XKBLAYOUT="us"```. To save the changes you made, press ```Ctrl``` + ```x``` then ```y``` followed up by ```Enter```. Reboot your Raspberry Pi 3 with ```sudo reboot``` command. Skip this step if you're using keyboard with UK layout on Raspberry Pi 3.
 * Raspberry Pi 3 comes with two network interfaces (WiFi and Ethernet), which both of them configured to get IP from router (DHCP). Since there will be some cases where we don't have access to the router, we can configure the Ethernet with static IP. That way we can still access Raspberry Pi 3 from our computer/laptop through Ethernet even if we don't have access to the router. To do this you can type and run ```sudo nano /home/pi/.bashrc``` then add ```sudo ifconfig eth0 192.168.10.250 netmask 255.255.255.0``` at the end of the file. This effect will take place when we reboot the Raspberry Pi 3. You can reboot your Raspberry Pi 3 with ```sudo reboot``` command. If you're still using a router to remotely access Raspberry Pi 3, you might want to turn it off then reconnect its Ethernet port to your laptop/computer. You can shutdown your Raspberry Pi 3 with ```sudo halt``` command.
 
+<p align="center">
 <img src="/images/sudo nano bashrc2.PNG" height="400">
+</p>
 
 * Configure your computer's/laptop's Ethernet port IP address to be in the same subnet mask range as the Raspberry Pi 3, for example ```192.168.10.10```.
 * Plug Raspberry Pi 3's Ethernet port to your computer's/laptop's then turn it on.
@@ -36,7 +38,9 @@ sudo pip3 install wiringpi2
 ```
 Image below can be used as reference for accessing Raspberry Pi IO Expansion Shield pins with WiringPi library on Raspberry Pi 3.
 
+<p align="center">
 <img src="/images/Pin_Table.PNG" height="400">
+</p>
 
 ## Advanced Project Lists:
 * [08. Image Processing](/08_Image_Processing)
@@ -63,7 +67,9 @@ Repository ini dibuat sebagai pelengkap dari Raspberry Pi 3 Starter Kit. Raspber
 * Untuk mengubah layout keyboard ke ```US```, ketikkan dan jalankan perintah ```sudo nano /etc/default/keyboard``` kemudian ganti baris ```XKBLAYOUT="gb"``` menjadi ```XKBLAYOUT="us"```. Untuk menyimpan perubahan yang telah dilakukan, tekan ```Ctrl``` + ```x``` kemudian ```y``` diikuti dengan ```Enter```. Reboot Raspberry Pi 3 dengan perintah ```sudo reboot```. Lewati langkah ini apabila keyboard yang digunakan memiliki layout UK.
 * Raspberry Pi 3 memiliki dua antarmuka jaringan (WiFi dan Ethernet), dimana keduanya memiliki konfigurasi DHCP secara default. Karena akan ada kasus dimana kita tidak memiliki akses router, kita dapat mengkonfigurasi port Ethernet Raspberry Pi 3 dengan IP statis. Dengan demikian kita masih dapat mengakses Raspberry Pi 3 dengan komputer/laptop kita melalui port Ethernet meskipun kita tidak memiliki akses router. Konfigurasi tersebut dapat dilakukan dengan perintah ```sudo nano /home/pi/.bashrc``` yang kemudian diikuti dengan menambahkan ```sudo ifconfig eth0 192.168.10.250 netmask 255.255.255.0``` pada akhir file. Perintah tersebut akan dieksekusi pada saat Raspberry Pi 3 dinyalakan, maka dari itu kita harus melakukan reboot pada Raspberry Pi 3. Reboot Raspberry Pi 3 dapat dilakukan dengan perintah ```sudo reboot```. Apabila Anda masih mengakses Raspberry Pi 3 melalui router, matikan Raspberry Pi 3 terlebih dahulu untuk memindahkan koneksi port Ethernet Raspberry Pi 3 dari router ke komputer/laptop Anda. Anda dapat melakukan shutdown Raspberry Pi 3 dengan perintah ```sudo halt```.
 
+<p align="center">
 <img src="/images/sudo nano bashrc2.PNG" height="400">
+</p>
 
 * Konfigurasikan antarmuka port Ethernet komputer/laptop Anda agar memiliki alamat IP yang berada dalam rentang subnet mask Raspberry Pi 3, sebagai contoh ```192.168.10.10```.
 * Hubungkan port Ethernet Raspberry Pi 3 ke komputer/laptop Anda kemudian nyalakan.
@@ -87,7 +93,10 @@ sudo pip3 install wiringpi2
 ```
 Gambar di bawah dapat dijadikan sebagai referensi untuk pengaksesan pin Raspberry Pi IO Expansion Shield dengan library WiringPi pada Raspberry Pi 3.
 
+<p align="center">
 <img src="/images/Pin_Table.PNG" height="400">
+</p>
+
 
 ## Daftar Proyek Lanjutan:
 * [08. Image Processing](/08_Image_Processing)
