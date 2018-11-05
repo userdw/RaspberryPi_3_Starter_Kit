@@ -36,7 +36,7 @@ sudo pip3 install wiringpi2
 ```
 Image below can be used as reference for accessing Raspberry Pi IO Expansion Shield pins with WiringPi library on Raspberry Pi 3.
 
-<img src="/images/pin table.png" height="400">
+<img src="/images/Pin_Table.PNG" height="400">
 
 ## Advanced Project Lists:
 * [08. Image Processing](/08_Image_Processing)
@@ -87,7 +87,7 @@ sudo pip3 install wiringpi2
 ```
 Gambar di bawah dapat dijadikan sebagai referensi untuk pengaksesan pin Raspberry Pi IO Expansion Shield dengan library WiringPi pada Raspberry Pi 3.
 
-<img src="/images/pin table.png" height="400">
+<img src="/images/Pin_Table.PNG" height="400">
 
 ## Daftar Proyek Lanjutan:
 * [08. Image Processing](/08_Image_Processing)
