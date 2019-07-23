@@ -101,7 +101,7 @@ class Ui_Form(object):
         self.bExit.clicked.connect(Form.close)
         QtCore.QMetaObject.connectSlotsByName(Form)
     
-		# Counter
+	# Counter
         self.i = 0
         self.j=0
         # Make QTimer
