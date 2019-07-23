@@ -13,8 +13,8 @@ from time import sleep
 import MCP3202, os, wiringpi as wpi
 
 #GPIO's PIN Declaration
-LED_MODULE = 1
-PUSH_BUTTON=2
+LED_MODULE = 1		# Shield PIN 9
+PUSH_BUTTON=2		# Shield PIN 16
 
 #Initial Value Declaration
 MIN_PWM=0
@@ -121,11 +121,9 @@ class Ui_Form(object):
         self.qTimer2.start()
 
     def getSensorValue(self):							 
-        self.i += 1										# Every timer  has been reset, counter i +1
-        self.readTemp()									# Call the readTemp() function
+        self.readTemp()								# Call the readTemp() function
     
     def getPushCount(self):
-        self.j += 1										# Every timer  has been reset, counter j +1
         self.readPushButton()							# Call the readTemp() function
 
     def readTemp(self):
