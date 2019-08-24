@@ -15,8 +15,8 @@ In this project we will make a Graphical User Interface for controlling device c
 
 ### Assemble the modules following these steps:
 1. Plug the Raspberry Pi IO Expansion Shield to the top of  Raspberry Pi 3,
-2. Plug the LED Module to the header on the Raspberry Pi IO Expansion Shield labelled **1**,
-3. Plug the Digital Push Button Module to the header on the Raspberry Pi IO Expansion Shield labelled **2**,
+2. Plug the LED Module to the header on the Raspberry Pi IO Expansion Shield labelled **9**,
+3. Plug the Digital Push Button Module to the header on the Raspberry Pi IO Expansion Shield labelled **16**,
 4. Plug the Temperature Module to the header on the Raspberry Pi IO Expansion Shield labelled **A0**,
 5. Run the [Controlling_GPIO_on_Raspberri_Pi](/09_Graphical_User_Interface/5.Controlling_GPIO_on_Raspberri_Pi/src) code in Raspberry Pi 3 with Python.
 
