@@ -22,5 +22,5 @@ Then try to open image file , every function have a shortcut key like this image
   <img src="/images/Displaywidget4.PNG" height="300" />
 </p>
 
-The source code from this project can be found [here](/src)
+The source code from this project can be found [here](/09_Graphical_User_Interface/3.Display_Widget/src)
 
