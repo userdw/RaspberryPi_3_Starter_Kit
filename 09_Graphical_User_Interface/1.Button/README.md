@@ -15,4 +15,4 @@ if you press the ```+``` button then counter value will increased by 10, if you 
 
 if your design has been finish then you must convert it to ***Python*** code using ```pyuic5 -x yourfile.ui -o yourfile.py``` then you can execute with ***Python*** Open your ***lxterminal*** then type ```python3 yourfile.py```
 
-The source code from this project can be found [here](/src)
+The source code from this project can be found [here](/09_Graphical_User_Interface/1.Button/src)
