@@ -1,11 +1,11 @@
 # [ENGLISH] Raspberry Pi 3 Starter Kit
 This repository has been created as the companion for Raspberry Pi 3 Starter Kit. Raspberry Pi 3 Starter Kit itself is a suitable start point for both hobbyist and academist alike to start exploring the possibilities offered by this inexpensive mini PC platform. For more information about the product please visit links below:
-* [Raspberry Pi 3 Starter Kit](http://digiwarestore.com/en/) - Raspberry Pi 3 Starter Kit's product page.
+* [Raspberry Pi 3 Starter Kit](https://digiwarestore.com/en/search?controller=search&orderby=position&orderway=desc&search_query=raspberry+pi+learning+kit&submit_search=) - Raspberry Pi 3 Starter Kit's product page.
 * [Raspberry Pi](https://www.raspberrypi.org/) - Raspberry Pi's official website.
 
 ## Initial Configuration
-* The steps below was tested on ```RASPBIAN STRETCH WITH DESKTOP``` and computer/laptop running Windows OS.
-* Get the latest Raspbian [here](https://www.raspberrypi.org/downloads/raspbian/) then follow the steps mentioned [here](https://www.raspberrypi.org/documentation/installation/installing-images/windows.md) to install Raspbian into the SD card (recommended size is 8 GB or more).
+* The steps below was tested on ```RASPBIAN BULLSEYE WITH DESKTOP``` and computer/laptop running Windows OS.
+* Get the latest Raspbian [here](https://www.raspberrypi.com/software/operating-systems/) then follow the steps mentioned [here](https://www.raspberrypi.com/documentation/computers/getting-started.html) to install Raspbian into the SD card (recommended size is 8 GB or more).
 * Accessing Raspberry Pi 3 remotely through SSH is disabled by default. To enable it insert the SD card to the computer/laptop. Make a file named ```ssh``` and place it into the ```boot``` partition of the SD card without any extension. After adding the ```ssh``` file, insert the SD card into Raspberry Pi 3 then boot it up. It will take some time for first time boot.
 * If you have access to router, you can now plug Raspberry Pi 3's Ethernet port to the router to get an IP address. Check Raspberry Pi 3's IP with IP scanner software, then connect to it using terminal software such as [PuTTY](http://www.putty.org/).
 * If you don't have access to router, connect Raspberry Pi 3 with keyboard, mouse, and display to get direct access to it. After the Raspberry Pi 3 has been booted up, press ```Ctrl``` + ```Alt``` + ```t``` simultaneously to open terminal window.
@@ -19,7 +19,7 @@ This repository has been created as the companion for Raspberry Pi 3 Starter Kit
 * Configure your computer's/laptop's Ethernet port IP address to be in the same subnet mask range as the Raspberry Pi 3, for example ```192.168.10.10```.
 * Plug Raspberry Pi 3's Ethernet port to your computer's/laptop's then turn it on.
 * Access Raspberry Pi 3 using PuTTY with ```192.168.10.250``` as IP address and ```22``` as Port.
-* Sometime there are cases when we need to access Raspberry Pi 3's Desktop remotely. In that case we can make use of VNC (Virtual Network Computing) server inside Raspberry Pi 3. Follow the steps mentioned [here](https://www.raspberrypi.org/documentation/remote-access/vnc/) to enable the VNC server and connecting to it. You can change Raspberry Pi 3's desktop resolution on VNC viewer by following the steps mentioned [here](https://support.realvnc.com/knowledgebase/article/View/523/2/troubleshooting-vnc-server-on-the-raspberry-pi).
+* Sometime there are cases when we need to access Raspberry Pi 3's Desktop remotely. In that case we can make use of VNC (Virtual Network Computing) server inside Raspberry Pi 3. Follow the steps mentioned [here](https://www.raspberrypi.com/documentation/computers/remote-access.html#virtual-network-computing-vnc) to enable the VNC server and connecting to it. You can change Raspberry Pi 3's desktop resolution on VNC viewer by following the steps mentioned [here](https://help.realvnc.com/hc/en-us/articles/360002249917-VNC-Connect-and-Raspberry-Pi#changing-the-raspberry-pi%E2%80%99s-screen-resolution-0-12).
  
 ## The title of the projects which included in this repository are:
 * [01. Blinking and Fading a LED](/01_Blinking_and_Fading_a_LED)
@@ -33,8 +33,7 @@ This repository has been created as the companion for Raspberry Pi 3 Starter Kit
 Those projects listed above are aimed as introductory to Raspberry Pi 3 programming. We will use Python 3 as the programming language and [WiringPi-Python](https://github.com/WiringPi/WiringPi-Python) as the Python package to interface with Raspberry Pi 3's I/O pins. WiringPi-Python itself is a Python wrapper for [WiringPi](http://wiringpi.com/) library which is written in C. Installation for WiringPi-Python can be done by running the commands below on terminal:
 ```
 sudo apt-get update
-sudo apt-get install python-dev python-pip
-sudo pip3 install wiringpi2
+sudo pip install wiringpi
 ```
 Image below can be used as reference for accessing Raspberry Pi IO Expansion Shield pins with WiringPi library on Raspberry Pi 3.
 
@@ -55,12 +54,12 @@ git clone https://github.com/userdw/RaspberryPi_3_Starter_Kit
 
 # [BAHASA INDONESIA] Raspberry Pi 3 Starter Kit
 Repository ini dibuat sebagai pelengkap dari Raspberry Pi 3 Starter Kit. Raspberry Pi 3 Starter Kit sesuai untuk digunakan sebagai titik awal bagi para penghobi maupun akademisi untuk mulai mengeksplorasi hal-hal yang dapat diwujudkan dengan Raspberry Pi 3. Informasi untuk Raspberry Pi 3 Starter Kit dapat ditemukan pada link-link di bawah:
-* [Raspberry Pi 3 Starter Kit](http://digiwarestore.com/en/) - Halaman produk Raspberry Pi 3 Starter Kit
+* [Raspberry Pi 3 Starter Kit](https://digiwarestore.com/id/search?controller=search&orderby=position&orderway=desc&search_query=raspberry+pi+learning+kit&submit_search=) - Halaman produk Raspberry Pi 3 Starter Kit
 * [Raspberry Pi](https://www.raspberrypi.org/) - Website resmi Raspberry Pi
 
 ## Konfigurasi Awal
-* Langkah-langkah di bawah telah diuji menggunakan ```RASPBIAN STRETCH WITH DESKTOP``` dan komputer/laptop dengan sistem operasi Windows.
-* Unduh sistem operasi Raspbian pada [link](https://www.raspberrypi.org/downloads/raspbian/) ini, kemudian ikuti langkah-langkah yang terdapat pada [link](https://www.raspberrypi.org/documentation/installation/installing-images/windows.md) berikut untuk melakukan instalasi Raspbian pada SD card (kapasitas yang disarankan adalah 8 GB atau lebih).
+* Langkah-langkah di bawah telah diuji menggunakan ```RASPBIAN BULLSEYE WITH DESKTOP``` dan komputer/laptop dengan sistem operasi Windows.
+* Unduh sistem operasi Raspbian pada [link](https://www.raspberrypi.com/software/operating-systems/) ini, kemudian ikuti langkah-langkah yang terdapat pada [link](https://www.raspberrypi.com/documentation/computers/getting-started.html) berikut untuk melakukan instalasi Raspbian pada SD card (kapasitas yang disarankan adalah 8 GB atau lebih).
 * Secara default pengaksesan Raspberry Pi 3 secara remote tidak diijinkan. Untuk mengaktifkan akses remote pada Raspberry Pi 3, masukkan SD card ke komputer/laptop. Buat sebuah file dengan nama ```ssh``` tanpa ekstensi apapun dan letakkan di partisi ```boot``` SD card. Setelah menambahkan file ```ssh```, masukkan SD card ke Raspberry Pi 3 lalu nyalakan.
 * Apabila Anda memiliki akses router, hubungkan port Ethernet Raspberry Pi 3 ke router agar Raspberry Pi 3 mendapatkan alamat IP. Periksa alamat IP Raspberry Pi 3 dengan software IP scanner, lalu akses Raspberry Pi 3 menggunakan software terminal seperti [PuTTY](http://www.putty.org/).
 * Apabila Anda tidak memiliki akses router, hubungkan Raspberry Pi 3 dengan keyboard, mouse, and layar monitor untuk melakukan akses secara langsung. Setelah Anda memasuki lingkungan desktop Raspberry Pi 3,  tekan ```Ctrl``` + ```Alt``` + ```t``` untuk membuka terminal.
@@ -74,7 +73,7 @@ Repository ini dibuat sebagai pelengkap dari Raspberry Pi 3 Starter Kit. Raspber
 * Konfigurasikan antarmuka port Ethernet komputer/laptop Anda agar memiliki alamat IP yang berada dalam rentang subnet mask Raspberry Pi 3, sebagai contoh ```192.168.10.10```.
 * Hubungkan port Ethernet Raspberry Pi 3 ke komputer/laptop Anda kemudian nyalakan.
 * Akses Raspberry Pi 3 melalui PuTTY dengan alamat IP ```192.168.10.250``` dan port ```22```.
-* Akan ada saat dimana kita perlu untuk mengakses lingkungan desktop Raspberry Pi 3 secara remote. Untuk hal tersebut kita dapat memanfaatkan server VNC (Virtual Network Computing) yang terdapat di dalam Raspberry Pi 3. Ikuti langkah-langkah yang disebutkan pada [link](https://www.raspberrypi.org/documentation/remote-access/vnc/) berikut untuk mengaktifkan serta mengakses server VNC. Anda dapat mengatur resolusi desktop Raspberry Pi 3 pada VNC viewer dengan mengikuti langkah-langkah yang terdapat pada [link](https://support.realvnc.com/knowledgebase/article/View/523/2/troubleshooting-vnc-server-on-the-raspberry-pi) berikut.
+* Akan ada saat dimana kita perlu untuk mengakses lingkungan desktop Raspberry Pi 3 secara remote. Untuk hal tersebut kita dapat memanfaatkan server VNC (Virtual Network Computing) yang terdapat di dalam Raspberry Pi 3. Ikuti langkah-langkah yang disebutkan pada [link](https://www.raspberrypi.com/documentation/computers/remote-access.html#virtual-network-computing-vnc) berikut untuk mengaktifkan serta mengakses server VNC. Anda dapat mengatur resolusi desktop Raspberry Pi 3 pada VNC viewer dengan mengikuti langkah-langkah yang terdapat pada [link](https://help.realvnc.com/hc/en-us/articles/360002249917-VNC-Connect-and-Raspberry-Pi#changing-the-raspberry-pi%E2%80%99s-screen-resolution-0-12) berikut.
 
 ## Judul-judul proyek yang disertakan pada repository ini adalah:
 * [01. Blinking and Fading a LED](/01_Blinking_and_Fading_a_LED)
@@ -88,8 +87,7 @@ Repository ini dibuat sebagai pelengkap dari Raspberry Pi 3 Starter Kit. Raspber
 Proyek-proyek yang terdapat pada poin-poin di atas ditujukan sebagai pengantar pemrograman pada Raspberry Pi 3. Adapun bahasa pemrograman yang akan digunakan adalah Python 3. Agar program Python 3 yang kita buat dapat mengakses pin I/O Raspberry Pi 3, kita membutuhkan [WiringPi-Python](https://github.com/WiringPi/WiringPi-Python). WiringPi-Python sendiri merupakan Python wrapper untuk library [WiringPi](http://wiringpi.com/) yang dikembangkan menggunakan bahasa C. Instalasi WiringPi-Python dapat dilakukan dengan mengetikkan dan menjalankan perintah-perintah di bawah pada terminal:
 ```
 sudo apt-get update
-sudo apt-get install python-dev python-pip
-sudo pip3 install wiringpi2
+sudo pip install wiringpi
 ```
 Gambar di bawah dapat dijadikan sebagai referensi untuk pengaksesan pin Raspberry Pi IO Expansion Shield dengan library WiringPi pada Raspberry Pi 3.
 
